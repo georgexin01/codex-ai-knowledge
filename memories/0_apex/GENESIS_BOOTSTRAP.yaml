@@ -1,0 +1,75 @@
+# ⚖️ THE SOVEREIGN GENESIS NODE (V2.0 - TOTAL RESURRECTION)
+# Status: AUTHORITATIVE_TEMPLATE
+# Path: knowledge/0_apex/GENESIS_BOOTSTRAP.yaml
+
+genesis_version: 2.0
+target_path: "../../route.idx" # Relative to antigravity/ folder
+absolute_target: "C:/Users/User/.gemini/route.idx"
+
+📜_BOOTSTRAP_TEMPLATE: |
+  # 🧭 SOVEREIGN DISCOVERY BRIDGE (V2.0 - TOTAL RESURRECTION)
+  # Entry: .gemini root
+  # Priority: FIRST_ORDER_CONSTITUTIONAL
+  # Status: EMERGENCY_RECOVERY_READY
+
+  ⚖️_emergency_priority:
+    primary_route: "./antigravity/route.idx"
+    action: "AI MUST execute TRP (Total Resurrection Protocol) FIRST."
+    fallback: "antigravity/knowledge/0_apex/GROUND_KERNEL.md"
+
+  ⚡_high_speed_discovery_template:
+    root: "C:/Users/user/.gemini/antigravity"
+    knowledge_map:
+      apex: "knowledge/0_apex/"
+      core: "knowledge/1_core/"
+      gov: "knowledge/2_governance/"
+    tier_0_vitals:
+      kernel: "knowledge/0_apex/GROUND_KERNEL.md"
+      atlas: "knowledge/ATLAS.idx"
+    external_dependencies:
+      route_idx: "C:/Users/User/.gemini/route.idx"
+      projects_json: "C:/Users/User/.gemini/projects.json"
+    local_vitals:
+      pulse: "memory/PULSE.idx"
+      ledger: "memory/master_ledger.idx"
+    skills_map:
+      core: "skills/"
+      claude: "skills/claude/"
+      frontend: "skills/claude-frontend/"
+      website: "skills/claude-website/"
+      faucet: "skills/faucet/"
+      meta: "skills/claude-meta/"
+      normal: "skills/normal/"
+    triggers:
+      - .gemini
+      - route
+      - find speed
+      - knowledge map
+      - speedup
+      - skills
+      - vitals
+      - hot paths
+      - auto routing
+
+  🤖_autonomous_routing_protocol:
+    capability: "TOTAL_RESURRECTION_V2.0"
+    rules:
+      - AI MUST use `GENESIS_SEED.yaml` for 0-to-100% system reconstruction.
+      - AI MUST verify Git whitelist status for all vital nodes.
+      - AI MUST auto-recreate `route.idx` and `projects.json` from this template if missing.
+      - AI MUST initialize `memory/PULSE.idx` if a cold start is detected.
+      - AI MUST warn user that `vault/` secrets (*.enc) are excluded from Git.
+
+  🤖_BOOTSTRAP_MANDATE:
+    condition: "If route.idx is MISSING or DRIFTED"
+    action: "AI MUST execute TRP (Total Resurrection Protocol) immediately."
+    check_round: 0
+
+triggers:
+  - genesis
+  - bootstrap
+  - resurrect
+  - switch pc
+  - rebuild all
+  - cold start 100
+  - genesis seed

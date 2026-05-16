@@ -1,0 +1,28 @@
+﻿{
+  "version": "1.0",
+  "boot_profile": "ultra-lean",
+  "codex_root_mode": "dynamic",
+  "knowledge_root": "memories",
+  "tier_map": {
+    "tier_0": [
+      "memories/0_apex/GROUND_KERNEL.md"
+    ],
+    "tier_1": [
+      "memories/2_governance/PREFLIGHT_CHECKLIST.md"
+    ],
+    "tier_2": [
+      "memories/2_governance/artifacts/skill_path_router.md"
+    ],
+    "tier_3": [
+      "skills"
+    ]
+  },
+  "fallback_chain": [],
+  "exclude": [
+    "skills/faucet"
+  ],
+  "roots": [
+    { "kind": "knowledge", "path": "memories" },
+    { "kind": "skill-reference", "path": "skills" }
+  ]
+}
