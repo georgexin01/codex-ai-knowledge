@@ -22,11 +22,11 @@ status: authoritative
 
 # ⚙️ HARNESS ENGINEERING PROTOCOL (V1.0)
 
-The definitive "Agentic Engine" for the `.gemini` Sovereign Intelligence System. This protocol transforms the AI from a reactive responder into an autonomous, proactive entity.
+The definitive "Agentic Engine" for the `.codex` Sovereign Intelligence System. This protocol transforms the AI from a reactive responder into an autonomous, proactive entity.
 
 Based on the 2026 Silicon Valley "Harness Engineering" standards (Hermes & OpenCloud philosophies), this engine governs the "Body" wrapped around the LLM "Brain".
 
-> **CORE AXIOM**: The Harness NEVER replaces existing `.gemini` rules. It **ingests** them to perform better.
+> **CORE AXIOM**: The Harness NEVER replaces existing `.codex` rules. It **ingests** them to perform better.
 
 ## 🪐 THE FOUR PILLARS OF THE HARNESS
 
@@ -107,7 +107,7 @@ status: authoritative
 
 # 🌀 1. THE RESEARCH FLYWHEEL (V1.0)
 
-The system for institutionalizing knowledge from NotebookLM and other high-fidelity sources into the `.gemini` ecosystem.
+The system for institutionalizing knowledge from NotebookLM and other high-fidelity sources into the `.codex` ecosystem.
 
 ## 🏗️ THE 3-LAYER ARCHITECTURE
 
@@ -116,12 +116,12 @@ The system for institutionalizing knowledge from NotebookLM and other high-fidel
 - **Content**: YouTube transcripts, research papers, conversation logs, raw documentation.
 - **Retention**: Transient (Liquidation target after 48h).
 
-### Layer 2: GENERATED WIKI (`knowledge/3_domains/`)
+### Layer 2: GENERATED WIKI (`memories/3_domains/`)
 - **Type**: Semi-Structured (Markdown).
 - **Process**: AI performs "Deep Synthesis" on Layer 1 to create high-density "Knowledge Items" (KIs).
 - **Goal**: 100% accurate extraction of facts, patterns, and lessons learned.
 
-### Layer 3: GOVERNANCE SCHEMA (`knowledge/0_apex/`, `knowledge/1_core/`)
+### Layer 3: GOVERNANCE SCHEMA (`memories/0_apex/`, `memories/1_core/`)
 - **Type**: Structured (YAML/Constitutional MD).
 - **Process**: Patterns from Layer 2 are distilled into executable Rules (APEX Principles) and Skills.
 - **Goal**: Institutionalize intelligence so it becomes "Ground Truth" for future turns.

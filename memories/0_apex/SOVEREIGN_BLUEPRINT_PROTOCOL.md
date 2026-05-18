@@ -106,7 +106,7 @@ When AI enters any project folder for the first time (or BLUEPRINT is absent):
 
 When a project reaches a stable/mature state, AI saves a BLUEPRINT snapshot:
 
-- **Archive path**: `C:\Users\user\.gemini\antigravity\knowledge\4_archive\blueprints\`
+- **Archive path**: `C:\Users\user\.codex\memories\4_archive\blueprints\`
 - **Filename**: `[YYYY-MM-DD]_[project-type]_[stack]_BLUEPRINT.md`
 - **Purpose**: Clone seeds for new projects of similar type.
 - **Trigger**: User says "project is done" / "archive this" / "stable now".

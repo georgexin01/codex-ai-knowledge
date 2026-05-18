@@ -20,7 +20,7 @@ The definitive governance framework for preventing autonomous AI drift and accid
 | :--- | :--- | :--- | :--- |
 | **0** | **Hard-Locked (Nuclear)** | Claude folders, `skills/faucet/10-withdraw/`, `GROUND_KERNEL`, `GLOBAL_ATLAS` | **Challenge-Response Handshake**. Generates the `[!CAUTION]` HUD template. |
 | **1** | **Authoritative (Constitutional)** | `2_governance/`, `1_core/`, `C:/Users/User/OneDrive/Desktop/NanoBrowser/` | **Plan-Stop-Approve**. Generates the `[!IMPORTANT]` HUD template. |
-| **2** | **Sovereign Logic (Active)** | All other `knowledge/` and `skills/` folders. | **Shadow Drafting**. AI must present a `diff` preview and wait for a "Go." |
+| **2** | **Sovereign Logic (Active)** | All other `memories/` and `skills/` folders. | **Shadow Drafting**. AI must present a `diff` preview and wait for a "Go." |
 | **3** | **Open (Project Code)** | Workspace source code (Vue, PHP, TS, etc). | **Surgical Intent**. AI must explain the intent and line-target before calling the edit tool. |
 
 ## ✍️ 2. SHADOW DRAFTING PROTOCOL

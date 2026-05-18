@@ -15,7 +15,7 @@ version: 12.0
 3. Complete V12 JIT cleanup.
 
 ## 🧭 PATHS & TOKENS
-- **ROOT**: `.gemini` (`C:\Users\user\antigravity`)
+- **ROOT**: `.codex` (`C:\Users\user\.codex`)
 - **DNA**: `1_core/`
 - **UI**: Liquid Glass (blur 24px) | Onyx (#0a0b10) | Electric Red (#d52b1e)
 - **VIEWPORT**: Fixed width=412.

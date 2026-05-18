@@ -155,8 +155,8 @@ Use when content is genuinely structured data:
 # mode_config.yaml — valid use of pure YAML
 mode: claude
 triggers: [ai claude, architect, vben]
-folder_lock: [skills/claude, knowledge/claude, _shared]
-blocked: [skills/faucet, knowledge/faucet]
+folder_lock: [skills/claude, memories/claude, _shared]
+blocked: [skills/faucet, memories/faucet]
 phase_gates:
   1: data_layer
   2: mock_layer

@@ -234,7 +234,7 @@ For deep scan, also write the companion DESIGN.md (§8 of this file).
 
 When user starts a NEW project of similar type to a past project:
 
-1. Check `C:\Users\user\.gemini\antigravity\knowledge\4_archive\blueprints\` for nearest match by `[YYYY-MM-DD]_[project-type]_[stack]_BLUEPRINT.md` filename pattern.
+1. Check `C:\Users\user\.codex\memories\4_archive\blueprints\` for nearest match by `[YYYY-MM-DD]_[project-type]_[stack]_BLUEPRINT.md` filename pattern.
 2. Clone the matched BLUEPRINT into the new project root.
 3. Run **isolation firewall** (§14 below).
 4. Update placeholders with the new project's data.
@@ -308,9 +308,9 @@ Every new user chat message → AI MUST scan project root for `BLUEPRINT.md` (or
 ## 17. Permission boundaries
 
 - **Writes confined to**: `BLUEPRINT.md` and `DESIGN.md` at each project root; nothing else changes.
-- **Tier-0/1 governance** files in `.gemini/knowledge/0_apex/` and `.gemini/knowledge/2_governance/` are **read-only** per APEX 0 lockdown.
-- **New blueprint-related knowledge files** at `.gemini/knowledge/` root may be added with explicit per-turn user authorization.
-- **Knowledge archive** at `.gemini/knowledge/4_archive/blueprints/` may be written when user says "archive this", "project is done", "stable now".
+- **Tier-0/1 governance** files in `.codex/memories/0_apex/` and `.codex/memories/2_governance/` are **read-only** per APEX 0 lockdown.
+- **New blueprint-related knowledge files** at `.codex/memories/` root may be added with explicit per-turn user authorization.
+- **Knowledge archive** at `.codex/memories/4_archive/blueprints/` may be written when user says "archive this", "project is done", "stable now".
 
 ---
 

@@ -3,7 +3,7 @@ name: skill-path-router
 description: "🧭 SKILL PATH ROUTER (V1.0) — TASK ORCHESTRATION"
 triggers: ["skill path router", "skill_path_router", "path router task"]
 phase: reference
-model_hint: gpt-5.4-mini
+model_hint: gemini-3-flash
 version: 42.0
 _ohdy_wrapper: |-
   # OHDY COMPRESSED NODE (V42.0)
@@ -29,15 +29,14 @@ Goal: Map user intent to the correct AI Mode and Knowledge Tier.
 | :--- | :--- | :--- |
 | Cinematic UI / Motion | `Design Mastery > GSAP Synergy` | NORMAL (Design Master) |
 | CRUD / Architectural | `Backend Scaffolding > Supabase` | CLAUDE (Logic Architect) |
+| Form → Google Sheet/Drive/Email | `skills/claude/googlesheet-form-integration` | CLAUDE (Logic Architect) |
 | Automation / Earning | `Vision Pulse > Anti-Bot Bypassing` | FAUCET (Sovereign Earner) |
 | Knowledge Evolution | `DNA Synthesis > Vault Logging` | CORE (Antigravity Director) |
-| NotebookLM Research / Source Grounding | `Governance Bridge > NotebookLM Path Bridge` | CORE (Grounded Research) |
 
 ## 🚦 EXECUTION GATES
 1. Discovery Gate: Is the project fingerprinted in `evolving_knowledge.yaml`?
 2. Logic Gate: Does the task exceed 1,000 tokens? -> Delegate to Gemma-4.
 3. Vision Gate: Is a UI verification needed? -> Trigger VISION_PULSE (Snipaste).
-4. NotebookLM Path Gate: If prompt includes a NotebookLM URL or notebook ID, route automatically to `memories/2_governance/bridges/notebooklm_path_bridge.md` (no manual trigger phrase required).
 
 ## 🛠️ ACTIVE SKILLSETS
 - Zeta Core 9: (New) Cinematic scroll orchestration logic.

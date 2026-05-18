@@ -36,7 +36,7 @@ triggers:
 - **Decompose** each phase into ≤ 3 sub-tasks per turn.
 - **Verify** with the §13 checklist before declaring `[🟢 STATUS: CRYSTAL]`.
 - **Tables over prose** — visual extraction goes into structured rows, not paragraphs.
-- **Permission boundaries**: writes only inside `<project_root>/`. Never modify `.gemini/knowledge/0_apex/` or `2_governance/` without explicit per-turn user authorization.
+- **Permission boundaries**: writes only inside `<project_root>/`. Never modify `.codex/memories/0_apex/` or `2_governance/` without explicit per-turn user authorization.
 
 
 # 🖼️ → 📱 IMAGE-TO-MOBILE-APP PIPELINE (v1.0)
@@ -748,8 +748,8 @@ When the user fires the trigger:
 
 ## 20. Permission boundaries
 
-- **Writes confined to**: `<project_root>/` only (configs, src/, BLUEPRINT.md). Nothing in `.gemini/` unless user explicitly authorizes a recipe update (per APEX 0 lockdown).
-- **Tier-0/1 governance** (`.gemini/knowledge/0_apex/`, `2_governance/`) is read-only without per-turn user authorization.
+- **Writes confined to**: `<project_root>/` only (configs, src/, BLUEPRINT.md). Nothing in `.codex/` unless user explicitly authorizes a recipe update (per APEX 0 lockdown).
+- **Tier-0/1 governance** (`.codex/memories/0_apex/`, `2_governance/`) is read-only without per-turn user authorization.
 - **Backups** — if the project root has existing files, propose `robocopy` to a `backup/` folder first (excluding `node_modules`).
 
 ---

@@ -34,7 +34,7 @@ trust_level = "trusted"
 memories = true
 
 [marketplaces.openai-bundled]
-last_updated = "2026-05-15T03:08:31Z"
+last_updated = "2026-05-18T03:00:45Z"
 source_type = "local"
 source = '\\?\C:\Users\user\.codex\.tmp\bundled-marketplaces\openai-bundled'
 

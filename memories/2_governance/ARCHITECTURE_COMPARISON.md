@@ -29,7 +29,7 @@ Each Claude "Mode" is a specialized persona within the **Skills** Layer, tailore
 
 ## 🏛️ Sovereign Knowledge Architecture (The Brain)
 
-The `knowledge/` directory acts as the "Memory" that survives between sessions. It is divided into three governance zones.
+The `memories/` directory acts as the "Memory" that survives between sessions. It is divided into three governance zones.
 
 | Zone | Primary Artifacts | Purpose |
 |---|---|---|

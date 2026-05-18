@@ -175,7 +175,7 @@ _Created by Antigravity // Tier-0 Governance V3.1_
 
 **Date solved:** 2026-04-22
 **Context:** `alexis` project, `template/rbz-download.php`. User had tried to build this pattern
-several times in `.gemini/antigravity` and failed; this is the working recipe.
+several times in `.codex` and failed; this is the working recipe.
 
 ---
 

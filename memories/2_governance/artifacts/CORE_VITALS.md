@@ -25,7 +25,7 @@ version: 3.0
 - **Claude API**: ACTIVE — Route complex TypeScript/Vue reasoning here. Ref: `AI_AGENT_KEYS.md`
 - **OpenAI API**: ACTIVE — Route structured JSON/SQL generation here. Ref: `AI_AGENT_KEYS.md`
 - **Gemini (built-in)**: DEFAULT — Orchestration, routing, fast scaffold, UI.
-- **Key Storage**: `C:\Users\user\.gemini\antigravity\.env.keys` (LOCAL ONLY — never commit)
+- **Key Storage**: `C:\Users\user\.codex\.env.keys` (LOCAL ONLY — never commit)
 
 ## 🎯 STRATEGY & REASONING VAULT (S-CORE)
 - **ZeroCloud Vision**: All perception is LOCAL. Intelligence is RAM-dependent.
@@ -38,7 +38,7 @@ version: 3.0
     - **Archivist**: NotebookLM/Docs (Long-term memory, architectural dumps).
 - **Token Reduction Rule**: Route tasks >500 tokens of reasoning to Claude/OpenAI → Gemini only orchestrates → 30-50% Gemini token saving.
 - **Success Mandate**: Success ONLY valid if [Image Proof] OR [Balance Delta > 0].
-- **Path Referral Optimization**: `ai agent knowledge` maps directly to `C:\Users\user\.gemini\antigravity\knowledge` and `skills\`. Skip path discovery.
+- **Path Referral Optimization**: `ai agent knowledge` maps directly to `C:\Users\user\.codex\memories` and `skills\`. Skip path discovery.
 
 ## 🎨 CORE DESIGN TOKENS (PREMIUM)
 - **Atmosphere**: Deep Onyx (#0a0b10), Electric Red (#d52b1e), Cyber Luxury.

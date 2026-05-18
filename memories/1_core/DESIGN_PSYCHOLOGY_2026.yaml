@@ -58,7 +58,7 @@ Each design must answer "YES" to:
 4. Is the layout "Adaptive" to user intent?
 
 ## 🎨 3. VISUAL INTEGRATION (HANDSHAKE PROTOCOL)
-Ensures psychological triggers are rendered using the Sovereign Visual Standard ([dna_design.md](file:///C:/Users/User/.gemini/antigravity/knowledge/1_core/dna_design.md)).
+Ensures psychological triggers are rendered using the Sovereign Visual Standard ([dna_design.md](file:///C:/Users/user/.codex/memories/1_core/dna_design.md)).
 
 1. **Cinematic Triggers**: Use `backdrop-filter: blur(24px)` (Glass Formula) to isolate the "Aha Moment" UI from background noise.
 2. **Physics-Based Experience**: The bypass loop transitions (sliding into the "Victory Preview") must use `spring-damping` easing.

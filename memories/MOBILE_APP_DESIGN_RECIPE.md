@@ -35,7 +35,7 @@ triggers:
 - **Code blocks are copy-paste ready** — no placeholder `<TODO>` unless explicitly marked.
 - **Decompose** a phase into ≤ 3 sub-tasks per turn (per FLASH_HARDENING §4).
 - **Verify** each phase's checklist before advancing (Chain-of-Verification mandate).
-- **Permission boundaries**: writes confined to `<project_root>/`. Tier-0/1 `.gemini/knowledge/` paths are read-only.
+- **Permission boundaries**: writes confined to `<project_root>/`. Tier-0/1 `.codex/memories/` paths are read-only.
 
 
 # 📱 MOBILE APP DESIGN RECIPE (v1.0)
@@ -706,8 +706,8 @@ Add `pb-24` or `pb-32` on the parent so the last list item isn't covered.
 
 ## Permission boundaries
 
-- **Writes confined to**: `<project_root>/` only (configs, src/, BLUEPRINT.md). Nothing in `.gemini/` unless user explicitly authorizes a recipe update.
-- **Tier-0/1 governance** (`.gemini/knowledge/0_apex/`, `2_governance/`) is read-only without per-turn user authorization.
+- **Writes confined to**: `<project_root>/` only (configs, src/, BLUEPRINT.md). Nothing in `.codex/` unless user explicitly authorizes a recipe update.
+- **Tier-0/1 governance** (`.codex/memories/0_apex/`, `2_governance/`) is read-only without per-turn user authorization.
 
 ---
 

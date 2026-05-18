@@ -29,7 +29,7 @@ For complex transitions or new projects referencing legacy code:
 2.  **Phase 2: Logic Extraction**: Read `router.php`, `index.php`, and `lib/` to understand the architectural pulse.
 3.  **Phase 3: Domain Benchmarking**: Study reference sites (e.g. Carlist, Carsome) to extract domain-specific requirements (Filters, User Flow).
 4.  **Phase 4: DNA Synthesis**: Clone `MASTER_BLUEPRINT.md` and customize it with the findings from Phase 1-3.
-5.  **Phase 5: Knowledge Archiving**: Save the project-specific patterns back to the global `knowledge/` base if they are reusable.
+5.  **Phase 5: Knowledge Archiving**: Save the project-specific patterns back to the global `memories/` base if they are reusable.
 
 ## 🤖 4. GUIDED QUESTIONING 2.0
 AI MUST ask the "Deep 4" questions:
