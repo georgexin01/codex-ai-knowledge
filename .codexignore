@@ -37,6 +37,8 @@ sqlite/
 sessions/
 ambient-suggestions/
 vendor_imports/
+**/.git/
+**/.git/**
 
 # Archived skill clusters (kept on disk, excluded from AI indexing)
 skills/faucet/
@@ -52,4 +54,3 @@ skills/faucet/
 !skills/
 !rules/
 !README.md
-

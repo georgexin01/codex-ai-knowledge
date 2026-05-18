@@ -5,7 +5,8 @@
   "knowledge_root": "memories",
   "tier_map": {
     "tier_0": [
-      "memories/0_apex/GROUND_KERNEL.md"
+      "memories/0_apex/GROUND_KERNEL.md",
+      "memories/0_apex/KARPATHY_TIER0_PRINCIPLES.md"
     ],
     "tier_1": [
       "memories/2_governance/PREFLIGHT_CHECKLIST.md"
@@ -19,7 +20,9 @@
   },
   "fallback_chain": [],
   "exclude": [
-    "skills/faucet"
+    "skills/faucet",
+    "**/.git",
+    "**/.git/**"
   ],
   "roots": [
     { "kind": "knowledge", "path": "memories" },

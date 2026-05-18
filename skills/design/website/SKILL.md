@@ -18,6 +18,14 @@ To transform raw ideas into "WOW" factor websites using a disciplined, multi-pha
 
 ---
 
+## 🧬 Tier-0 Design Contract (MUST FOLLOW — Added 2026-05-18)
+
+> **If `DESIGN.md` exists at project root, it is the SOLE source of truth for design tokens.**
+> Tailwind config, `css/tokens.css`, PHP `config/design.php`, and component CSS MUST derive from it.
+> On conflict: `DESIGN.md` wins; downstream code is regenerated.
+> Spec + examples + lint: [`../_spec/SKILL.md`](../_spec/SKILL.md)
+> Reference exemplars: [`atmospheric-glass`](../_spec/examples/atmospheric-glass/) (glass surfaces), [`paws-and-paths`](../_spec/examples/paws-and-paths/) (playful warm), [`totality-festival`](../_spec/examples/totality-festival/) (cinematic dark cosmic).
+
 ## 🧬 Tier-0 Website Principles (MUST FOLLOW)
 
 | Principle | Rule | Implementation |
@@ -40,7 +48,7 @@ To transform raw ideas into "WOW" factor websites using a disciplined, multi-pha
 2.  **[02-Asset-Orchestration](02-asset-orchestration/skill.md)**: Generate high-res hero visuals and HSL tokens.
 
 ### Phase 2: Structural Mapping
-3.  **[03-Inventory-Mapping](03-inventory-mapping/skill.md)**: Create the Reuse Map (Legacy Class -> Sovereign Role).
+3.  **[03-Inventory-Mapping](03-inventory-mapping/skill.md)**: Create the Reuse Map (Legacy Class -> Sovereign Role). **Consume `DESIGN.md` tokens** — derive `tailwind.config.js` + `css/tokens.css` per [`../_spec/EXPORT_GUIDE.md`](../_spec/EXPORT_GUIDE.md); never hand-write hex values when a token exists.
 4.  **[04-PHP-Modularization](04-php-modularization/skill.md)**: Extract `lib/` components (header, footer, head).
 
 ### Phase 3: UI & Motion

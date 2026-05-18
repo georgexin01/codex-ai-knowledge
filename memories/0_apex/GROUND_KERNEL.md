@@ -64,7 +64,7 @@ Every non-trivial request runs five phases:
 ## 4. EDIT-SAFETY TIERS
 Applies to both Claude Code and Codex GPT-5.3.
 ```yaml
-tier_0_nuclear:   { paths: ["skills/claude*", "0_apex/GROUND_KERNEL.md", "codex-router/codex-manifest.json"], protocol: "Explicit user confirmation before any edit/delete. State file + exact change first." }
+tier_0_nuclear:   { paths: ["skills/claude*", "0_apex/GROUND_KERNEL.md", "0_apex/KARPATHY_TIER0_PRINCIPLES.md", "codex-router/codex-manifest.json"], protocol: "Explicit user confirmation before any edit/delete. State file + exact change first." }
 tier_1_constitutional: { paths: ["2_governance/", "1_core/", "00_* bridge files"], protocol: "Plan-Stop-Approve — present plan, wait for approval." }
 tier_2_sovereign: { paths: ["all other knowledge / skills"], protocol: "Present change intent or diff preview before applying." }
 tier_3_open:      { paths: ["workspace project source"], protocol: "Surgical Intent — explain target + logic, then edit." }

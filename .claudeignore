@@ -38,6 +38,8 @@ sqlite/
 sessions/
 ambient-suggestions/
 vendor_imports/
+**/.git/
+**/.git/**
 
 # Keep curated knowledge/skills/routing available
 !AGENTS.md

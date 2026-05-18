@@ -71,6 +71,21 @@ Rules:
 - Edge-case check: call out likely failure/compatibility edge if relevant.
 - Missing-assumption check: state any assumption that can affect behavior.
 
+## Karpathy Compliance Hook
+
+- Mandatory: every final response must include a full 4-check Karpathy compliance block.
+- Required checks (exactly four):
+  - `Assumptions surfaced`
+  - `Simplicity preserved`
+  - `Surgical scope respected`
+  - `Verification evidence included`
+- Output contract:
+  - each check must be marked `pass | fail | n/a`
+  - each check must include one short evidence line
+- Failure behavior:
+  - if any check is `fail`, self-correct before finalizing
+  - if self-correction is not possible, explicitly declare unresolved blocker
+
 ## Reasoning Evolution Layer
 
 - Apply `Reasoning Evolution Protocol v1` from `C:\Users\User\.codex\00_REASONING_EVOLUTION_PROTOCOL.md`.
@@ -81,7 +96,8 @@ Rules:
 ## Tier-0 Rules (Deferred For Routine Tasks)
 
 1. `C:\Users\User\.codex\memories\0_apex\GROUND_KERNEL.md` (consolidated Tier-0 kernel: APEX principles + execution loop + operational standard + edit-safety tiers)
-2. `C:\Users\User\.codex\memories\2_governance\PREFLIGHT_CHECKLIST.md`
+2. `C:\Users\User\.codex\memories\0_apex\KARPATHY_TIER0_PRINCIPLES.md` (constitutional Karpathy principles: think-before-coding, simplicity-first, surgical-changes, goal-driven-execution)
+3. `C:\Users\User\.codex\memories\2_governance\PREFLIGHT_CHECKLIST.md`
 
 Load Tier-0 files for architecture/governance/recovery/high-risk work. Defer for routine tasks to reduce token usage.
 
@@ -131,3 +147,11 @@ Load Tier-0 files for architecture/governance/recovery/high-risk work. Defer for
 
 - Keep ignore strategy aligned across `.codexignore`, `.claudeignore`, legacy-tool ignore files, and `.openaiignore`.
 - For performance hygiene, periodically clean/archive noisy local state (`logs_2.sqlite*`, session/cache artifacts) outside active tasks.
+
+## Usage-Time Optimization Principles
+
+- Keep prompts short and scoped to one task and explicit target files.
+- Prefer `patch only` or `minimal diff` execution style unless broader refactor is requested.
+- Avoid deep-review mode unless requested or risk requires it.
+- Keep route-first loading for `.codex knowledge`; stop after first valid route match.
+- Periodically clean runtime artifacts for performance and noise control (`.tmp`, sessions, cache, large sqlite logs) when safe to do so.

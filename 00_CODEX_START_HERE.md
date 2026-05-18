@@ -28,7 +28,8 @@ Default profile: `Ultra-Lean`.
 Load Tier-0 files only when the task is architecture/governance/recovery-sensitive, high-risk, or explicitly requests deep policy context:
 
 1. `C:\Users\User\.codex\memories\0_apex\GROUND_KERNEL.md` (consolidated Tier-0 kernel: APEX principles + execution loop + operational standard + edit-safety tiers)
-2. `C:\Users\User\.codex\memories\2_governance\PREFLIGHT_CHECKLIST.md`
+2. `C:\Users\User\.codex\memories\0_apex\KARPATHY_TIER0_PRINCIPLES.md` (constitutional behavior rules for coding and review quality)
+3. `C:\Users\User\.codex\memories\2_governance\PREFLIGHT_CHECKLIST.md`
 
 These are absolute principles/rules for behavior and execution style and are deferred for routine tasks to reduce token usage.
 

@@ -30,6 +30,9 @@ trust_level = "trusted"
 [projects.'c:\users\user\.codex']
 trust_level = "trusted"
 
+[projects.'c:\users\user\desktop\angel-interior']
+trust_level = "trusted"
+
 [features]
 memories = true
 
@@ -59,6 +62,9 @@ enabled = true
 enabled = true
 
 [plugins."chrome@openai-bundled"]
+enabled = true
+
+[plugins."supabase@openai-curated"]
 enabled = true
 
 # GitNexus — MCP knowledge-graph engine: gives the agent structural codebase

@@ -26,7 +26,8 @@ Default profile: `Ultra-Lean`.
 Read Tier-0 files when the task is architecture/governance/recovery-sensitive, high-risk, or explicitly asks for deep policy grounding:
 
 1. `C:\Users\User\.codex\memories\0_apex\GROUND_KERNEL.md` (consolidated Tier-0 kernel: APEX principles + execution loop + operational standard + edit-safety tiers)
-2. `C:\Users\User\.codex\memories\2_governance\PREFLIGHT_CHECKLIST.md`
+2. `C:\Users\User\.codex\memories\0_apex\KARPATHY_TIER0_PRINCIPLES.md` (constitutional behavior rules for coding and review quality)
+3. `C:\Users\User\.codex\memories\2_governance\PREFLIGHT_CHECKLIST.md`
 
 ## Mandatory Startup Route (Minimal)
 

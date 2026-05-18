@@ -37,6 +37,23 @@ Real, installed open-source tool (`abhigyanpatwari/GitNexus`, npm `gitnexus`). B
 ## When to use
 Use for **impact-aware planning** (APEX 18 in GROUND_KERNEL): before editing a function/module in a real codebase, query the graph for dependents instead of guessing. Best on medium-to-large projects; small/self-contained tasks do not need it.
 
+## Project allowlist (user policy, 2026-05-18)
+
+GitNexus is **not the default**. Apply this allowlist before suggesting or running `gitnexus analyze`:
+
+| Project shape | Default |
+|---|---|
+| `vben admin` / `admin-panel-quizLaa` and similar large Vben + Supabase admins (thousands of files, many cross-module call chains) | **ALLOWED** — dramatic token savings vs. greping the tree |
+| Other large real codebases (~1000+ code files with deep call chains) | Allowed after user confirms |
+| Websites (PHP / static / marketing sites — e.g. `angel-interior-website`, `EcoWorld`) | **NOT USED** — grep is faster, indexing wastes ~50s + ~100 MB |
+| Mobile apps / small PWAs / single-page apps | **NOT USED** — same reason |
+| `.codex` knowledge / markdown trees | **NEVER** — not code |
+
+Operational rules:
+- Do **not** auto-run `gitnexus analyze` on a website or app project even if the user is editing a lot of files. Confirm explicitly first.
+- If a non-allowlisted project already has a `.gitnexus/` folder, it's stale opt-in from earlier — surface that fact and ask whether to keep or `gitnexus clean` it.
+- `vben admin` projects are the canonical token-saving case (large schema + many BasicTable/Pinia/relation traversals); reach for the graph there before grep.
+
 ## Detect-and-Use Workflow (when the project already has `.gitnexus/`)
 
 The agent **never installs or analyzes** on its own. If a project has `.gitnexus/` in its root, the user has already opted in — use the MCP tools instead of grepping blind.
@@ -64,7 +81,7 @@ Not automatic — run `gitnexus analyze` yourself when a project warrants it:
 |---|---|
 | Real codebase: ~100+ code files, real cross-module call chains (e.g. quizLAA — 2156 files) | Index: `gitnexus analyze --skills` (`--skip-git` if not a git repo) |
 | Already indexed, `gitnexus status` says stale (git repos) | Re-run `gitnexus analyze` |
-| Thin site / static HTML-CSS / under ~50 code files (e.g. angel-interior-website) | Skip — grep is faster, indexing wastes ~50s + ~100 MB |
+| Thin site / static HTML-CSS / under ~50 code files (e.g. angel-interior-website) | Skip — grep is faster, indexing wastes ~50s + ~100 MB. Also covered by the project allowlist above. |
 | `.codex` itself | Never — it is markdown knowledge, not code |
 
 Notes:

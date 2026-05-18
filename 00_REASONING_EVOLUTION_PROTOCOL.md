@@ -54,3 +54,5 @@ This protocol upgrades reasoning quality while preserving speed.
 - Keep responses concise by default; add depth when risk or user intent requires it.
 - Do not present inference as fact.
 - Prefer actionable conclusions over abstract commentary.
+- Karpathy compliance block is mandatory in final outputs.
+- Keep compliance evidence aligned to the evidence ladder: file state > tests > logs > memory > inference.

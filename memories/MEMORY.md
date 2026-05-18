@@ -1,3 +1,86 @@
+# Task Group: Codex home migration, ignore standardization, and runtime policy
+scope: Reuse when the task touches the user's `C:\Users\user\.codex` home, especially migration away from `.gemini`, cross-tool ignore hygiene, core-safe skill restoration, or low-token runtime behavior; not a generic repo-maintenance guide.
+applies_to: cwd=\\?\C:\Users\user\.codex; reuse_rule=safe for this user's Codex-home workspace if you re-check live routing files, current skill inventory, and whether cleanup targets are active runtime files
+
+## Task 1: Standardize cross-tool ignores and set plan-first low-token defaults, success
+
+### rollout_summary_files
+
+- rollout_summaries/2026-05-13T06-35-46-ELIk-codex_migration_optimization_and_cross_tool_ignore.md (cwd=\\?\C:\Users\user\.codex, rollout_path=C:\Users\user\.codex\sessions\2026\05\13\rollout-2026-05-13T14-35-46-019e200c-6eb9-73f3-a7cc-770223cf05b8.jsonl, updated_at=2026-05-13T08:54:23+00:00, thread_id=019e200c-6eb9-73f3-a7cc-770223cf05b8, created cross-tool ignore files and moved runtime policy toward plan-first and low reasoning)
+
+### keywords
+
+- .claudeignore, .geminiignore, .openaiignore, .codexignore, plan-first, low reasoning, config.toml, model_reasoning_effort, AGENTS.md, CODEX_FULL_ACCESS_ROUTING.md, 00_CODEX_PERF_BENCHMARK.md
+
+## Task 2: Restore core-safe skill baseline and dual-lane runtime policy, partial
+
+### rollout_summary_files
+
+- rollout_summaries/2026-05-13T06-35-46-ELIk-codex_migration_optimization_and_cross_tool_ignore.md (cwd=\\?\C:\Users\user\.codex, rollout_path=C:\Users\user\.codex\sessions\2026\05\13\rollout-2026-05-13T14-35-46-019e200c-6eb9-73f3-a7cc-770223cf05b8.jsonl, updated_at=2026-05-13T08:54:23+00:00, thread_id=019e200c-6eb9-73f3-a7cc-770223cf05b8, restored the minimum safe skill set without bringing back optional heavy packs)
+
+### keywords
+
+- skills/.system, .codex-system-skills.marker, skill-installer, skill-creator, plugin-creator, openai-docs, imagegen, Lean Fast Lane, Deep Capability Lane, missing-skill fallback
+
+## Task 3: Migrate `.gemini` knowledge/resources into `.codex` and reroute live paths, partial
+
+### rollout_summary_files
+
+- rollout_summaries/2026-05-13T06-35-46-ELIk-codex_migration_optimization_and_cross_tool_ignore.md (cwd=\\?\C:\Users\user\.codex, rollout_path=C:\Users\user\.codex\sessions\2026\05\13\rollout-2026-05-13T14-35-46-019e200c-6eb9-73f3-a7cc-770223cf05b8.jsonl, updated_at=2026-05-13T08:54:23+00:00, thread_id=019e200c-6eb9-73f3-a7cc-770223cf05b8, migrated live support content into `.codex` and rewired active references)
+
+### keywords
+
+- .gemini, .codex, codex-router, Update-CodexRouting.ps1, CODEX_DYNAMIC_ROUTING.md, CODEX_FULL_ACCESS_ROUTING.md, libraries/codex-migrated, libraries/gemini-migrated, rules/default.rules, memories
+
+## Task 4: Audit root `.codex` files and block unsafe live-state cleanup, partial
+
+### rollout_summary_files
+
+- rollout_summaries/2026-05-13T06-35-46-ELIk-codex_migration_optimization_and_cross_tool_ignore.md (cwd=\\?\C:\Users\user\.codex, rollout_path=C:\Users\user\.codex\sessions\2026\05\13\rollout-2026-05-13T14-35-46-019e200c-6eb9-73f3-a7cc-770223cf05b8.jsonl, updated_at=2026-05-13T08:54:23+00:00, thread_id=019e200c-6eb9-73f3-a7cc-770223cf05b8, removed low-risk legacy state while refusing to delete active SQLite journals)
+
+### keywords
+
+- cleanup, .codex-global-state.json.bak, logs_2.sqlite, logs_2.sqlite-wal, logs_2.sqlite-shm, state_5.sqlite, state_5.sqlite-wal, state_5.sqlite-shm, active processes, root-file triage
+
+## Task 5: Add token/speed benchmark scaffold and dual-lane optimization guidance, partial
+
+### rollout_summary_files
+
+- rollout_summaries/2026-05-13T06-35-46-ELIk-codex_migration_optimization_and_cross_tool_ignore.md (cwd=\\?\C:\Users\user\.codex, rollout_path=C:\Users\user\.codex\sessions\2026\05\13\rollout-2026-05-13T14-35-46-019e200c-6eb9-73f3-a7cc-770223cf05b8.jsonl, updated_at=2026-05-13T08:54:23+00:00, thread_id=019e200c-6eb9-73f3-a7cc-770223cf05b8, added measurement scaffolding for token, speed, and depth tradeoffs)
+
+### keywords
+
+- 00_CODEX_PERF_BENCHMARK.md, token cost, speed, depth, comparison, benchmark scaffold, targeted reads, relevance-gated memory lookup, dual-lane runtime
+
+## User preferences
+
+- when the user wants `.claudeignore`, `.geminiignore`, and `.openaiignore` aligned with `.codexignore`, standardize them together instead of treating ignore hygiene as Codex-only [Task 1]
+- when the user asks for "plan mode always trigger on" and later pushes for lower token cost, default to plan-first, concise-by-default behavior with deeper work only when the task is complex or risky [Task 1][Task 5]
+- when the user wants better skill completeness, prefer a core-safe baseline rather than restoring every heavy optional pack [Task 2]
+- when the user wants `.gemini` knowledge and skills moved into `.codex`, migrate and reroute live references rather than leaving `.codex` as a thin mirror over old paths [Task 3]
+- when the user asks to remove old/useless root files, do root-by-root impact analysis first and only delete low-risk items directly [Task 4]
+- when the user wants a before/after token or speed comparison, treat measurement as part of the task rather than making vague improvement claims [Task 5]
+
+## Reusable knowledge
+
+- `config.toml` was updated to keep `gpt-5.3-codex` while setting `model_reasoning_effort = "low"`, and the runtime docs now express plan-first plus deferred heavy reads for routine tasks [Task 1]
+- The cross-tool ignore baseline lives in `.claudeignore`, `.geminiignore`, and `.openaiignore`, with secret/runtime/cache/session filters plus explicit allow-lists for routing and knowledge files [Task 1]
+- The minimum safe skill baseline that restored normal operation was `skills/.system/.codex-system-skills.marker`, `skills/.system/skill-installer`, `skills/.system/skill-creator`, `skills/.system/plugin-creator`, `skills/.system/openai-docs`, and `skills/imagegen` [Task 2]
+- `codex-cli 0.130.0-alpha.5` still ran with many optional skill packs missing, so completeness work should restore critical paths first and let optional workflows degrade gracefully [Task 2]
+- The migration verified major folder copies by matching counts and SHA256 hashes, then moved the live support library to `libraries/codex-migrated` and updated active bridge/routing references to prefer `.codex` terminology and paths [Task 3]
+- Historical `REMOVED:` lines in generated routing/manifests can keep old names like `gemini-migrated` even after live paths move; treat that as stale generated history unless active paths still point there [Task 3]
+- `.codex-global-state.json` is live state, while `.codex-global-state.json.bak` was safe to remove; `logs_2.sqlite`, `state_5.sqlite`, and their `-wal`/`-shm` sidecars were active runtime files during the check [Task 4]
+- `00_CODEX_PERF_BENCHMARK.md` is the stored benchmark scaffold for routine/medium/deep comparisons, and the runtime docs now bias toward targeted reads, relevance-gated memory lookup, and escalation only when triggers apply [Task 5]
+- Current Codex-home governance also includes `0_apex/KARPATHY_TIER0_PRINCIPLES.md` as a separate authoritative Tier-0 constitutional file, and `0_apex/GROUND_KERNEL.md` now marks both Tier-0 files plus `codex-router/codex-manifest.json` as `tier_0_nuclear` edit targets requiring explicit user confirmation before edits or deletes
+
+## Failures and how to do differently
+
+- Symptom: ignore-file standardization gets implemented unevenly across tools. Cause: only `.codexignore` gets updated. Fix: update `.claudeignore`, `.geminiignore`, and `.openaiignore` together from the same balanced baseline [Task 1]
+- Symptom: capability work turns into a bloated restore of deleted optional skills. Cause: completeness is treated as all-or-nothing. Fix: restore the `.system` marker and critical installer/creator/routing paths first, then add optional skills only if the user actually needs those workflows [Task 2]
+- Symptom: migrated `.codex` routing still shows `gemini-migrated` strings. Cause: generated history in `CODEX_DYNAMIC_ROUTING.md` kept stale `REMOVED:` lines after the live rename. Fix: distinguish live path bugs from stale generated history, and refresh/rewrite the generated route only when permissions allow [Task 3]
+- Symptom: cleanup targets look like stale DB sidecars and seem safe to remove. Cause: Codex processes still have `logs_2.sqlite` / `state_5.sqlite` journals open. Fix: close Codex fully before touching `-wal` or `-shm` files, and do not force-delete active runtime state [Task 4]
+- Symptom: token/speed claims sound confident but are not grounded. Cause: the rollout changed policy without gathering live benchmark numbers. Fix: use `00_CODEX_PERF_BENCHMARK.md` to capture before/after token, time, turn, and quality measurements on the next optimization pass [Task 5]
+
 # Task Group: EcoWorld `.gemini` routing hydration and UI note retrieval
 scope: Reuse when the user asks to read `.gemini` knowledge while working in `EcoWorld`, especially when the goal is to hydrate routing and pull the active website/UI note without broad tree reads.
 applies_to: cwd=\\?\C:\Users\user\Desktop\ecoworld and adjacent EcoWorld design-context requests that depend on Codex-to-Gemini routing; reuse_rule=safe for this EcoWorld checkout and similar `.gemini` hydration requests if you re-check the current generated route, indexed note paths, and fallback chain first
@@ -133,7 +216,7 @@ applies_to: cwd=\\?\C:\Users\user\Documents\Codex\2026-05-04\ai-add-a-codex-shor
 
 ### keywords
 
-- .gemini, .codex, GEMINI_FULL_ACCESS_ROUTING.md, AGENTS.md, route.yaml, ROUTER.idx, ATLAS.idx, GROUND_KERNEL.md, EXECUTION_KERNEL.md, skill_path_router, antigravity\knowledge, antigravity\memory, antigravity\skills
+- .gemini, .codex, GEMINI_FULL_ACCESS_ROUTING.md, AGENTS.md, route.yaml, ROUTER.idx, ATLAS.idx, GROUND_KERNEL.md, EXECUTION_KERNEL.md, skill_path_router, antigravity\\knowledge, antigravity\\memory, antigravity\\skills
 
 ## Task 2: Build dynamic router + auto-refresh, success
 
@@ -156,64 +239,19 @@ applies_to: cwd=\\?\C:\Users\user\Documents\Codex\2026-05-04\ai-add-a-codex-shor
 ## Reusable knowledge
 
 - `C:\Users\user\.codex\GEMINI_FULL_ACCESS_ROUTING.md` is the durable Codex-side bridge for `.gemini`; it captures read order, priority boundaries, folder roles, and relationship maps so future agents do not have to rediscover the structure from scratch [Task 1]
-- `.gemini\route.yaml` pointed to `.\antigravity\route.yaml`, but that target was missing during bridge creation. The proven fallback chain is `GEMINI.md`, `ROUTER.idx`, `ATLAS.idx`, `GROUND_KERNEL.md`, `EXECUTION_KERNEL.md`, then `skill_path_router.md` [Task 1]
-- `antigravity\knowledge` is the curated knowledge library, `antigravity\memory` is historical memory/context that should be verified against current files, and `antigravity\skills` are reference workflows rather than native Codex skills unless converted into `C:\Users\user\.codex\skills\<name>\SKILL.md` [Task 1]
+- `.gemini\\route.yaml` pointed to `.\\antigravity\\route.yaml`, but that target was missing during bridge creation. The proven fallback chain is `GEMINI.md`, `ROUTER.idx`, `ATLAS.idx`, `GROUND_KERNEL.md`, `EXECUTION_KERNEL.md`, then `skill_path_router.md` [Task 1]
+- `antigravity\\knowledge` is the curated knowledge library, `antigravity\\memory` is historical memory/context that should be verified against current files, and `antigravity\\skills` are reference workflows rather than native Codex skills unless converted into `C:\Users\user\.codex\skills\<name>\SKILL.md` [Task 1]
 - `ROUTER.idx` and `ATLAS.idx` are the best first-pass discovery anchors. Do not hydrate the whole `.gemini` tree when routing can be narrowed through those indexes [Task 1]
 - `C:\Users\user\.codex\gemini-router\Update-GeminiRouting.ps1` scans `C:\Users\user\.gemini`, excludes secrets/browser profiles/caches/runtime noise, classifies files, computes SHA256 hashes, emits a manifest, and generates `C:\Users\user\.codex\GEMINI_DYNAMIC_ROUTING.md` plus `last-changes.json` [Task 2]
-- Safe `.gemini` change detection can be done with a manifest + hash comparison, avoiding unnecessary rewrites when nothing changed [Task 2]
+- Safe `.gemini` change detection can be done with a manifest plus hash comparison, avoiding unnecessary rewrites when nothing changed [Task 2]
 - In this environment, `Get-ChildItem` was the reliable inventory command while `rg --files` hit `Access is denied` [Task 2]
 - The working auto-refresh setup was a hidden PowerShell watcher script plus `C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Codex Gemini Router Watcher.lnk`; the rollout verified the dynamic route after a second regeneration pass and reported `603` safe indexed files at that time [Task 2]
 - `SESSION_SHADOW.json` belongs in the memory route for this environment and should not be excluded just because its filename contains `session` [Task 2]
 
 ## Failures and how to do differently
 
-- Symptom: routing from `.gemini` feels noisy or incomplete. Cause: treating `.gemini` as a flat folder or relying on `route.yaml` alone even though it pointed to a missing `antigravity\route.yaml`. Fix: use the routing/index files first and fall back to `GEMINI.md`, `ROUTER.idx`, `ATLAS.idx`, and kernel files [Task 1]
+- Symptom: routing from `.gemini` feels noisy or incomplete. Cause: treating `.gemini` as a flat folder or relying on `route.yaml` alone even though it pointed to a missing `antigravity\\route.yaml`. Fix: use the routing/index files first and fall back to `GEMINI.md`, `ROUTER.idx`, `ATLAS.idx`, and kernel files [Task 1]
 - Symptom: someone wants Codex to "use" Gemini skills directly. Cause: Gemini/Claude skill files were treated like native Codex skills. Fix: keep them as reference workflows until they are rewritten into `C:\Users\user\.codex\skills\<name>\SKILL.md` [Task 1]
 - Symptom: file inventory or refresh automation fails on Windows. Cause: `rg --files` and scheduled-task creation were blocked with `Access is denied`. Fix: use PowerShell `Get-ChildItem` for inventory and switch to a user-level Startup shortcut plus hidden watcher if `schtasks` is blocked [Task 2]
 - Symptom: generated routing silently drops memory files like `SESSION_SHADOW.json`. Cause: the filename exclusion filter is too broad. Fix: validate the filter against known memory files before finalizing exclusions [Task 2]
 - Symptom: generated Markdown from the update script is malformed. Cause: unsafe PowerShell quoting/interpolation in the first script version. Fix: use safer string interpolation/output formatting before trusting regenerated route text [Task 2]
-
-# Task Group: quizLAA Vue app Vite/Supabase mode alignment and build
-scope: Reuse when working on `webApp-LAA-quiz-v2` or closely related `quizLAA` Vue apps that need Supabase env wiring, Vite mode alignment, or a production build runbook; not a general Vite guide.
-applies_to: cwd=\\?\C:\Users\user\Desktop\quizLAA and c:\Users\user\Desktop\quizLAA\webApp-LAA-quiz-v2; reuse_rule=safe for this quizLAA/admin-panel family and similar checkouts that intentionally mirror `admin-panel-quizLaa`; re-check exact env values and scripts before reusing in unrelated repos
-
-## Task 1: Compare admin-panel Supabase wiring to webApp-LAA-quiz-v2 and mirror the mode contract, success
-
-### rollout_summary_files
-
-- rollout_summaries/2026-04-30T10-32-40-XyzV-webapp_laa_quiz_v2_admin_panel_supabase_mode_and_build.md (cwd=\\?\C:\Users\user\Desktop\quizLAA, rollout_path=C:\Users\user\.codex\sessions\2026\04\30\rollout-2026-04-30T18-32-40-019dddf2-a7f0-7032-8c64-6dd8c8c60c93.jsonl, updated_at=2026-04-30T10:49:53+00:00, thread_id=019dddf2-a7f0-7032-8c64-6dd8c8c60c93, aligned the web app to the admin panel's explicit Vite mode contract)
-
-### keywords
-
-- admin-panel-quizLaa, webApp-LAA-quiz-v2, Vite modes, development.localhost, development.supabase, production, Supabase, .env.development.localhost, .env.development.supabase, .env.production, vite.loadEnv, api.zeta-groups.com, localhost:54321, localhost:8001
-
-## Task 2: Build webApp-LAA-quiz-v2, success
-
-### rollout_summary_files
-
-- rollout_summaries/2026-04-30T10-32-40-XyzV-webapp_laa_quiz_v2_admin_panel_supabase_mode_and_build.md (cwd=\\?\C:\Users\user\Desktop\quizLAA, rollout_path=C:\Users\user\.codex\sessions\2026\04\30\rollout-2026-04-30T18-32-40-019dddf2-a7f0-7032-8c64-6dd8c8c60c93.jsonl, updated_at=2026-04-30T10:49:53+00:00, thread_id=019dddf2-a7f0-7032-8c64-6dd8c8c60c93, production build succeeded with `npm.cmd run build`)
-
-### keywords
-
-- webApp-LAA-quiz-v2, npm.cmd, npm.ps1, PowerShell execution policy, vite build, esbuild, spawn EPERM, dist/assets/index-DlmYmjBl.js, build, production
-
-## User preferences
-
-- when the user asked to "learn from admin-panel-quizLaa" and "research and see how the vben admin is connected to supabase local", future similar work should start from the admin panel as the reference implementation rather than inventing a fresh env layout [Task 1]
-- when the user asked for the web app's API connection and production env to match that pattern, preserve explicit local/remote/production separation instead of collapsing everything into one generic Vite mode [Task 1]
-- when the user said "so help me build npm run build webApp-LAA-quiz-v2", go straight to the project folder and run the build instead of re-explaining config that was already settled [Task 2]
-
-## Reusable knowledge
-
-- `admin-panel-quizLaa` is the clearest reference implementation in this repo family for local Supabase wiring and Vite mode naming. It uses explicit modes `development.localhost`, `development.supabase`, and `production`, with scripts in `apps/web-antd/package.json` mapping those modes to local Docker Supabase, tunnel-based Supabase, and production build behavior [Task 1]
-- The mode/env split that worked here was `development.localhost` -> `http://localhost:54321`, `development.supabase` -> `http://localhost:8001`, and `production` -> `https://api.zeta-groups.com` [Task 1]
-- `webApp-LAA-quiz-v2/src/config/env.ts` reads `VITE_*` values through a typed wrapper, so auth/API behavior depends on the correct Vite mode file being loaded; `vite.loadEnv` was the verification step that confirmed the right URLs for each mode [Task 1]
-- The web app patch that matched the admin pattern added explicit scripts in `package.json` and added `.env.development.localhost` plus `.env.development.supabase`; the existing generic `dev`/`build` setup was not explicit enough for this repo's local-vs-tunnel-vs-production split [Task 1]
-- For this repo on Windows PowerShell, `npm.cmd run build` is the reliable build command when the `npm.ps1` shim is blocked by execution policy [Task 2]
-- A successful production build produced output under `webApp-LAA-quiz-v2/dist`, including `dist/assets/index-DlmYmjBl.js`, which is a useful fast sanity check when asked whether the build completed [Task 2]
-
-## Failures and how to do differently
-
-- Symptom: Vue app has only generic `dev`/`build` scripts and local Supabase behavior is easy to misconfigure. Cause: the project does not preserve the admin panel's explicit mode naming. Fix: default to the same three-mode structure and separate env files instead of relying on a plain `vite`/generic `.env` arrangement [Task 1]
-- Symptom: `npm run build` fails in PowerShell before the actual build starts. Cause: `npm.ps1` is blocked by execution policy. Fix: rerun with `npm.cmd run build` [Task 2]
-- Symptom: Vite/esbuild build fails with `spawn EPERM`. Cause: helper-process spawning is blocked. Fix: rerun with permission to spawn the toolchain; do not spend time debugging app code until process permissions are ruled out [Task 2]

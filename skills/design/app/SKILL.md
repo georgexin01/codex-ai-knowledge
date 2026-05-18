@@ -18,6 +18,14 @@ To transform logistical requirements into "Premium & Tactile" mobile application
 
 ---
 
+## 🧬 Tier-0 Design Contract (MUST FOLLOW — Added 2026-05-18)
+
+> **If `DESIGN.md` exists at project root, it is the SOLE source of truth for design tokens.**
+> Tailwind config, CSS variables, Pinia design stores, and component styles MUST derive from it.
+> On conflict: `DESIGN.md` wins; downstream code is regenerated.
+> Spec + examples + lint: [`../_spec/SKILL.md`](../_spec/SKILL.md)
+> Reference exemplars: [`atmospheric-glass`](../_spec/examples/atmospheric-glass/) (frosted glass elevation), [`paws-and-paths`](../_spec/examples/paws-and-paths/) (playful warm mobile), [`totality-festival`](../_spec/examples/totality-festival/) (cinematic dark).
+
 ## 🧬 Tier-0 App Principles (MUST FOLLOW)
 
 | Principle | Rule | Implementation |
@@ -48,7 +56,7 @@ Every build MUST include a fallback to `index.html` in the `public/` folder.
 *Follow these steps in strict sequential order (01 → 09).*
 
 ### Phase 1: Vision & Assets
-1.  **[01-Handshake-Genesis](01-handshake-genesis/skill.md)**: Mission alignment and project blueprint sync.
+1.  **[01-Handshake-Genesis](01-handshake-genesis/skill.md)**: Mission alignment and project blueprint sync. **MUST produce `DESIGN.md` at project root as the first artifact** — see [`../_spec/SKILL.md`](../_spec/SKILL.md) for format and [`../_spec/LINT_CHECKLIST.md`](../_spec/LINT_CHECKLIST.md) for the 7-rule validation gate before Step 02.
 2.  **[02-Asset-Orchestration](02-asset-orchestration/skill.md)**: Generate high-density app icons (38px) and HSL tokens.
 
 ### Phase 2: Core Scaffolding

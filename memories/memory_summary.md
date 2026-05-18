@@ -1,10 +1,10 @@
 ## User Profile
 
-The user uses Codex as a local Windows coding partner and repeatedly asks for durable outcomes that future agents can reuse without re-learning the setup. They work across project checkouts and Codex-home infrastructure, and they prefer important workflows to be persisted into bridge docs, skills, notes, or project artifacts rather than left as chat-only guidance.
+The user uses Codex as a local Windows coding partner and prefers durable outcomes that future agents can reuse without re-learning the setup. They work across project checkouts and Codex-home infrastructure, and they often ask for important workflows to be persisted into bridge docs, governance notes, memory, or skills rather than left as chat-only guidance.
 
-They often steer by pointing at a concrete source of truth: a reference repo, the real live site/theme, or the local `.gemini` knowledge graph. In practice, they want the agent to read the real thing first, then act. For `.gemini` requests, they expect direct hydration through the Codex bridge and indexes. For design work, they want updates grounded in the actual brand/site reference rather than generic styling. For project maintenance, they prefer lean roots, central shared fixes, and direct cleanup of disposable artifacts once runtime safety has been checked.
+They repeatedly steer toward a concrete source of truth: a reference repo, the real live site/theme, the active project note, or the current Codex routing/governance files. In practice, they want the agent to read the real thing first, then act. They also care about token efficiency: recent evidence shows they want plan-first, concise-by-default behavior, with deeper work only when the task is risky, complex, or explicitly asks for depth.
 
-Environment evidence is Windows PowerShell. Shell policy and permissions can matter: `npm.ps1` may be blocked, `Access is denied` can affect inventory or scheduler workflows, and PowerShell-friendly fallbacks are often the fastest path.
+Environment evidence is Windows PowerShell. Shell policy and permissions can matter: `npm.ps1` may be blocked, `Access is denied` can affect inventory or scheduler workflows, and PowerShell-friendly fallbacks are often the fastest path. They also prefer low-risk cleanup over speculative cleanup: delete disposable artifacts directly once runtime relevance is checked, but do not touch active state files casually.
 
 ## User preferences
 
@@ -15,6 +15,7 @@ Environment evidence is Windows PowerShell. Shell policy and permissions can mat
 - When the user wants the system to "understand and read those nessasary fiels and folder", prefer writing a real bridge/read-order artifact in `.codex` when cross-agent knowledge reuse is involved.
 - When the user asks for auto rerouting "when any changes had happen in .gemini folder or files changes", default to change-aware regeneration and refresh automation rather than static docs.
 - When the user asks to "redo routing for those changed files in .codex" and wants "full control router in .codex", generate Codex-owned route artifacts plus a refresh loop instead of leaving the routing logic implicit.
+- When the user asks whether GitNexus is needed for a website or app, default to "no"; only `vben admin` / large Supabase admin projects are currently allowlisted, while websites, marketing pages, and small apps should use grep/glob first.
 - When the user says they have no image-generation tool and asks to "generate images for my project ecoworld ... using above technique", default to a durable free-asset workflow instead of blocking on raster generation.
 - When the user asks to "write inside my codex or gemini knowledge if need for images generating" and to "update to claude code skills", persist the workflow in skills/knowledge and project notes rather than leaving it as chat-only advice.
 - When the user asks to "look into information.txt url see how ecoworld is look like the design theme and card, text, border... button..", base EcoWorld UI work on the real site/theme reference instead of generic modern styling.
@@ -23,9 +24,12 @@ Environment evidence is Windows PowerShell. Shell policy and permissions can mat
 - When the user confirms disposable folders with "remove then", prefer direct deletion of QA/temp artifacts instead of keeping them around for history.
 - When the user says "set <?= datetime ?> with min sec" so CSS updates load, prefer PHP-generated cache busting in shared includes rather than per-page manual edits.
 - When the user asks to do it for "other css that need updating", update the shared asset entry points centrally when they exist.
-- When the user says to "learn from admin-panel-quizLaa" or "research and see how the vben admin is connected to supabase local", start from that repo as the source of truth instead of inventing a new convention.
-- When matching `webApp-LAA-quiz-v2` to the admin panel, preserve explicit local/remote/production separation instead of flattening env handling into one generic Vite mode.
-- When the user asks to "help me build npm run build webApp-LAA-quiz-v2", move directly to the project folder and run the build rather than re-explaining the already-agreed config approach.
+- When the user wants `.claudeignore`, `.geminiignore`, and `.openaiignore` aligned with `.codexignore`, standardize them together instead of treating ignore hygiene as Codex-only.
+- When the user asks for "plan mode always trigger on" and later pushes for lower token cost, default to plan-first, concise-by-default behavior with deeper work only when the task is complex or risky.
+- When the user wants better skill completeness, prefer a core-safe baseline rather than restoring every heavy optional pack.
+- When the user wants `.gemini` knowledge and skills moved into `.codex`, migrate and reroute live references rather than leaving `.codex` as a thin mirror over old paths.
+- When the user asks to remove old/useless root files, do root-by-root impact analysis first and only delete low-risk items directly.
+- When the user wants a before/after token or speed comparison, treat measurement as part of the task rather than making vague improvement claims.
 
 ## General Tips
 
@@ -41,11 +45,24 @@ Environment evidence is Windows PowerShell. Shell policy and permissions can mat
 - For EcoWorld UI refreshes, search `information.txt`, `lib/components.php`, `css/style.css`, `filter-panel`, `chip-row`, and `filter-selects` first; preserve the lazy masonry layout and no-horizontal-overflow behavior while polishing the controls.
 - For EcoWorld maintenance work, check `BLUEPRINT.md` and shared include files before deleting folders or patching assets; `tmp` and `test-results` were disposable here, but some empty-looking directories can still be runtime placeholders.
 - For EcoWorld CSS/JS reload issues, inspect `lib/init.php`, `lib/htmlHead.php`, and `lib/htmlBody.php` first; the validated shared pattern is `ECO_ASSET_VERSION = date('YmdHis')` plus `?v=<?= h(ECO_ASSET_VERSION) ?>`, then `php -l` on each edited file.
-- For the `quizLAA` family, search `development.localhost`, `development.supabase`, `production`, and `vite.loadEnv` before changing Supabase env wiring.
-- On Windows PowerShell, remember that bare `npm` may fail because `npm.ps1` is blocked; `npm.cmd` is the practical fallback.
-- If a Vite/esbuild build fails with `spawn EPERM`, check process-spawn permissions before debugging the app itself.
+- GitNexus is allowlisted, not default: use it first for `vben admin` / large Supabase admin projects, but skip it for websites, marketing pages, small PWAs, and `.codex` knowledge trees where grep/glob is cheaper.
+- In the user's Codex home, `.claudeignore`, `.geminiignore`, and `.openaiignore` now mirror `.codexignore`; keep cross-tool ignore hygiene aligned instead of updating only one file.
+- `config.toml` currently uses `gpt-5.3-codex` with `model_reasoning_effort = "low"`.
+- For Codex-home completeness work, restore the `.system` marker and critical installer/creator/routing skills first; optional heavy skills can stay missing unless the user needs them.
+- For Codex-home governance work, treat `0_apex/KARPATHY_TIER0_PRINCIPLES.md` as a separate authoritative Tier-0 file, and note that `0_apex/GROUND_KERNEL.md` now classifies both Tier-0 files plus `codex-router/codex-manifest.json` as `tier_0_nuclear` edit targets that need explicit user confirmation before edit/delete.
+- `libraries/codex-migrated` is the active path for migrated support content; stale `gemini-migrated` strings in generated `REMOVED:` history do not automatically mean live routing is broken.
+- Do not delete `logs_2.sqlite`, `state_5.sqlite`, or their `-wal` / `-shm` files while Codex is running.
+- Use `00_CODEX_PERF_BENCHMARK.md` when the user asks for token/speed/depth comparisons; policy changes alone are not enough evidence.
 
 ## What's in Memory
+
+### Codex home workspace
+
+#### 2026-05-13
+
+- Migration away from `.gemini` plus runtime optimization policy: .codex, .gemini, codex-router, libraries/codex-migrated, .claudeignore, .geminiignore, .openaiignore, plan-first, model_reasoning_effort, 00_CODEX_PERF_BENCHMARK.md
+  - desc: Covers `cwd=\\?\C:\Users\user\.codex` work to consolidate knowledge and skills into `.codex`, standardize cross-tool ignore files, restore the minimum safe skill baseline, add Lean Fast Lane / Deep Capability Lane behavior, and audit low-risk cleanup targets. Search this first for Codex-home routing/governance tasks, skill-completeness questions, token-optimization follow-ups, or cleanup safety checks.
+  - learnings: The durable pattern is cross-tool ignore alignment, plan-first plus low reasoning for routine work, and a core-safe skill restore instead of heavy skill restoration. `libraries/codex-migrated` is the live migration target, active SQLite `-wal` / `-shm` files should be left alone until Codex is closed, and Codex-home governance now also treats `0_apex/KARPATHY_TIER0_PRINCIPLES.md` as a separate Tier-0 file covered by the `tier_0_nuclear` confirmation rule.
 
 ### EcoWorld checkout
 
@@ -69,17 +86,9 @@ Environment evidence is Windows PowerShell. Shell policy and permissions can mat
   - desc: Covers the EcoWorld homepage filter-panel redesign grounded in the live EcoWorld white/green brand reference, including the component/CSS touchpoints and the final scrollbar-hiding request. Search this first for `cwd=\\?\C:\Users\user\Desktop\ecoworld` tasks involving homepage controls, chips, select styling, or brand-matched UI cleanup.
   - learnings: The validated path was to read `information.txt` and the real site before styling, then patch the live `style.css` block exactly. Keep horizontal chip scrolling, but hide the scrollbar UI rather than disabling overflow.
 
-### Windows Codex home / `.gemini` bridge
-
-#### 2026-05-04
-
-- Codex `.gemini` full access routing and auto-refresh: .gemini, .codex, GEMINI_FULL_ACCESS_ROUTING.md, GEMINI_DYNAMIC_ROUTING.md, ROUTER.idx, ATLAS.idx, Update-GeminiRouting.ps1, SESSION_SHADOW.json
-  - desc: Covers building a Codex-side bridge so the assistant can understand and reuse `.gemini` knowledge, memory, and skills, plus a manifest-based dynamic router and watcher that refreshes Codex-owned routing artifacts when safe `.gemini` files change. Search this first for tasks in `cwd=\\?\C:\Users\user\Documents\Codex\2026-05-04\ai-add-a-codex-shortcut-at` or Windows Codex-home work that needs folder relationship mapping, `.gemini` read order, skill conversion boundaries, or refresh automation.
-  - learnings: The durable route starts with the Codex bridge and `.gemini` indexes, not a full-tree read. `route.yaml` pointed to a missing `antigravity\route.yaml`, so the validated fallback was `GEMINI.md`, `ROUTER.idx`, `ATLAS.idx`, kernel files, and `skill_path_router.md`. For automation, manifest/hash comparison plus a user-level Startup watcher worked when `schtasks` did not.
-
 ### Older Memory Topics
 
-#### quizLAA repo family
+#### Windows Codex home / `.gemini` bridge
 
-- Vue app Supabase wiring aligned to admin-panel pattern and production build: admin-panel-quizLaa, webApp-LAA-quiz-v2, development.localhost, development.supabase, vite.loadEnv, npm.cmd, spawn EPERM
-  - desc: Covers comparing `webApp-LAA-quiz-v2` against `admin-panel-quizLaa`, mirroring the admin panel's explicit Vite mode/env contract, and then running a successful production build. Use this for `cwd=\\?\C:\Users\user\Desktop\quizLAA` / `c:\Users\user\Desktop\quizLAA\webApp-LAA-quiz-v2` when tasks involve Supabase URLs, Vite mode naming, `.env` layout, or Windows build execution.
+- Codex `.gemini` full access routing and auto-refresh: .gemini, .codex, GEMINI_FULL_ACCESS_ROUTING.md, GEMINI_DYNAMIC_ROUTING.md, ROUTER.idx, ATLAS.idx, Update-GeminiRouting.ps1, SESSION_SHADOW.json
+  - desc: Covers building a Codex-side bridge so the assistant can understand and reuse `.gemini` knowledge, memory, and skills, plus a manifest-based dynamic router and watcher that refreshes Codex-owned routing artifacts when safe `.gemini` files change. Use this for `cwd=\\?\C:\Users\user\Documents\Codex\2026-05-04\ai-add-a-codex-shortcut-at` or Windows Codex-home work that needs folder relationship mapping, `.gemini` read order, skill conversion boundaries, or refresh automation.
