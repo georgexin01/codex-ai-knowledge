@@ -407,3 +407,254 @@ References:
 - `CODEX_FULL_ACCESS_ROUTING.md`
 - `00_CODEX_START_HERE.md`
 
+## Thread `019e3937-4690-7373-916c-c08785057744`
+updated_at: 2026-05-18T04:29:13+00:00
+cwd: \\?\C:\Users\user\.codex
+rollout_path: C:\Users\user\.codex\sessions\2026\05\18\rollout-2026-05-18T11-53-04-019e3937-4690-7373-916c-c08785057744.jsonl
+rollout_summary_file: 2026-05-18T03-53-04-26nW-karpathy_tier0_strict_enforcement_layer.md
+
+---
+description: User wanted Karpathy principles made into a canonical Tier-0 `.codex` rule set, then upgraded to an always-on 4-check final-response compliance block; canonical source kept non-duplicative while routing/ignore rules were updated and validated.
+task: add_karpathy_tier0_principles_and_strict_enforcement
+task_group: C:\Users\user\.codex governance and routing
+ task_outcome: success
+cwd: C:\Users\user\.codex
+keywords: Karpathy, Tier-0, AGENTS.md, 00_REASONING_EVOLUTION_PROTOCOL.md, GROUND_KERNEL.md, skills/karpathy-guidelines, CODEX_DYNAMIC_ROUTING.md, router-config.json, .codexignore, .openaiignore, .claudeignore, Update-CodexRouting.ps1, compliance block, always full, non-duplicative, final response contract
+---
+
+### Task 1: Canonical Karpathy Tier-0 principles
+
+task: create canonical Karpathy Tier-0 principles and wire them into .codex startup/routing without duplication
+task_group: governance / routing / knowledge
+task_outcome: success
+
+Preference signals:
+- user asked whether the Karpathy principles must be “following by codex as a principles” -> treat them as high-priority behavioral rules, not a casual note
+- user said “ai make sure i not duplicate at this” -> keep one canonical source and reference it elsewhere rather than repeating long rule blocks
+
+Reusable knowledge:
+- canonical Karpathy content lives in `memories/0_apex/KARPATHY_TIER0_PRINCIPLES.md`
+- `GROUND_KERNEL.md` already contains Karpathy-related behavior (`6_karpathy`), but the new file makes the Karpathy rule set explicit and separate
+- `CODEX_DYNAMIC_ROUTING.md` / router config must be regenerated after updating Tier-0 references
+- nested `.git` trees can leak into generated routing/index output unless excluded explicitly
+
+Failures and how to do differently:
+- first router regeneration surfaced `memories/.git/*` noise; fix was to add `.git` exclusions to all ignore contracts plus router config, then regenerate again
+- default router script timeout was too short once the index grew; rerun with a longer timeout when regeneration stalls
+
+References:
+- `memories/0_apex/KARPATHY_TIER0_PRINCIPLES.md` created with Principles 1-4 and enforcement tests
+- `AGENTS.md`, `00_CODEX_START_HERE.md`, `CODEX_FULL_ACCESS_ROUTING.md`, `GROUND_KERNEL.md` updated to reference the canonical file
+- `codex-router/router-config.json` Tier-0 updated to include `memories/0_apex/KARPATHY_TIER0_PRINCIPLES.md`
+- `CODEX_DYNAMIC_ROUTING.md` after regeneration showed `Tier-0: memories/0_apex/GROUND_KERNEL.md, memories/0_apex/KARPATHY_TIER0_PRINCIPLES.md`
+
+### Task 2: Strict always-on Karpathy compliance block
+
+task: implement always-full 4-check Karpathy compliance block across final responses
+task_group: governance / output discipline / skill mirror
+task_outcome: success
+
+Preference signals:
+- user explicitly selected `Always Full` for the enforcement mode -> wants visible compliance in every final response, including trivial tasks
+- user approved implementation with a simple `yes` -> strict enforcement was adopted, not just discussed
+
+Reusable knowledge:
+- the required four checks are: `Assumptions surfaced`, `Simplicity preserved`, `Surgical scope respected`, `Verification evidence included`
+- each check must be labeled `pass | fail | n/a` and include one short evidence line
+- if any check is `fail`, the agent must self-correct before finalizing or explicitly declare an unresolved blocker
+- enforcement is duplicated intentionally only as a short contract in governance/skill files; the detailed principle body stays canonical in `memories/0_apex/KARPATHY_TIER0_PRINCIPLES.md`
+
+Failures and how to do differently:
+- no major implementation failure on the strict layer; the main risk is future over-verbosity on trivial tasks, so keep the compliance block compact even when always present
+
+References:
+- `AGENTS.md`: added `Karpathy Compliance Hook`
+- `00_REASONING_EVOLUTION_PROTOCOL.md`: added mandatory Karpathy compliance block line under Output Discipline
+- `memories/0_apex/KARPATHY_TIER0_PRINCIPLES.md`: added `Enforcement Output Contract`
+- `skills/karpathy-guidelines/SKILL.md`: added `Response Footer Requirement`
+- validation simulation outputs confirmed the block format and failure-handling path
+
+## Thread `019e39aa-8bb7-7031-8ec6-6aa1b8bdce73`
+updated_at: 2026-05-18T11:00:06+00:00
+cwd: \\?\C:\Users\user\Desktop\angel-interior
+rollout_path: C:\Users\user\.codex\sessions\2026\05\18\rollout-2026-05-18T13-58-58-019e39aa-8bb7-7031-8ec6-6aa1b8bdce73.jsonl
+rollout_summary_file: 2026-05-18T05-58-58-KXJ1-angel_interior_docs_db_cleanup_login_ignore_and_dev_run.md
+
+---
+description: Angel Interior workspace bootstrapped into shared root docs, Angel Supabase schema was fixed to include missing users/permissions/attachments layers, active admin-panel-angel routes were cleaned to Angel-safe modules, login autofill was updated to the Angel admin email, .gitignore was finalized for GitHub upload, and dev server launch used pnpm.cmd on Windows.
+task: cross-ai-root-docs-database-contract-admin-cleanup-login-and-dev
+task_group: C:\Users\user\Desktop\angel-interior
+task_outcome: partial
+cwd: C:\Users\user\Desktop\angel-interior
+keywords: codex, claude, supabase, vben, angular? no, angel-interior, DATABASE.md, AI_COLLAB_PROJECT_OS.md, MASTER_PLAN.md, route cleanup, attachments, permissions, users, RLS, auth.users, public.user, pnpm.cmd, .gitignore, test-results, .mcp.json, dev:local, dev:vps
+---
+
+### Task 1: Shared docs and project authority
+
+task: create shared root docs and project authority rules for Angel Interior workspace
+task_group: workspace governance / root docs
+task_outcome: success
+
+Preference signals:
+- user asked for root `.md` docs “so that next time ai could easily understand what i do here without research again” -> future work should default to durable root documentation rather than only chat memory.
+- user asked for docs “in a way that both ai could read” -> future docs should be neutral and tool-agnostic.
+- user later clarified `admin-panel-angel` is locked/no-edit history -> future runs should treat it as reference-only unless explicitly unlocked.
+
+Reusable knowledge:
+- `website-angel-interior` is PHP business truth and hardcoded/dummy-data site context.
+- `admin-panel-trash` is the editable Vben + Supabase working base.
+- `admin-panel-angel` is the historical success reference and should be locked read-only unless user explicitly changes authority.
+- Root docs used as durable handoff artifacts: `AI_COLLAB_PROJECT_OS.md`, `MASTER_PLAN.md`, `DATABASE.md`.
+
+Failures and how to do differently:
+- The first plan was too generic; it needed clearer folder authority and more explicit project-role boundaries.
+- A mixed project note was not ideal as a reusable cross-project reference; separating reusable vs Angel-specific notes is cleaner.
+
+References:
+- `AI_COLLAB_PROJECT_OS.md`
+- `MASTER_PLAN.md`
+- `DATABASE.md`
+- `website-angel-interior/BLUEPRINT.md`
+- `website-angel-interior/CLAUDE.md`
+- `admin-panel-trash/TRASH_PROJECT_BLUEPRINT.md`
+- `admin-panel-angel/CLAUDE.md`
+
+### Task 2: Angel DB schema recovery and migration application
+
+task: fix missing Angel database layers and apply them to local Docker Supabase
+task_group: Supabase / migrations / schema recovery
+task_outcome: success
+
+Preference signals:
+- user insisted database must be built from website-angel-interior and recorded in `DATABASE.md` -> database contract should be source-of-truth first.
+- user explicitly warned not to miss users/permissions/authorization -> those are must-do layers, not optional features.
+- user wanted step-by-step evolution of `.codex` knowledge -> future runs should capture durable planning rules after schema recovery.
+
+Reusable knowledge:
+- Angel schema now includes `angel.users`, `angel.permissions`, `angel.attachments`, and content tables.
+- CamelCase business tables needed a separate `updatedAt` trigger helper; snake_case `updated_at` helpers were not sufficient.
+- Local Docker Supabase was verified through `supabase_db_local-supabase` and `http://localhost:54323`.
+- Verified functions exist in Angel schema: `create_user`, `update_user`, `delete_user`, `restore_user`, `safe_delete_active_attachment`, `authorize`, `get_permission_scope`.
+
+Failures and how to do differently:
+- Early verification queries were malformed; use a heredoc-style SQL block for multiple `psql` statements.
+- The absence of Angel business tables was initially masked by the presence of other schema tables; verify by both table list and function list.
+
+References:
+- Applied migrations: `027_angel_schema_core.sql`, `029_angel_permissions_seed.sql`, `033_angel_users_business_table_rpc.sql`, `034_angel_permissions_business_table.sql`, `035_angel_attachments_business_table.sql`
+- `DATABASE.md`, `TABLE_STRUCTURE.md`, `DATABASE_MARKMAP.md`, `CROSSWALK.md`
+- Local DB row evidence: `auth.users`, `public.user`, `angel.users` all held `admin@interiordesignangel.com`
+
+### Task 3: Active Angel admin cleanup and login alignment
+
+task: clean active admin-panel-angel modules and align login identity
+task_group: frontend / route cleanup / auth alignment
+task_outcome: success
+
+Preference signals:
+- user asked to clean modules “step by step” using Claude skills -> cleanup should be route-first and entry-point focused.
+- user wants Angel to be the active panel while Trash remains reference -> active modules should not continue exposing Trash-era business flows.
+- user wanted localhost login email changed to Angel branding -> login autofill should follow the new Angel identity.
+
+Reusable knowledge:
+- Active route-level cleanup can safely reduce the visible shell to `users` and `attachments` first.
+- `admin-panel-angel/apps/web-antd/src/api/core/supabase-auth.ts` had to stop using `driver` role assumptions and use Angel roles instead.
+- `admin-panel-angel/apps/web-antd/src/stores/users.ts` had a stale helper for driver options that should no longer query a driver role in Angel mode.
+- Local login autofill in `login.vue` now uses `admin@interiordesignangel.com`.
+
+Failures and how to do differently:
+- Full typecheck could not run because dependencies were missing (`vue-tsc` not installed).
+- Old stores/views/types still exist in the repo; only route entry points were cleaned in this pass.
+- A dev-only workflow-test mount remains in `app.vue`; it is lower risk but still a leftover if stricter cleanup is desired.
+
+References:
+- Deleted route modules: `customers.ts`, `customer-transactions.ts`, `drivers.ts`, `driver-tasks.ts`, `orders.ts`, `workflow-test.ts`
+- Updated route file: `admin-panel-angel/apps/web-antd/src/router/routes/modules/nationals.ts`
+- Updated auth/login files: `admin-panel-angel/apps/web-antd/src/api/core/supabase-auth.ts`, `admin-panel-angel/apps/web-antd/src/views/_core/authentication/login.vue`, `admin-panel-angel/apps/web-antd/src/stores/users.ts`
+
+### Task 4: Git ignore finalization for upload
+
+task: finalize admin-panel-angel gitignore for GitHub upload
+task_group: git hygiene / ignore rules
+task_outcome: success
+
+Preference signals:
+- user approved keeping shared env files trackable and only ignoring local/private overrides -> do not blanket-ignore all `.env*` files.
+- user wanted GitHub upload readiness -> ignore policy should focus on generated noise and local-only files.
+
+Reusable knowledge:
+- Current `.gitignore` intentionally keeps shared env templates/mode files visible while ignoring `.env.local` and `.env.*.local`.
+- `test-results/` and `.mcp.json` are suitable local-noise ignores for this repo.
+
+Failures and how to do differently:
+- Because the repo intentionally contains many `.env` files, a broad `.env*` ignore would have been wrong.
+- `git status --ignored` can be noisy in a repository with many untracked files; separate “ignored” from “untracked but intentionally tracked later.”
+
+References:
+- `admin-panel-angel/.gitignore`
+- `git status --ignored --short` showed `!! .mcp.json` and `!! test-results/` after the patch.
+
+### Task 5: Local dev run launch
+
+task: launch admin-panel-angel local dev server
+task_group: local dev / Vite launch
+task_outcome: partial
+
+Preference signals:
+- user asked for `pnpm dev` and then specifically `pnpm dev:local` -> use the project’s Windows-safe `pnpm.cmd` path when PowerShell blocks script execution.
+
+Reusable knowledge:
+- `admin-panel-angel/apps/web-antd` is the correct working directory for the main frontend dev app.
+- `pnpm.cmd run dev:vps` and `pnpm.cmd run dev:local` were the launch commands used successfully enough to spawn a live `node` process.
+
+Failures and how to do differently:
+- Exact listening port could not be reliably confirmed from the environment.
+- Typecheck/dev verification was limited by missing dependencies and PowerShell execution policy constraints.
+
+References:
+- Launch commands: `pnpm.cmd run dev:vps`, `pnpm.cmd run dev:local`
+- Process check: a `node` process remained alive after launch.
+
+## Thread `019e44d2-8c49-7180-9020-cc0838d8568e`
+updated_at: 2026-05-20T10:01:56+00:00
+cwd: \\?\C:\Users\user\Desktop\angel-interior
+rollout_path: C:\Users\user\.codex\sessions\2026\05\20\rollout-2026-05-20T17-58-29-019e44d2-8c49-7180-9020-cc0838d8568e.jsonl
+rollout_summary_file: 2026-05-20T09-58-29-xDsO-angel_admin_web_antd_dev_local_startup.md
+
+---
+description: Started the Angel admin panel `dev:local` app, hit a sandbox filesystem permission error on first launch, then confirmed the Vite dev server after an unrestricted retry; final listening URL was localhost:6006.
+task: run `pnpm run dev:local` for `admin-panel-angel/apps/web-antd`
+task_group: frontend-dev-server
+Task outcome: partial
+cwd: C:\Users\user\Desktop\angel-interior\admin-panel-angel\apps\web-antd
+keywords: pnpm.cmd, dev:local, Vite, development.localhost, esbuild, Access is denied, sandbox, localhost:6006, Windows
+---
+### Task 1: Start dev:local for web-antd
+
+task: run `pnpm run dev:local` in `C:\Users\user\Desktop\angel-interior\admin-panel-angel\apps\web-antd`
+task_group: frontend-dev-server
+task_outcome: partial
+
+Preference signals:
+- The user said `admin-panel-angel pnpm run dev:local this` -> treat similar requests as a direct run request, not a planning prompt.
+- The request was tied to `admin-panel-angel/apps/web-antd/.env.development.localhost` being open in the IDE -> future runs should start from the matching app directory before launching.
+
+Reusable knowledge:
+- `admin-panel-angel/apps/web-antd/package.json` has `"dev:local": "pnpm vite --mode development.localhost"`.
+- On Windows, `pnpm.cmd` worked as the shell entrypoint for the script.
+- The dev server ultimately listened on port `6006`.
+- A reliable verification path here was: run the script, then confirm a `node.exe` process is listening and its command line includes `vite`.
+
+Failures and how to do differently:
+- First launch failed with sandbox filesystem access errors from Vite/esbuild: `Cannot read directory "../../../../..": Access is denied.` and `Could not resolve "...\vite.config.mts"`.
+- Retrying outside the sandbox avoided the immediate failure; use an unrestricted run when Vite cannot read the workspace in the sandbox.
+- Do not trust unrelated listeners (for example `svchost` on port 5040); verify the owner process is the app’s `node.exe`/Vite process before reporting the URL.
+
+References:
+- `package.json` script: `dev:local = pnpm vite --mode development.localhost`
+- Error snippet: `Cannot read directory "../../../../..": Access is denied.`
+- Error snippet: `failed to load config from ...\vite.config.mts`
+- Listener evidence: `Get-NetTCPConnection ...` showed `:: 6006 26516`
+- Process evidence: `Get-CimInstance Win32_Process -Filter "ProcessId = 26516"` returned `node.exe ... vite ...`
+- Final URL: `http://localhost:6006/`
+

@@ -52,7 +52,7 @@ Run 4 research streams **in parallel** (subagents recommended) to keep the main 
 
 1. **Sample-image vision study** — read every sample image, extract per-image: page type, layout (header/hero/content/footer), color palette (3-5 hex), typography hierarchy, key components, design language. Then synthesize: unified language, outliers, per-required-page mapping table, consensus color tokens.
 2. **Mobile-design knowledge ingest** — read `MOBILE_APP_DESIGN_RECIPE.md`, `IMAGE_TO_MOBILE_APP_PIPELINE.md`, `HEADER_FOOTER_DESIGN_RULES.md`, `wrider_design_senses.md`, `USER_DNA.md`, `DESIGN_TOKENS.yaml`, `DESIGN_PSYCHOLOGY_2026.yaml`. Extract hard rules + tokens + component patterns + critical pitfalls.
-3. **Engineering recipe ingest** — read `claude-frontend/SKILL.md` + 01–13 sub-skills + `vue3-fnb-framework/skill.md` + `tailwind-design-system/skill.md`. Output recommended stack + folder tree + folder conventions + tailwind config + routing structure + Pinia store list + i18n setup + step-by-step build order.
+3. **Engineering recipe ingest** — read `claude-app/SKILL.md` + 01–13 sub-skills + `vue3-fnb-framework/skill.md` + `tailwind-design-system/skill.md`. Output recommended stack + folder tree + folder conventions + tailwind config + routing structure + Pinia store list + i18n setup + step-by-step build order.
 4. **Blueprint conventions ingest** — read `CLAUDE_BLUEPRINT_RECIPE.md`, `MASTER_BLUEPRINT.md`, `MASTER_DESIGN.md`, `BLUEPRINT_SAMPLES.md`, `SOVEREIGN_BLUEPRINT_PROTOCOL.md`. Extract the canonical BLUEPRINT.md outline.
 
 ### Phase 0.5 — Author `<project>/blueprint.md`

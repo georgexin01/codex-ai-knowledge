@@ -16,7 +16,7 @@ last_updated: "2026-04-28"
 triggers: ["keyword1", "keyword2"]
 phase: 0-orchestrator
 model_hint: gemini-3-flash
-requires: [claude-frontend, sovereign-blueprint-protocol]
+requires: [claude-app, sovereign-blueprint-protocol]
 unlocks: [generate-store, generate-views]
 mock_seed:
   entities: 20

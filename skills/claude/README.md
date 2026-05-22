@@ -8,6 +8,9 @@ version: 1.0
 
 # Claude Skills Registry (Gemini 3 Flash Hybrid Format)
 
+> **To BUILD a module, use the linear executor: [`WORKING_PROGRESS.md`](WORKING_PROGRESS.md)** — 41 numbered micro-tasks (handshake → build → publish). The skill files below are the code-vault reference it points into.
+> **DB handshake** shared with `claude-website` + `claude-app`: [`../SHARED_DB_CONTRACT.md`](../SHARED_DB_CONTRACT.md).
+
 Skills use hybrid YAML frontmatter + Markdown body for fast keyword routing and structured-output compatibility with Gemini 3 Flash.
 
 ## Frontmatter Schema
@@ -67,6 +70,7 @@ Skills use hybrid YAML frontmatter + Markdown body for fast keyword routing and 
 - [supabase-auth-architecture](supabase-auth-architecture/skill.md) — Multi-project auth schemas
 - [supabase-rls-rbac-design](supabase-rls-rbac-design.md) — RLS + RBAC + JWT hooks
 - [mcp-supabase-postgres-connection](mcp-supabase-postgres-connection.md) — MCP PostgreSQL setup
+- [VBEN_SUPABASE_LOCAL_LESSONS](VBEN_SUPABASE_LOCAL_LESSONS.md) — Local Docker gotchas + pre-flight (psql `-f`, formApi expose, RLS+permissions dual-grant, `//` storage bug, corrective migrations)
 
 ## Router Contract
 
@@ -76,4 +80,19 @@ The Gemini 3 Flash router should:
 3. Load only the matched skill's body (lazy-load — frontmatter alone is enough to route)
 4. Route to `model_hint` — `gpt-5.4-mini` for light scaffold, `gpt-5.5` for orchestration
 5. Enforce the `output_format` contract in structured-output mode
+
+## Core Principle: Reality-First Table Forging
+
+When creating or changing database tables for a website or app module:
+
+1. Research the real rendered website/app output first and treat that as the source of truth.
+2. Extract the exact visible data contract the UI truly uses.
+3. Prefer the leanest recognizable field set that fully supports the real output.
+4. Do not invent extra columns just because another project had them.
+5. Use older Vben/admin projects only as structural references for CRUD/module patterns, never as authority for field lists.
+6. Compare with similar tables in current and older projects only to confirm what is necessary, not to justify adding more fields.
+7. Keep styling-only or hardcoded presentation details out of the database unless the live UI truly needs them to vary per record.
+8. If a visible UI key exists in legacy code but the user says it is not important, re-check whether it is business data or merely presentation sugar before keeping it.
+9. When in doubt, choose fewer columns and map hardcoded presentation in the website/app layer.
+10. Goal: tables should look familiar to the user, reproduce the real module data, and avoid unrecognized or speculative fields.
 

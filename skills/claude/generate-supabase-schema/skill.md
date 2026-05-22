@@ -479,3 +479,24 @@ Save all generated SQL to `apps/web-antd/src/sql/migrations/` with numbered pref
 7. The business `users` table is separate from `public."user"` — different purposes
 8. `public."user"` must be quoted because "user" is a PostgreSQL reserved word
 
+## Applying SQL on LOCAL Docker Supabase
+
+When the target is a local Docker stack (not Studio / remote MCP), do NOT inline SQL
+with `psql -c` — PowerShell mangles double-quoted camelCase identifiers. Use a file:
+
+```bash
+docker ps --format "{{.Names}}" | grep supabase          # discover container name
+docker cp migration.sql supabase_db_local-supabase:/tmp/m.sql
+docker exec supabase_db_local-supabase psql -U postgres -d postgres -f /tmp/m.sql
+```
+
+**RLS + permissions are a DUAL grant.** An `authorize('resource','action')` RLS policy
+only passes if the role ALSO has a matching row in the `permissions` table. Generating
+the `FOR INSERT` policy is not enough — seed the `create`/`read`/`update`/`delete`
+permission rows per role too. Missing `create` rows are the usual 403 cause.
+
+**Once a table has live data**, never DROP+CREATE — add a new numbered corrective
+migration. Verify the next number against `ls migrations/ | sort | tail -1` to avoid
+collisions. See [VBEN_SUPABASE_LOCAL_LESSONS](../VBEN_SUPABASE_LOCAL_LESSONS.md) for the
+full local-Docker gotcha checklist.
+

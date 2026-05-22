@@ -1,4 +1,4 @@
----
+﻿---
 name: karpathy-guidelines
 description: Behavioral guidelines to reduce LLM coding mistakes by enforcing assumptions clarity, simplicity, surgical edits, and verifiable goals.
 license: MIT
@@ -47,7 +47,7 @@ Tradeoff: This skill prioritizes correctness and clarity over raw speed. For tri
 
 ## Response Footer Requirement
 
-Every final response must include a Karpathy compliance block with exactly these four checks:
+Every final response must pass an internal Karpathy compliance review with exactly these four checks:
 
 - `Assumptions surfaced`
 - `Simplicity preserved`
@@ -56,10 +56,12 @@ Every final response must include a Karpathy compliance block with exactly these
 
 Per-check format:
 
-- status must be `pass | fail | n/a`
-- include one short evidence line
+- status must be `pass | fail | n/a` internally
+- keep the review hidden by default unless the user explicitly asks to see it
+- if a failed check cannot be self-corrected, surface the unresolved blocker in the visible reply
 
 Failure handling:
 
 - if any check is `fail`, self-correct before finalizing
 - if self-correction is not possible, explicitly declare unresolved blocker
+

@@ -1,4 +1,4 @@
-# Reasoning Evolution Protocol v1
+﻿# Reasoning Evolution Protocol v1
 
 This protocol upgrades reasoning quality while preserving speed.
 
@@ -43,16 +43,23 @@ This protocol upgrades reasoning quality while preserving speed.
   - what was verified
   - what remains uncertain
 
+11. Drift Guard Checkpoint
+- On any task running past ~2-3 minutes, periodically (every 3-5 tool batches or at each phase boundary) re-read the user's original request — "the Anchor".
+- Compare current work to the Anchor: classify `on-track` / `minor-drift` / `major-drift`.
+- On `major-drift`: stop, revert to last on-track state, restate the Anchor, resume only what was asked.
+- Full rule: `memories/2_governance/DRIFT_GUARD_PROTOCOL.md`.
+
 ## Runtime Profile
 
-- Routine tasks: apply rules 1, 2, 8, 10 in compact form.
-- Medium tasks: apply rules 1-3, 5, 8-10.
-- Deep/high-risk tasks: apply all 10 rules.
+- Routine tasks: apply rules 1, 2, 8, 10 in compact form (add 11 if the task runs long).
+- Medium tasks: apply rules 1-3, 5, 8-11.
+- Deep/high-risk tasks: apply all 11 rules.
 
 ## Output Discipline
 
 - Keep responses concise by default; add depth when risk or user intent requires it.
 - Do not present inference as fact.
 - Prefer actionable conclusions over abstract commentary.
-- Karpathy compliance block is mandatory in final outputs.
+- Run the Karpathy compliance review internally before final outputs; show it only when the user explicitly asks or an unresolved blocker must be surfaced.
 - Keep compliance evidence aligned to the evidence ladder: file state > tests > logs > memory > inference.
+

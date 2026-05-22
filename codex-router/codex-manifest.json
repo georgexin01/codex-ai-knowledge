@@ -1,5 +1,5 @@
 ﻿{
-    "generated_utc":  "2026-05-18T09:16:59.6627118Z",
+    "generated_utc":  "2026-05-21T07:44:44.3335948Z",
     "codex_root":  "C:\\Users\\user\\.codex",
     "config_path":  "C:\\Users\\user\\.codex\\codex-router\\router-config.json",
     "boot_profile":  "ultra-lean",
@@ -15,7 +15,7 @@
                       "rel":  "skills"
                   }
               ],
-    "indexed_files":  446,
+    "indexed_files":  344,
     "entries":  [
                     {
                         "kind":  "knowledge",
@@ -83,9 +83,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "MEMORY.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\MEMORY.md",
-                        "size":  29255,
-                        "last_write_utc":  "2026-05-18T06:01:29.1885442Z",
-                        "sha256":  "8E49CB344BC877637FB4898D157064160D3157334630AF30D34C58BBCD545BB9"
+                        "size":  17185,
+                        "last_write_utc":  "2026-05-21T03:40:49.2932814Z",
+                        "sha256":  "AB64D940601BAFC47F6E2A542DFB73888C0BE75F820D11BBE0C98EF8E72F2AB8"
                     },
                     {
                         "kind":  "knowledge",
@@ -93,9 +93,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "memory_summary.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\memory_summary.md",
-                        "size":  14612,
-                        "last_write_utc":  "2026-05-18T06:01:42.8015334Z",
-                        "sha256":  "62203E0F1ACAC65F15B257D4728E4C85062FC509752B99EABDDAC5CD03CD9898"
+                        "size":  15216,
+                        "last_write_utc":  "2026-05-21T03:42:02.0476089Z",
+                        "sha256":  "3A7BAD32560F5DC14B033B614C107CAAB6581384F800BEE8613975951D401049"
                     },
                     {
                         "kind":  "knowledge",
@@ -103,9 +103,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "MOBILE_APP_DESIGN_RECIPE.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\MOBILE_APP_DESIGN_RECIPE.md",
-                        "size":  62188,
-                        "last_write_utc":  "2026-05-14T10:17:08.2114884Z",
-                        "sha256":  "4344FA51BCF9509737C62FA7DF03E5A676B07C3456DE51071DFE15CB1C5A94BB"
+                        "size":  44541,
+                        "last_write_utc":  "2026-05-21T03:39:21.8182693Z",
+                        "sha256":  "F8FE31E48523B2E4F6589E77FC489E8AF34520F7F298850B6B181DD10F965DB4"
                     },
                     {
                         "kind":  "knowledge",
@@ -123,9 +123,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "raw_memories.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\raw_memories.md",
-                        "size":  25833,
-                        "last_write_utc":  "2026-05-18T07:17:04.7386806Z",
-                        "sha256":  "8EF233454E8E5D1473FF909BBEE0D839760D575128469BBABE3DF8651BA0CF62"
+                        "size":  41919,
+                        "last_write_utc":  "2026-05-21T06:21:38.8584739Z",
+                        "sha256":  "A0A7A4976961DC8487C0F48FB53163797C818F04526803A9997A0BE932264246"
                     },
                     {
                         "kind":  "knowledge",
@@ -133,1229 +133,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "USER_DNA.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\USER_DNA.md",
-                        "size":  3601,
-                        "last_write_utc":  "2026-05-18T03:57:30.8042722Z",
-                        "sha256":  "C13914F7B6870350439B07002210113D052FEC1938EB0FE3ABDE17416BD1BA29"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "wrider_chat_mining.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\wrider_chat_mining.md",
-                        "size":  5977,
-                        "last_write_utc":  "2026-05-05T07:38:36.6842166Z",
-                        "sha256":  "DB27F1545E5939971277374C9116DE9601B21B14ECAC6B00C63B8B03021FBB41"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "wrider_complete_recipe.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\wrider_complete_recipe.md",
-                        "size":  43609,
-                        "last_write_utc":  "2026-05-05T08:05:15.1603669Z",
-                        "sha256":  "987AB179E6D3DB5D643F5957B142837E833A5F4E6E00E4D9FD183A0DFFA3F808"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "wrider_design_senses.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\wrider_design_senses.md",
-                        "size":  16213,
-                        "last_write_utc":  "2026-05-05T07:37:51.6487506Z",
-                        "sha256":  "664BE08DCAD00364921D6171B026951EC92EA8E7D3D504F66AEEDB15A8B9C461"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\config",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\config",
-                        "size":  165,
-                        "last_write_utc":  "2026-05-18T06:02:16.3685345Z",
-                        "sha256":  "B469625882FD1F1F9351937C7239A647D0E7056C49866B4E0EBAB536FA554CEA"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\description",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\description",
-                        "size":  77,
-                        "last_write_utc":  "2026-05-18T06:02:16.3575348Z",
-                        "sha256":  "47AAD2F8621AFC777C66085C31F5ED14656DF9BCFA5A2AE445680F175D0D2D0C"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\HEAD",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\HEAD",
-                        "size":  23,
-                        "last_write_utc":  "2026-05-18T06:02:16.3725351Z",
-                        "sha256":  "F6F2B945F6C411B02BA3DA9C7ACE88DCF71B6AF65BA2E0D89AA82900042B5A10"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\hooks\\applypatch-msg.sample",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\hooks\\applypatch-msg.sample",
-                        "size":  1154,
-                        "last_write_utc":  "2026-05-18T06:02:16.3555341Z",
-                        "sha256":  "1AE81B995A5C8C54582E1977084BABED1E947A5A5C247AD29563142E432955AB"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\hooks\\commit-msg.sample",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\hooks\\commit-msg.sample",
-                        "size":  1274,
-                        "last_write_utc":  "2026-05-18T06:02:16.3545342Z",
-                        "sha256":  "B1451A4C89EE4406BA56F003A7E3D142E24A7452861FDDDDC23BFC77163C8650"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\hooks\\docs.url",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\hooks\\docs.url",
-                        "size":  34,
-                        "last_write_utc":  "2026-05-18T06:02:16.3515341Z",
-                        "sha256":  "4424200FB80650F5063A3EC0A3864AF4AAA3103F1319FE576B64D3BFC74F8A67"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\hooks\\fsmonitor-watchman.sample",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\hooks\\fsmonitor-watchman.sample",
-                        "size":  779,
-                        "last_write_utc":  "2026-05-18T06:02:16.3545342Z",
-                        "sha256":  "99ED87D785ADA3687B4D86B8D9AA562F3430CE7061834E5381166B6A35A0D495"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\hooks\\post-update.sample",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\hooks\\post-update.sample",
-                        "size":  570,
-                        "last_write_utc":  "2026-05-18T06:02:16.3545342Z",
-                        "sha256":  "E6D88132DE729F20C45F66C2DF51CC2E223A4B8B1512A2CE1CFDD0033EE53E53"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\hooks\\pre-applypatch.sample",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\hooks\\pre-applypatch.sample",
-                        "size":  1355,
-                        "last_write_utc":  "2026-05-18T06:02:16.3535341Z",
-                        "sha256":  "4C9754CAC1C73109E4113FFD76070AE528A42667A85135E87FB826D572D13A4C"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\hooks\\pre-commit.sample",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\hooks\\pre-commit.sample",
-                        "size":  799,
-                        "last_write_utc":  "2026-05-18T06:02:16.3535341Z",
-                        "sha256":  "1DD0FB2A11956784EB184E72AF2FD87FECA9050903400F163B90D4DB7F19CE78"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\hooks\\pre-merge-commit.sample",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\hooks\\pre-merge-commit.sample",
-                        "size":  716,
-                        "last_write_utc":  "2026-05-18T06:02:16.3535341Z",
-                        "sha256":  "FCA192309544E8E23638BD0987BE7A5D00E271599B55382C1C6A4812070DA223"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\hooks\\pre-push.sample",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\hooks\\pre-push.sample",
-                        "size":  2002,
-                        "last_write_utc":  "2026-05-18T06:02:16.3525339Z",
-                        "sha256":  "57A2BF01F65B4C57180E96CD31FF737BD2C25A15AD483CAB012A88994120DFAB"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\hooks\\pre-rebase.sample",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\hooks\\pre-rebase.sample",
-                        "size":  1604,
-                        "last_write_utc":  "2026-05-18T06:02:16.3525339Z",
-                        "sha256":  "D7C629DDBAA5F984D21C97A14889599D2019230220D3459AA103648316500968"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\hooks\\prepare-commit-msg.sample",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\hooks\\prepare-commit-msg.sample",
-                        "size":  1918,
-                        "last_write_utc":  "2026-05-18T06:02:16.3515341Z",
-                        "sha256":  "F804B4EFD22EF832B49506A815A6A6B1103B8F77B6D6556FC3756232727396D8"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\info\\exclude",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\info\\exclude",
-                        "size":  269,
-                        "last_write_utc":  "2026-05-18T06:02:16.3505344Z",
-                        "sha256":  "03F34BB198C0D7E18F31E8C4E39470EC222F62A01F2BF4AD24D0438A5C43A32D"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\logs\\HEAD",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\logs\\HEAD",
-                        "size":  174,
-                        "last_write_utc":  "2026-05-18T06:02:16.7062417Z",
-                        "sha256":  "1AF5C8C3EDDF5C7D414CE83249ADC369C246CFDC9D96592240908AAE92579B00"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\logs\\refs\\heads\\master",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\logs\\refs\\heads\\master",
-                        "size":  174,
-                        "last_write_utc":  "2026-05-18T06:02:16.7082389Z",
-                        "sha256":  "1AF5C8C3EDDF5C7D414CE83249ADC369C246CFDC9D96592240908AAE92579B00"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\00\\ca4ef137b3ac26962bf94762f557b777f72608",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\00\\ca4ef137b3ac26962bf94762f557b777f72608",
-                        "size":  1509,
-                        "last_write_utc":  "2026-05-18T06:02:16.6329724Z",
-                        "sha256":  "AE799105161362483C6D00860548E5F602120FFCA09D899AF25EDAFD190E82BE"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\05\\0a0d892055e741804da7eefd1c73210bd6a696",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\05\\0a0d892055e741804da7eefd1c73210bd6a696",
-                        "size":  410,
-                        "last_write_utc":  "2026-05-18T06:02:16.6612388Z",
-                        "sha256":  "E6E159472D171668D58310BB9818033376DE87072D147C9D933BD0F6448081A6"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\05\\b1156bb012178785bdacefde20a357f0abdbc6",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\05\\b1156bb012178785bdacefde20a357f0abdbc6",
-                        "size":  390,
-                        "last_write_utc":  "2026-05-18T06:02:16.4899385Z",
-                        "sha256":  "3A50FD95B7A19075B7D8A974CF4FCD3895D777A111CFF3903FC4620100FD4DB4"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\07\\1e0c804282cfaabef8b1abd40bcb4164ef8d83",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\07\\1e0c804282cfaabef8b1abd40bcb4164ef8d83",
-                        "size":  54,
-                        "last_write_utc":  "2026-05-18T06:02:16.6822406Z",
-                        "sha256":  "447C582964F385BB5950001BF04954CA194F6E768D42448AA0738A855C5AB4E6"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\0a\\f36a052925ff93b04e9d96e78b0944569bb445",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\0a\\f36a052925ff93b04e9d96e78b0944569bb445",
-                        "size":  1951,
-                        "last_write_utc":  "2026-05-18T06:02:16.5199406Z",
-                        "sha256":  "57EDBC1185B4481B55B2CC5127A0CF8C455F4A5A8089FED58AF9610F7F0D20B6"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\0b\\a079cffb33c8e75e2c4e544287b23a03e2b147",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\0b\\a079cffb33c8e75e2c4e544287b23a03e2b147",
-                        "size":  2268,
-                        "last_write_utc":  "2026-05-18T06:02:16.4809395Z",
-                        "sha256":  "BF90917EC9FA61228A5D7D904C0B6568DE97B39C132A78819531E67331D5E200"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\0f\\29570dd6dd10904fbd43b7388442092830f872",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\0f\\29570dd6dd10904fbd43b7388442092830f872",
-                        "size":  2710,
-                        "last_write_utc":  "2026-05-18T06:02:16.6862698Z",
-                        "sha256":  "28DEAA2A69668DF676922428E31B1BE579D669EFEF85D02F42B8803A82B2DB9F"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\11\\7eaef351c96995bc75d45d469b8d16297da00a",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\11\\7eaef351c96995bc75d45d469b8d16297da00a",
-                        "size":  19938,
-                        "last_write_utc":  "2026-05-18T06:02:16.5839400Z",
-                        "sha256":  "93EC7D9FA26D3F0B34F1193199DC7E841A67F9FB7DD4CA7388E2EAB0CA4ED52A"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\14\\15db15f11676970fca9240099dcf24c5db2f6b",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\14\\15db15f11676970fca9240099dcf24c5db2f6b",
-                        "size":  7879,
-                        "last_write_utc":  "2026-05-18T06:02:16.5909398Z",
-                        "sha256":  "3B69CE017F592F9909B03B653A1D8905EB6B18AD79FB234471DE274065603361"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\16\\73a7c7e7ac7d8be0b301bed0404ba1b331a01c",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\16\\73a7c7e7ac7d8be0b301bed0404ba1b331a01c",
-                        "size":  1089,
-                        "last_write_utc":  "2026-05-18T06:02:16.6259721Z",
-                        "sha256":  "058DC00A1CBFA95077AE140BB3F171BC071B5D25AD91331BB5C8E6C965A549C2"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\16\\891d72c19392a9f92a346235369549e3690bdd",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\16\\891d72c19392a9f92a346235369549e3690bdd",
-                        "size":  4781,
-                        "last_write_utc":  "2026-05-18T06:02:16.5319395Z",
-                        "sha256":  "F5DE5C7FD2DFE0DEA3E3D525F6323363DD0EB224050CC552E7E5ACD1E30DDB82"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\1a\\5245db16532b0176d49bed5d5835982ec37074",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\1a\\5245db16532b0176d49bed5d5835982ec37074",
-                        "size":  1206,
-                        "last_write_utc":  "2026-05-18T06:02:16.4337953Z",
-                        "sha256":  "441E634C4BEB8A0D374DE1221860BAEC2F8910A63F865BFD99A68B5EF8EF6FD3"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\1c\\952a8d7576a5004dcb6f28300f11144f51d2f9",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\1c\\952a8d7576a5004dcb6f28300f11144f51d2f9",
-                        "size":  3757,
-                        "last_write_utc":  "2026-05-18T06:02:16.6892380Z",
-                        "sha256":  "B78B308B42C903D7232AD4807217C4303224E5D0902102C4E16B3CD9C12BAD51"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\1f\\9342e26f6811e25d3cda19e8c76830edf81c2b",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\1f\\9342e26f6811e25d3cda19e8c76830edf81c2b",
-                        "size":  166,
-                        "last_write_utc":  "2026-05-18T06:02:16.7012387Z",
-                        "sha256":  "B3C6B5A261411E6981E0A5B41D6FBEE54830EEECD78E5810C1242A55B99309B1"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\1f\\9b0ba0ce81ea66e76c7e79e5bf1c8ccaca9ed7",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\1f\\9b0ba0ce81ea66e76c7e79e5bf1c8ccaca9ed7",
-                        "size":  3968,
-                        "last_write_utc":  "2026-05-18T06:02:16.6456354Z",
-                        "sha256":  "2C077D958D21F6B0B5C3A250B0B9459606080CF3AE79334B79FD451938F79AB2"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\20\\cc956932c7f92fd7cf0fc7d6a1d6943a505e5b",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\20\\cc956932c7f92fd7cf0fc7d6a1d6943a505e5b",
-                        "size":  51,
-                        "last_write_utc":  "2026-05-18T06:02:16.5729406Z",
-                        "sha256":  "BC6636E763C73CD5E30065FFB60DEAE3F90F6D028C7C6187931FD45555FBA9B6"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\23\\c5b23c99a9e7706fadf518cdf502498063adcb",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\23\\c5b23c99a9e7706fadf518cdf502498063adcb",
-                        "size":  798,
-                        "last_write_utc":  "2026-05-18T06:02:16.6672380Z",
-                        "sha256":  "A927F60DB9D55131DBBAE45EB5EE94D7D3789200A774D744411B3CEDBC9F0322"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\26\\cc2566e3b1542ed00c5ce1f90c85f057dfb32b",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\26\\cc2566e3b1542ed00c5ce1f90c85f057dfb32b",
-                        "size":  2154,
-                        "last_write_utc":  "2026-05-18T06:02:16.4539405Z",
-                        "sha256":  "78ED28498964587CB4D75352E17453DA6564F139649D769040DDF1FBC8A0E27F"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\27\\8af61bdc8d59a3bebf0756593f678f6cf50032",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\27\\8af61bdc8d59a3bebf0756593f678f6cf50032",
-                        "size":  6546,
-                        "last_write_utc":  "2026-05-18T06:02:16.4709396Z",
-                        "sha256":  "FC6ABC1CD43B4D9BDFB65788ABE54EDD1D01571154751D2BD8B8D482DD00FD33"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\2a\\12c28d4978cc51d149cad9a55bd80dd66aa610",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\2a\\12c28d4978cc51d149cad9a55bd80dd66aa610",
-                        "size":  2979,
-                        "last_write_utc":  "2026-05-18T06:02:16.4749407Z",
-                        "sha256":  "AB78413D07834548AF89F47DFECBAC54D166F66D2598CF3B47E5D87204197CF0"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\2f\\1bfcf120ef0628dbd3655a0b123706ee63a89d",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\2f\\1bfcf120ef0628dbd3655a0b123706ee63a89d",
-                        "size":  458,
-                        "last_write_utc":  "2026-05-18T06:02:16.4267953Z",
-                        "sha256":  "D4E002B389C7177F6835995DB6917FF571BB7E2E068A16323DE245271E9A12A6"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\34\\24f2a47f26910f0ed3363fe9d57bd469d54793",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\34\\24f2a47f26910f0ed3363fe9d57bd469d54793",
-                        "size":  2093,
-                        "last_write_utc":  "2026-05-18T06:02:16.4609413Z",
-                        "sha256":  "3111084488D33F81AC6BD1F5D13C47980393E673A0213B9BA55D113279018547"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\34\\7384f1fced132e1969b3da652d7e3550a07d9a",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\34\\7384f1fced132e1969b3da652d7e3550a07d9a",
-                        "size":  10136,
-                        "last_write_utc":  "2026-05-18T06:02:16.6962382Z",
-                        "sha256":  "AA9542D37C7B6D2B7AF7C793096D10BF4E7C3E3DA1D05AE2EDC1EC4DDD414522"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\35\\4ac4f1be5d2fc8bd1979aaf6747490b422e0bb",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\35\\4ac4f1be5d2fc8bd1979aaf6747490b422e0bb",
-                        "size":  12966,
-                        "last_write_utc":  "2026-05-18T06:02:16.5869399Z",
-                        "sha256":  "56FE883A307AA30B2C150F10E28CE4A22169FD3B23476B562C43F8380D47D763"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\37\\3b81f5d4a869a58bb9f06730ee659bddfc6e54",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\37\\3b81f5d4a869a58bb9f06730ee659bddfc6e54",
-                        "size":  1440,
-                        "last_write_utc":  "2026-05-18T06:02:16.6059459Z",
-                        "sha256":  "789FA2EAA27A43F67D1A97ADB0218F44F79ADB68A5DF309221EBB46C0B3E35F2"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\37\\6935b5cbaf79601a9578075d3ed87d6b03174e",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\37\\6935b5cbaf79601a9578075d3ed87d6b03174e",
-                        "size":  23015,
-                        "last_write_utc":  "2026-05-18T06:02:16.6922698Z",
-                        "sha256":  "3A5B968E0111446F28AB978B38D54211DA5AF59AB0321A8C098EE51039ED7ED2"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\38\\9a8ca5adbff16aa070319cc50690a3abf1d0c4",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\38\\9a8ca5adbff16aa070319cc50690a3abf1d0c4",
-                        "size":  1104,
-                        "last_write_utc":  "2026-05-18T06:02:16.6229466Z",
-                        "sha256":  "42293532038199838A9835AC39CF603F8CEE3B312935C488728D191734608A5F"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\3b\\ee871a0fe7c7bcbb6c7159b2d0b437e05aec55",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\3b\\ee871a0fe7c7bcbb6c7159b2d0b437e05aec55",
-                        "size":  1521,
-                        "last_write_utc":  "2026-05-18T06:02:16.4077939Z",
-                        "sha256":  "E9630C1B67C7C118987337120CD0FFAF932ED629812624455088E1D4D4122765"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\3d\\b8e4516ec0055d58ad1680f92687feb2e7d84b",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\3d\\b8e4516ec0055d58ad1680f92687feb2e7d84b",
-                        "size":  4889,
-                        "last_write_utc":  "2026-05-18T06:02:16.6099405Z",
-                        "sha256":  "61FDA04A60DB8FBED886370010B1603646FCD98806B27D2C018B7DAF97928E25"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\42\\80b44ed537b5b4304dac156afc69ead107b326",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\42\\80b44ed537b5b4304dac156afc69ead107b326",
-                        "size":  61,
-                        "last_write_utc":  "2026-05-18T06:02:16.5699412Z",
-                        "sha256":  "F965ECAF65A2CE4FDE9C8D4DA8CBFF66861F4449E010DBCDD41BBDF75AF86069"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\42\\855a9a5c6c667802490a7685bad2894bd5b517",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\42\\855a9a5c6c667802490a7685bad2894bd5b517",
-                        "size":  256,
-                        "last_write_utc":  "2026-05-18T06:02:16.5049387Z",
-                        "sha256":  "5DE2E70DBF2613791B5CD055710435A1DC1F354418FB140D1CE9AFF49A771053"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\42\\a2c52ae3922c854744f732757fcb482f689c67",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\42\\a2c52ae3922c854744f732757fcb482f689c67",
-                        "size":  2326,
-                        "last_write_utc":  "2026-05-18T06:02:16.4639400Z",
-                        "sha256":  "A3D1C2FFC903CAA3FEA2529B8458E5FCCBEB14BE50D3DD80A3508EC62D1E0612"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\43\\aa21e0d54c192f6cd2dd7c2206fc78fc084dc8",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\43\\aa21e0d54c192f6cd2dd7c2206fc78fc084dc8",
-                        "size":  54,
-                        "last_write_utc":  "2026-05-18T06:02:16.6732413Z",
-                        "sha256":  "98FFAF49EFB6DE3D7F762E5C041436BDDB269F4142D935F942D59BB420DD97C0"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\44\\63b466e63e7088ad7cdc10121ca988c7912c28",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\44\\63b466e63e7088ad7cdc10121ca988c7912c28",
-                        "size":  4334,
-                        "last_write_utc":  "2026-05-18T06:02:16.5259385Z",
-                        "sha256":  "9EA1DFF263B01F7673A8F36C901D3D82DFC1BDEB7BDFC8A59FED9F80A9C69F73"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\44\\d934569d7f56a95eb03f0760d7a591aa42b3f6",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\44\\d934569d7f56a95eb03f0760d7a591aa42b3f6",
-                        "size":  11986,
-                        "last_write_utc":  "2026-05-18T06:02:16.6426026Z",
-                        "sha256":  "96C7F7B73B0767AA75A7A8A214E4314F61CC2A7865208C1142AB4E6367A30C7A"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\45\\2b61a7afb736f40d6933e47bec7ce0cb792b1e",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\45\\2b61a7afb736f40d6933e47bec7ce0cb792b1e",
-                        "size":  4308,
-                        "last_write_utc":  "2026-05-18T06:02:16.5379394Z",
-                        "sha256":  "1EF946F6DC23CBEFB85C18C1FEAA81F45C08446631D598DD38FB3B22DFAD7318"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\47\\156738fb1d0c1ecba162567b9bee6aac709a10",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\47\\156738fb1d0c1ecba162567b9bee6aac709a10",
-                        "size":  17083,
-                        "last_write_utc":  "2026-05-18T06:02:16.5769401Z",
-                        "sha256":  "A5817F960AB699597843EEB847CC6BE4E15E9DD9B70447590A162AF08E0B4782"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\48\\5930f8b31b4098aeede0a0dee369609c29cac6",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\48\\5930f8b31b4098aeede0a0dee369609c29cac6",
-                        "size":  574,
-                        "last_write_utc":  "2026-05-18T06:02:16.3805339Z",
-                        "sha256":  "136122E5B8ED57BD61B043B168D7D259A0379E35DC555D65D265EA463DECF212"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\4b\\77803afca75a9f7afdf7c504d32b3e2f62e0d6",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\4b\\77803afca75a9f7afdf7c504d32b3e2f62e0d6",
-                        "size":  1713,
-                        "last_write_utc":  "2026-05-18T06:02:16.4107944Z",
-                        "sha256":  "46CAAB22F4C3EC82EDDA77356DBA31CDFDE40102AACC42057D2C9E3B0288BD16"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\4e\\c4e6caaf2ec2ce44629640243a78fb58814217",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\4e\\c4e6caaf2ec2ce44629640243a78fb58814217",
-                        "size":  137,
-                        "last_write_utc":  "2026-05-18T06:02:16.5159421Z",
-                        "sha256":  "B647FAA1FABD47A38E8FC3604C10D0AA25D0211F6E2D0714423773D8A7196475"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\4f\\237c002e1ec2bc6ff986bdca265109776f07ce",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\4f\\237c002e1ec2bc6ff986bdca265109776f07ce",
-                        "size":  1992,
-                        "last_write_utc":  "2026-05-18T06:02:16.6546088Z",
-                        "sha256":  "F8501509C7CAB0C6CDC79D686B1B42A4E58479582B73063BE3E80F74AC2C24C2"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\51\\6e60fc64f6d058ddf48e0667a546fb6350839f",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\51\\6e60fc64f6d058ddf48e0667a546fb6350839f",
-                        "size":  1909,
-                        "last_write_utc":  "2026-05-18T06:02:16.4839396Z",
-                        "sha256":  "2217881AA3E3237375CA4EBA424EB6C4F983D44DD871DF7FEAEBCE92286D7F04"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\52\\95dc902f869e1036d19c28acb53aff85a9c42f",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\52\\95dc902f869e1036d19c28acb53aff85a9c42f",
-                        "size":  35183,
-                        "last_write_utc":  "2026-05-18T06:02:16.5959467Z",
-                        "sha256":  "B0EADF0ACEF4154F5474D0068FA8F0ECA7AD2CB4ECAA2A2B2353529E16244723"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\52\\e2fd11b27328e2bb74daaa99e4cc51e83239f2",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\52\\e2fd11b27328e2bb74daaa99e4cc51e83239f2",
-                        "size":  1679,
-                        "last_write_utc":  "2026-05-18T06:02:16.5349390Z",
-                        "sha256":  "1F0EF6F7BB8F96D3F135F3D19785ADBFEC564A0C39BCA1E816703389F6141250"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\57\\1123a05abcad6994422cf72ac885441f4d8255",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\57\\1123a05abcad6994422cf72ac885441f4d8255",
-                        "size":  1512,
-                        "last_write_utc":  "2026-05-18T06:02:16.4394017Z",
-                        "sha256":  "A1F8EB1936D90196F62C18984039D2CD613D52998463D0F0E5B44AA23E7BAAAF"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\5d\\092ffe979c8c199a33764ecba54907f9b9ce99",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\5d\\092ffe979c8c199a33764ecba54907f9b9ce99",
-                        "size":  69,
-                        "last_write_utc":  "2026-05-18T06:02:16.6792724Z",
-                        "sha256":  "F507796D3CB68834C33E84AB3ECEBDD490053455D77715F4F1A1004840CEB425"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\5d\\9066d9f11b96a2f1a29796c170041fa5f3293b",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\5d\\9066d9f11b96a2f1a29796c170041fa5f3293b",
-                        "size":  1791,
-                        "last_write_utc":  "2026-05-18T06:02:16.5599420Z",
-                        "sha256":  "00088007516F831E4DF52E656421A3CA97B522594FF4E24CED79F64F8FBF1EB9"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\63\\a0b1554928af1ff3974a9b62e662e701b4027a",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\63\\a0b1554928af1ff3974a9b62e662e701b4027a",
-                        "size":  192,
-                        "last_write_utc":  "2026-05-18T06:02:16.4137936Z",
-                        "sha256":  "1888CEB58459BF7E3278D4FBD577CCFAC6AB4EFAE4EDADA00FB7353766C4E6A5"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\64\\b7abd49fd95a4f6a6ee656a431f83b382af9c8",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\64\\b7abd49fd95a4f6a6ee656a431f83b382af9c8",
-                        "size":  14482,
-                        "last_write_utc":  "2026-05-18T06:02:16.6289728Z",
-                        "sha256":  "9B40145F4961D68E7B13F62627FC49A7D318C7776E0C9C8A8CF9555803A43BE5"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\65\\53b9201adfb81e6e903f29cbfefdf543f67312",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\65\\53b9201adfb81e6e903f29cbfefdf543f67312",
-                        "size":  1247,
-                        "last_write_utc":  "2026-05-18T06:02:16.5409394Z",
-                        "sha256":  "2BF9F57916331BA0C8A5A412C72695DEF98E2B95C4C0B01C5A5196EA0E0650C7"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\65\\b2eadacef5f9df07aa94443e6fe0a9df56c70f",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\65\\b2eadacef5f9df07aa94443e6fe0a9df56c70f",
-                        "size":  2074,
-                        "last_write_utc":  "2026-05-18T06:02:16.4297954Z",
-                        "sha256":  "9EC15901E89C4141932B02CEE79EC721F3166017176E7FDC6B3C984494EBA3E2"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\6b\\bcd62ccb8991d1a1887e84b141f870ce24b72b",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\6b\\bcd62ccb8991d1a1887e84b141f870ce24b72b",
-                        "size":  1425,
-                        "last_write_utc":  "2026-05-18T06:02:16.4569406Z",
-                        "sha256":  "5548FAC166709F6FFBBEDA1002D5144F1662AEAD926DDDD59D50B05B553CB81A"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\73\\eb9015ec6734d770b4c53d6065d07e04416bc5",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\73\\eb9015ec6734d770b4c53d6065d07e04416bc5",
-                        "size":  10429,
-                        "last_write_utc":  "2026-05-18T06:02:16.5569418Z",
-                        "sha256":  "7E0AC31F936316511C0480BB43665D74881FCB0A9FEDE01D68274E9EB1D32A42"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\74\\f38ae33d89c64b1df871a6c7c8bc19423d185a",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\74\\f38ae33d89c64b1df871a6c7c8bc19423d185a",
-                        "size":  5947,
-                        "last_write_utc":  "2026-05-18T06:02:16.3775348Z",
-                        "sha256":  "316831AB8F7981298D9BDF56185EDC8EBCDD37C84E022213FBDD4B12A569AC4D"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\75\\463f050a684cf00ea74350d54d8cfe925a9441",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\75\\463f050a684cf00ea74350d54d8cfe925a9441",
-                        "size":  2305,
-                        "last_write_utc":  "2026-05-18T06:02:16.4011714Z",
-                        "sha256":  "CA9ED28F408A0CE9DD20AFDDB82EF58DB3EC1E99FCA3A492B149A33238349942"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\7e\\00930c983efcf251aa47b15859ba0ad9afc281",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\7e\\00930c983efcf251aa47b15859ba0ad9afc281",
-                        "size":  1189,
-                        "last_write_utc":  "2026-05-18T06:02:16.6772386Z",
-                        "sha256":  "1A0D0CF30EF1BC0657AA568DDF4921143CBBFE59511FEE5CB8F459B4DA29837E"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\81\\27cc0731e84f52a0c059e877e1e956b42e2c49",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\81\\27cc0731e84f52a0c059e877e1e956b42e2c49",
-                        "size":  887,
-                        "last_write_utc":  "2026-05-18T06:02:16.5079394Z",
-                        "sha256":  "5F846D0FC3035A41EA028F5BDB42CDD02B59961D16C94F0082572D7809878D30"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\89\\a5c8c524340f7631ff4cd368b17b2414db4701",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\89\\a5c8c524340f7631ff4cd368b17b2414db4701",
-                        "size":  570,
-                        "last_write_utc":  "2026-05-18T06:02:16.6349725Z",
-                        "sha256":  "F64057547F8CD3E1F47B7064FFB27F0A9A6DAAB0227A82DD86F49D7EB1D93189"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\89\\c1d52e88222a7919c821fc49a6678e6a4d6125",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\89\\c1d52e88222a7919c821fc49a6678e6a4d6125",
-                        "size":  3666,
-                        "last_write_utc":  "2026-05-18T06:02:16.4037885Z",
-                        "sha256":  "353ECE77F526BC61A07B7C1AC8DDA7CF38E71EDBA3E34B7F51E29909671DC82E"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\8a\\1d2d5a46034916fb33250b56f6ddbe8b5d2502",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\8a\\1d2d5a46034916fb33250b56f6ddbe8b5d2502",
-                        "size":  2682,
-                        "last_write_utc":  "2026-05-18T06:02:16.6516346Z",
-                        "sha256":  "3B4118AC9902E02709A9F3E62EA87731041746E74A34C935B2567F220AAF89D1"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\8a\\3ac71ddf7923d4ad4e30954251008fa7fca3e4",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\8a\\3ac71ddf7923d4ad4e30954251008fa7fca3e4",
-                        "size":  561,
-                        "last_write_utc":  "2026-05-18T06:02:16.4989403Z",
-                        "sha256":  "6C04F2BD8363F10EBAF920965816E2BE4FF51B247DC21A33115FA7F05E874C89"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\8b\\372eab22889e8a7057c98fb71234e5bcfb8226",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\8b\\372eab22889e8a7057c98fb71234e5bcfb8226",
-                        "size":  112,
-                        "last_write_utc":  "2026-05-18T06:02:16.6702382Z",
-                        "sha256":  "329A3AD1A7BD840F5FA146C7D31F172B87EE3868C00AABE4BE44573706EB97E6"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\8c\\176e796e7657e7bfed8ef3c21525e92c82c46c",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\8c\\176e796e7657e7bfed8ef3c21525e92c82c46c",
-                        "size":  1736,
-                        "last_write_utc":  "2026-05-18T06:02:16.3905348Z",
-                        "sha256":  "5A3AC6B1EA83E7754B6B3BE4CE41B8CC65D93C3E83A016963009447DEF8F0737"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\8c\\2cbca5ed33adb6bbf4da66c96a6820cb9e9757",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\8c\\2cbca5ed33adb6bbf4da66c96a6820cb9e9757",
-                        "size":  703,
-                        "last_write_utc":  "2026-05-18T06:02:16.4493989Z",
-                        "sha256":  "41785084002890380C8AE05EC67E7ABFD16BB78851139540B073CF204AFFABC6"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\91\\d850ee89c39d158aee3c787438605111cf2526",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\91\\d850ee89c39d158aee3c787438605111cf2526",
-                        "size":  8240,
-                        "last_write_utc":  "2026-05-18T06:02:16.5799396Z",
-                        "sha256":  "8EE9224FA333AE374BD31C10863D4C64C805F4790830A8637D2A322061B4B014"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\93\\eb15032153871f22ca23b1b73ad6ae1a33c6c1",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\93\\eb15032153871f22ca23b1b73ad6ae1a33c6c1",
-                        "size":  1861,
-                        "last_write_utc":  "2026-05-18T06:02:16.4207952Z",
-                        "sha256":  "34C3E22E344E08010168135F9E90ACF86296D687BA02A2596F190C5D9EC728B6"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\94\\0a4db751d951b20dfd2e70e89d37c14b642af0",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\94\\0a4db751d951b20dfd2e70e89d37c14b642af0",
-                        "size":  3629,
-                        "last_write_utc":  "2026-05-18T06:02:16.6486026Z",
-                        "sha256":  "C26B18D8DC1811ECD44CB061EB6B6393B399DFC836A73A31E7DC8A3A50071085"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\97\\448fd6483f5ba0750c1dede5d51fb3781951b0",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\97\\448fd6483f5ba0750c1dede5d51fb3781951b0",
-                        "size":  2599,
-                        "last_write_utc":  "2026-05-18T06:02:16.5639416Z",
-                        "sha256":  "FF252D49A575759C7B9538545D5E80C65B29B97FDFB85ACBDFD36198DABA3F65"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\99\\1a9fb1673a44f9c1f744f3d8bac98c14ae9de6",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\99\\1a9fb1673a44f9c1f744f3d8bac98c14ae9de6",
-                        "size":  924,
-                        "last_write_utc":  "2026-05-18T06:02:16.6129462Z",
-                        "sha256":  "C60F1777A154AA9F721EF420D2599175D5FCB69C25B47A2FD9EE6F519BE2E506"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\a1\\0bf2074cf6618ad3d53d30ea5812dc365977ca",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\a1\\0bf2074cf6618ad3d53d30ea5812dc365977ca",
-                        "size":  5658,
-                        "last_write_utc":  "2026-05-18T06:02:16.3835344Z",
-                        "sha256":  "ED83DF97AD9A8F1324B2967C20A54E41B184432BFB271CF37820B1E0F4412274"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\a1\\a8143f754850019870fe8868519579a361b378",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\a1\\a8143f754850019870fe8868519579a361b378",
-                        "size":  1368,
-                        "last_write_utc":  "2026-05-18T06:02:16.6199463Z",
-                        "sha256":  "CB6365B931C54DD5002BFF67C3FC26864E183EF9278E5B0DC8490C2995462BAD"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\a6\\46aaf092108f6e44cf9b27120f167e8d675428",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\a6\\46aaf092108f6e44cf9b27120f167e8d675428",
-                        "size":  10951,
-                        "last_write_utc":  "2026-05-18T06:02:16.4433991Z",
-                        "sha256":  "57A8BDF371F8B9E5B78B1D6624899714483448D071E304E74AECDE42207FD809"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\a8\\359e59d2cee68305bf378035766233e9ca79cd",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\a8\\359e59d2cee68305bf378035766233e9ca79cd",
-                        "size":  1307,
-                        "last_write_utc":  "2026-05-18T06:02:16.5019388Z",
-                        "sha256":  "5DD1A7DC5CD16B434B01C6A0E484157483EEEF94F32C52889B39A211C64DEF29"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\aa\\5b46b750dec5db87fb48af42500b969b8b2deb",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\aa\\5b46b750dec5db87fb48af42500b969b8b2deb",
-                        "size":  311,
-                        "last_write_utc":  "2026-05-18T06:02:16.4167936Z",
-                        "sha256":  "2FC195E8CAAFB55A28D7AE1521C3CF97B0EB21D5C9A9681CD576BD9D1D05D037"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\ab\\89468193ae9889c95caa8c964873c428bc34fe",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\ab\\89468193ae9889c95caa8c964873c428bc34fe",
-                        "size":  2825,
-                        "last_write_utc":  "2026-05-18T06:02:16.4237950Z",
-                        "sha256":  "64E7E22724A20AC7A2DDF4F4165DD835C85D2BBDBEA3121C26349BE34479DF85"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\ab\\f36999d0eb0cc06a1d838f677e1a65ec3dda93",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\ab\\f36999d0eb0cc06a1d838f677e1a65ec3dda93",
-                        "size":  2666,
-                        "last_write_utc":  "2026-05-18T06:02:16.6029456Z",
-                        "sha256":  "6B1E2A7EC675E7C06310BA2D2D7ECEDB42C64A02430570FF8E79DC3645CFABA9"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\ad\\8ef6913e831008596a7a4b12c29ffaffc34ce7",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\ad\\8ef6913e831008596a7a4b12c29ffaffc34ce7",
-                        "size":  1760,
-                        "last_write_utc":  "2026-05-18T06:02:16.5469448Z",
-                        "sha256":  "30FD247DA525310EB47260C6D73A0778F4B4A60D3E7E801033BF463CB15A8014"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\ae\\d89309ad3f41c0e4e2c2eacfacc2fa5fdd1956",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\ae\\d89309ad3f41c0e4e2c2eacfacc2fa5fdd1956",
-                        "size":  1604,
-                        "last_write_utc":  "2026-05-18T06:02:16.5499412Z",
-                        "sha256":  "4BD1683B8D9C7785822408EC8C5295C32A18BF9C0FCC35345E7A71EC49E02D2E"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\b2\\46f2c15107f3705e7bb9bf2d50f66068b0f1f8",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\b2\\46f2c15107f3705e7bb9bf2d50f66068b0f1f8",
-                        "size":  1465,
-                        "last_write_utc":  "2026-05-18T06:02:16.3978964Z",
-                        "sha256":  "F853B4E7862CA3A34D2BD20359ADC68CF7DA8AE38D0BE14DA588AED095370E2E"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\b2\\afb5d386a13be2c1b65461e3b62ba4654aa301",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\b2\\afb5d386a13be2c1b65461e3b62ba4654aa301",
-                        "size":  1024,
-                        "last_write_utc":  "2026-05-18T06:02:16.5999464Z",
-                        "sha256":  "4D2EDF19965DD795000B09B55E4DD95C95384B5834AD57B0A21DA62E30CF3966"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\b6\\7be4216294fbe5c95aa97e6a3e5258d680a46e",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\b6\\7be4216294fbe5c95aa97e6a3e5258d680a46e",
-                        "size":  3236,
-                        "last_write_utc":  "2026-05-18T06:02:16.4869386Z",
-                        "sha256":  "144E2CC44C2D86BFCD639D12E765B4B60D7D458DF4CC942C295106EB2AD632E0"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\b8\\35327a11ecb82a343ac2e8a31091eeeda4e9e4",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\b8\\35327a11ecb82a343ac2e8a31091eeeda4e9e4",
-                        "size":  5651,
-                        "last_write_utc":  "2026-05-18T06:02:16.6582379Z",
-                        "sha256":  "A76A02729A33FC3241996393B8EC6E7163F75BDC4E9E6A97B8524F72160906DC"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\b8\\64bda82d3f58c231d41442701ff42da75638df",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\b8\\64bda82d3f58c231d41442701ff42da75638df",
-                        "size":  1481,
-                        "last_write_utc":  "2026-05-18T06:02:16.4959407Z",
-                        "sha256":  "DF01EC1B7CBA38BD49D4C0C255B8E27447656A98F1C54A04DDFE0A868D4464DC"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\b8\\e858ef82fa3d88d68f9f99ad1bece8106cd17a",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\b8\\e858ef82fa3d88d68f9f99ad1bece8106cd17a",
-                        "size":  6940,
-                        "last_write_utc":  "2026-05-18T06:02:16.6389399Z",
-                        "sha256":  "ADF07A3A9FBA3AFE9A404A4177BDB090684EA0211B8DD59E6D67FED547D18B48"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\be\\bbad068aedd847eb5b9ab008994cd47e62e32a",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\be\\bbad068aedd847eb5b9ab008994cd47e62e32a",
-                        "size":  7764,
-                        "last_write_utc":  "2026-05-18T06:02:16.3875338Z",
-                        "sha256":  "E8A71225081963ECE1240C39DCFE34AC44D3A2D7578F7F33C3D7309795302FC8"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\c2\\7183a666e3660d93d22fbf29e4e968c2680876",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\c2\\7183a666e3660d93d22fbf29e4e968c2680876",
-                        "size":  919,
-                        "last_write_utc":  "2026-05-18T06:02:16.6982705Z",
-                        "sha256":  "A2DF628B68EF66194592584F271BBF2A8781282B8092BB10F213099186C6B9A9"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\c3\\88a689aa652a22b9cc5abe1450fd581d54a5c5",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\c3\\88a689aa652a22b9cc5abe1450fd581d54a5c5",
-                        "size":  4364,
-                        "last_write_utc":  "2026-05-18T06:02:16.3946211Z",
-                        "sha256":  "D10FFA979F5D7667BFC6A909EA244802618AD5908F76103F90D0179E49D1999E"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\c7\\78a6517e49981d3170e8d88280ed1a6a319fa3",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\c7\\78a6517e49981d3170e8d88280ed1a6a319fa3",
-                        "size":  875,
-                        "last_write_utc":  "2026-05-18T06:02:16.5109396Z",
-                        "sha256":  "A2B277F94C1B77ECA3297F1B73A5072CD55F073652EE8F9BAE9BFE3DC85B15D8"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\cb\\1966ebbbe2725a83bbed1ca22f71c4efa719d6",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\cb\\1966ebbbe2725a83bbed1ca22f71c4efa719d6",
-                        "size":  896,
-                        "last_write_utc":  "2026-05-18T06:02:16.5139390Z",
-                        "sha256":  "19ACBC74291213107F8105522D5894C5EE3FFB4D5190F860181A5C00CFD22429"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\cc\\f634c681229366701d059960512121a01e4a5f",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\cc\\f634c681229366701d059960512121a01e4a5f",
-                        "size":  702,
-                        "last_write_utc":  "2026-05-18T06:02:16.4779394Z",
-                        "sha256":  "B150F3777FB3F0382F9F5B36C8AE5AEEE6794104926CFB9EF2A9BDB8A6E26896"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\cc\\faff200473389dd97a47f359850315a7ee09d0",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\cc\\faff200473389dd97a47f359850315a7ee09d0",
-                        "size":  2058,
-                        "last_write_utc":  "2026-05-18T06:02:16.4929391Z",
-                        "sha256":  "E8602579FF3F82112CD65BBA12DDED9D5C06448FAA74BFC1C6DC7D8EEEBE46C3"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\ce\\658b9d3f5fb8b6a288c04cc2aada0f7347531c",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\ce\\658b9d3f5fb8b6a288c04cc2aada0f7347531c",
-                        "size":  1071,
-                        "last_write_utc":  "2026-05-18T06:02:16.5289386Z",
-                        "sha256":  "FB9795A06E7B84C7C484DDD360BEBE1464680892DB6D28BDCDBC992E8E41E6DA"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\ce\\b417f03b33e32a498962dbe9e8dab61fd4fdd2",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\ce\\b417f03b33e32a498962dbe9e8dab61fd4fdd2",
-                        "size":  1267,
-                        "last_write_utc":  "2026-05-18T06:02:16.4679420Z",
-                        "sha256":  "8E51268CF76CA3C0F0A32E351340E405D46FA17BA11126F19E73CD162B5C7219"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\d3\\7cb77afa6590752db4ac227cb34b23bac672df",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\d3\\7cb77afa6590752db4ac227cb34b23bac672df",
-                        "size":  1157,
-                        "last_write_utc":  "2026-05-18T06:02:16.5229392Z",
-                        "sha256":  "2F3D20D4DD55BAF55B8736EB5C8D54E8910063D33A1B7836849692D425B24A6D"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\d9\\0e8f03979740b5b1b7151df0aaee961cf96228",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\d9\\0e8f03979740b5b1b7151df0aaee961cf96228",
-                        "size":  679,
-                        "last_write_utc":  "2026-05-18T06:02:16.6169463Z",
-                        "sha256":  "E6384248190788B5B6C2048887FCDACF7EBA3CB19FD9AC5FB0EB02C83D2EE15C"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\e8\\15bfa37e32c3eaf67c3c6c75f61dbd643f26f4",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\e8\\15bfa37e32c3eaf67c3c6c75f61dbd643f26f4",
-                        "size":  4159,
-                        "last_write_utc":  "2026-05-18T06:02:16.4363978Z",
-                        "sha256":  "C19E740F2AB5DA845A9BC7F8794907CB7466EB062B0F24ED6B4286BB25120C44"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\ea\\3366382a7f3e4940c9eee2c84c75eec89598df",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\ea\\3366382a7f3e4940c9eee2c84c75eec89598df",
-                        "size":  517,
-                        "last_write_utc":  "2026-05-18T06:02:16.5669416Z",
-                        "sha256":  "1D965445295A7A476A75A04E1B08C894CBC5AE32234703AD6783EFD5BCFD968F"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\ea\\c89214afeed45f12640c3271e1053e0a88f11a",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\ea\\c89214afeed45f12640c3271e1053e0a88f11a",
-                        "size":  1991,
-                        "last_write_utc":  "2026-05-18T06:02:16.4463982Z",
-                        "sha256":  "7F785262996688113F51A36794EEBAB6904EAFA93AD369A064EE33293F86F6B2"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\f0\\f4ea3e15be262ed44273829bc9fad8c5fb8439",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\f0\\f4ea3e15be262ed44273829bc9fad8c5fb8439",
-                        "size":  1656,
-                        "last_write_utc":  "2026-05-18T06:02:16.5439392Z",
-                        "sha256":  "9A03E2117DCD2CC4709AE9F8E26F5A9BA8891D69EF3619F3A26773F129F5C838"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\fa\\0fc0217ca3bd66ea1f7a2c0edde07ddfd2fde4",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\fa\\0fc0217ca3bd66ea1f7a2c0edde07ddfd2fde4",
-                        "size":  780,
-                        "last_write_utc":  "2026-05-18T06:02:16.6642379Z",
-                        "sha256":  "4C2641EEEAC3765667BB151E1F8514C8189A8634E755F2CD6F946A8802034FA3"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\objects\\fc\\0fece7dea23abb0374f07718ca3fb69c4b8408",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\objects\\fc\\0fece7dea23abb0374f07718ca3fb69c4b8408",
-                        "size":  656,
-                        "last_write_utc":  "2026-05-18T06:02:16.5529411Z",
-                        "sha256":  "EAF12DE90B392F2B2D8213D183F5057A2E8415FE94F216335E8E65ACF162A0DC"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  ".git\\refs\\heads\\master",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\.git\\refs\\heads\\master",
-                        "size":  41,
-                        "last_write_utc":  "2026-05-18T06:02:16.7052389Z",
-                        "sha256":  "AC627495887F1D4F678928B860B1D01BC9D7E5526AD58463C063592A7B08738D"
+                        "size":  4208,
+                        "last_write_utc":  "2026-05-20T06:00:57.6736032Z",
+                        "sha256":  "63A88EA04B0920F72CD1A7ED582243C03DBB6FF106EB681D3AFCABC132B43324"
                     },
                     {
                         "kind":  "knowledge",
@@ -1383,9 +163,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "0_apex\\GROUND_KERNEL.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\0_apex\\GROUND_KERNEL.md",
-                        "size":  8860,
-                        "last_write_utc":  "2026-05-18T04:17:35.4439560Z",
-                        "sha256":  "E486F1AC43A9EFC72A06A2251D8AA2E9476F5E6B9B80BBBC9082EFFED04B5021"
+                        "size":  8948,
+                        "last_write_utc":  "2026-05-21T07:38:56.9416168Z",
+                        "sha256":  "0258EF73CC72529E1FF5A522B2AC218B405153C61AC02F3E39A440E3EA8FD5DF"
                     },
                     {
                         "kind":  "knowledge",
@@ -1403,9 +183,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "0_apex\\KARPATHY_TIER0_PRINCIPLES.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\0_apex\\KARPATHY_TIER0_PRINCIPLES.md",
-                        "size":  2468,
-                        "last_write_utc":  "2026-05-18T04:28:14.9573633Z",
-                        "sha256":  "C094BF1511D04435739EEBAC9AD9211BAC236E52D7769404A82842CA12754074"
+                        "size":  2626,
+                        "last_write_utc":  "2026-05-21T01:25:39.3521933Z",
+                        "sha256":  "762195BC406FA707555655975FE4BF15D45A01CA12A1E6622594E18AC1EDC67B"
                     },
                     {
                         "kind":  "knowledge",
@@ -1433,9 +213,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "0_apex\\templates\\MASTER_APP_BLUEPRINT.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\0_apex\\templates\\MASTER_APP_BLUEPRINT.md",
-                        "size":  2790,
-                        "last_write_utc":  "2026-04-28T03:26:36.8941764Z",
-                        "sha256":  "0DF286C6DACDDC5B3118D8201F0A1FA69A4CE3BD1915EBD9F16E692954A95FD6"
+                        "size":  2785,
+                        "last_write_utc":  "2026-05-21T07:38:58.6257313Z",
+                        "sha256":  "E80BB42CB1FD67591B4D62F9320D5F44D9F78AFEF1731DBDCE27AD42499F6FB9"
                     },
                     {
                         "kind":  "knowledge",
@@ -1523,9 +303,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "1_core\\DNA_SPECIALTY.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\1_core\\DNA_SPECIALTY.md",
-                        "size":  5608,
-                        "last_write_utc":  "2026-05-04T03:07:07.1744048Z",
-                        "sha256":  "B6163F4D286714A0EFE44CFB07F3F2ED449970B1578C316F0361448D68A98CC6"
+                        "size":  5588,
+                        "last_write_utc":  "2026-05-21T07:39:05.7917729Z",
+                        "sha256":  "4F411BF8258E6967681C6A41BE5B09337F814032FD3EEDC637B8ACC0BEF6F5E5"
                     },
                     {
                         "kind":  "knowledge",
@@ -1653,9 +433,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "2_governance\\ARCHITECTURE_COMPARISON.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\2_governance\\ARCHITECTURE_COMPARISON.md",
-                        "size":  2749,
-                        "last_write_utc":  "2026-05-14T10:14:39.1567858Z",
-                        "sha256":  "B4C714673BA692194C9910F627066E73BF12ADFE7FEEC4F9EB5F431A4335B7A0"
+                        "size":  2731,
+                        "last_write_utc":  "2026-05-21T07:39:08.7410132Z",
+                        "sha256":  "0A3FE9EEAC01CBBA70AB186FC992FD504A4257F95B5DBA972716B2999E2D5744"
                     },
                     {
                         "kind":  "knowledge",
@@ -1666,6 +446,16 @@
                         "size":  3078,
                         "last_write_utc":  "2026-05-12T01:15:34.9242921Z",
                         "sha256":  "B40313EDFDE07E1A3722DDF40BD64466DFE1F3F2076B3C3E12E0FCD4A724153A"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "2_governance\\DRIFT_GUARD_PROTOCOL.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\2_governance\\DRIFT_GUARD_PROTOCOL.md",
+                        "size":  4184,
+                        "last_write_utc":  "2026-05-21T02:56:36.3259477Z",
+                        "sha256":  "82E5E7F507735D7FA707C8BE24A364D4BCFC164F64DF12A8B52D1B40C22CBF34"
                     },
                     {
                         "kind":  "knowledge",
@@ -1693,9 +483,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "2_governance\\KNOWLEDGE_ROT_PROTOCOL.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\2_governance\\KNOWLEDGE_ROT_PROTOCOL.md",
-                        "size":  1313,
-                        "last_write_utc":  "2026-05-15T01:21:55.2404771Z",
-                        "sha256":  "E0E076DE48B89B9A74093A357338BF6BC6C676CF3B63FAF801545A8A1D646D58"
+                        "size":  2889,
+                        "last_write_utc":  "2026-05-21T03:33:38.1839017Z",
+                        "sha256":  "632173E6A08D6A596C0E157C4A08837F46BCBB72EC9DE7F97F2613DAFCA4BC12"
                     },
                     {
                         "kind":  "knowledge",
@@ -1716,6 +506,16 @@
                         "size":  2228,
                         "last_write_utc":  "2026-05-04T03:07:07.2358408Z",
                         "sha256":  "D73C1047CB3E0960ACF9B8B552E1C6C0C5461DF53EEDD91DA7F8975F81112D7F"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "2_governance\\LOCALHOST_PHP_TEST_PROTOCOL.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\2_governance\\LOCALHOST_PHP_TEST_PROTOCOL.md",
+                        "size":  3956,
+                        "last_write_utc":  "2026-05-21T03:29:50.3036704Z",
+                        "sha256":  "542ED6B56B895A4069742A6012BFAEEE4A54B29296FD60F5A1E2B11F60802BCF"
                     },
                     {
                         "kind":  "knowledge",
@@ -1766,6 +566,16 @@
                         "size":  2085,
                         "last_write_utc":  "2026-04-20T03:06:16.6986525Z",
                         "sha256":  "E39A9F73550329461C5BF4F3C6A4A71ED70EB4FFD4976A938FF9CAAAA2A8EB70"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "2_governance\\VBEN_ADMIN_LOCAL_DEV_PROTOCOL.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\2_governance\\VBEN_ADMIN_LOCAL_DEV_PROTOCOL.md",
+                        "size":  3049,
+                        "last_write_utc":  "2026-05-21T03:34:48.7123804Z",
+                        "sha256":  "34F98E8CDF1E44D6FC49D0A18EF8E337BAE5377C3957F03A72D637474F5DC9EF"
                     },
                     {
                         "kind":  "knowledge",
@@ -1823,9 +633,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "2_governance\\artifacts\\skill_path_router.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\2_governance\\artifacts\\skill_path_router.md",
-                        "size":  1717,
-                        "last_write_utc":  "2026-05-14T05:03:50.2899574Z",
-                        "sha256":  "85753AF5850FD0AD01F499D30F4C0C13A310606E358618419DCD01A338F85607"
+                        "size":  4422,
+                        "last_write_utc":  "2026-05-21T07:44:07.5858328Z",
+                        "sha256":  "22435F58F683C9F3B0E80040DEC6F178CD84B29CED5463CE5C7067D7767084DE"
                     },
                     {
                         "kind":  "knowledge",
@@ -1861,11 +671,71 @@
                         "kind":  "knowledge",
                         "root":  "C:\\Users\\user\\.codex\\memories",
                         "root_relative":  "memories",
+                        "relative_path":  "archive\\wrider_chat_mining.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\archive\\wrider_chat_mining.md",
+                        "size":  5977,
+                        "last_write_utc":  "2026-05-05T07:38:36.6842166Z",
+                        "sha256":  "DB27F1545E5939971277374C9116DE9601B21B14ECAC6B00C63B8B03021FBB41"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "archive\\wrider_complete_recipe.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\archive\\wrider_complete_recipe.md",
+                        "size":  43609,
+                        "last_write_utc":  "2026-05-05T08:05:15.1603669Z",
+                        "sha256":  "987AB179E6D3DB5D643F5957B142837E833A5F4E6E00E4D9FD183A0DFFA3F808"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "archive\\wrider_design_senses.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\archive\\wrider_design_senses.md",
+                        "size":  16213,
+                        "last_write_utc":  "2026-05-05T07:37:51.6487506Z",
+                        "sha256":  "664BE08DCAD00364921D6171B026951EC92EA8E7D3D504F66AEEDB15A8B9C461"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
                         "relative_path":  "extensions\\ad_hoc\\instructions.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\extensions\\ad_hoc\\instructions.md",
                         "size":  746,
                         "last_write_utc":  "2026-05-11T04:11:47.7064054Z",
                         "sha256":  "8BA499CD0F6D0E65B1857F05A05CACE8C47B60C40C81B92440026EB63F0B1FD0"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "extensions\\ad_hoc\\notes\\2026-05-18T17-34-20-angel-interior-db-must-do-principles.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\extensions\\ad_hoc\\notes\\2026-05-18T17-34-20-angel-interior-db-must-do-principles.md",
+                        "size":  6625,
+                        "last_write_utc":  "2026-05-18T09:34:20.6618580Z",
+                        "sha256":  "79A38EA8497BD1441A0D86EC7410375B3561AF878825DE35E95507376381E1F1"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "extensions\\ad_hoc\\notes\\2026-05-18T17-36-06-vben-supabase-db-planning-reusable-principles.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\extensions\\ad_hoc\\notes\\2026-05-18T17-36-06-vben-supabase-db-planning-reusable-principles.md",
+                        "size":  4535,
+                        "last_write_utc":  "2026-05-18T09:36:07.0825347Z",
+                        "sha256":  "8BA8C986ECC5A0C04FEC0D875CDF4E6FC94C76A6D46FF9F4DDBB67AC158C3E1F"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "extensions\\ad_hoc\\notes\\2026-05-20T18-34-05-vben-local-supabase-cloudflare-publish-pattern.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\extensions\\ad_hoc\\notes\\2026-05-20T18-34-05-vben-local-supabase-cloudflare-publish-pattern.md",
+                        "size":  4839,
+                        "last_write_utc":  "2026-05-20T10:34:37.7594874Z",
+                        "sha256":  "A6897A5976C9E7D4F1B5A0B3B4C0607BCA749909C6B71EAA45EDE8670B97672A"
                     },
                     {
                         "kind":  "knowledge",
@@ -1994,7 +864,7 @@
                         "relative_path":  "rollout_summaries\\2026-05-04T06-04-27-CfIq-codex_gemini_full_access_routing.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\rollout_summaries\\2026-05-04T06-04-27-CfIq-codex_gemini_full_access_routing.md",
                         "size":  7624,
-                        "last_write_utc":  "2026-05-18T07:17:04.7356804Z",
+                        "last_write_utc":  "2026-05-21T06:21:38.8544783Z",
                         "sha256":  "0B3B98D93233F1CF093E0B666C492805308D9EF00E1823B97D41BFEDB820F5FA"
                     },
                     {
@@ -2004,7 +874,7 @@
                         "relative_path":  "rollout_summaries\\2026-05-11T04-11-42-EmJp-ecoworld_free_visual_assets_and_modern_filter_ui.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\rollout_summaries\\2026-05-11T04-11-42-EmJp-ecoworld_free_visual_assets_and_modern_filter_ui.md",
                         "size":  6579,
-                        "last_write_utc":  "2026-05-18T07:17:04.7366860Z",
+                        "last_write_utc":  "2026-05-21T06:21:38.8544783Z",
                         "sha256":  "A37AF142F7366E92C042FB3202B4117122172C50EDB39F5A329C4946B91F8253"
                     },
                     {
@@ -2014,7 +884,7 @@
                         "relative_path":  "rollout_summaries\\2026-05-12T05-53-52-ykaJ-ecoworld_cleanup_and_php_asset_cache_busting.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\rollout_summaries\\2026-05-12T05-53-52-ykaJ-ecoworld_cleanup_and_php_asset_cache_busting.md",
                         "size":  4624,
-                        "last_write_utc":  "2026-05-18T07:17:04.7366860Z",
+                        "last_write_utc":  "2026-05-21T06:21:38.8554758Z",
                         "sha256":  "BE4A7BA44E3E30F1BD2DF4156248F23D03D1CB54DEA78194540E94BB367A4A50"
                     },
                     {
@@ -2024,7 +894,7 @@
                         "relative_path":  "rollout_summaries\\2026-05-12T07-38-02-n2DH-read_gemini_knowledge_ecoworld_routing_hydration.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\rollout_summaries\\2026-05-12T07-38-02-n2DH-read_gemini_knowledge_ecoworld_routing_hydration.md",
                         "size":  3521,
-                        "last_write_utc":  "2026-05-18T07:17:04.7376835Z",
+                        "last_write_utc":  "2026-05-21T06:21:38.8554758Z",
                         "sha256":  "77C17A9FD95488ED4448FDB8B6B934DC1C67B65DD95B921ACA945DDF379CEE12"
                     },
                     {
@@ -2034,8 +904,38 @@
                         "relative_path":  "rollout_summaries\\2026-05-13T06-35-46-ELIk-codex_migration_optimization_and_cross_tool_ignore.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\rollout_summaries\\2026-05-13T06-35-46-ELIk-codex_migration_optimization_and_cross_tool_ignore.md",
                         "size":  11651,
-                        "last_write_utc":  "2026-05-18T07:17:04.7376835Z",
+                        "last_write_utc":  "2026-05-21T06:21:38.8564745Z",
                         "sha256":  "422E2166CDA75A7FC0BC137CEFB39A2CC0BAFA3063C45CB9EC8A504B23935B59"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "rollout_summaries\\2026-05-18T03-53-04-26nW-karpathy_tier0_strict_enforcement_layer.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\rollout_summaries\\2026-05-18T03-53-04-26nW-karpathy_tier0_strict_enforcement_layer.md",
+                        "size":  6788,
+                        "last_write_utc":  "2026-05-21T06:21:38.8564745Z",
+                        "sha256":  "AEA5E90F6E22B131D3AA88D8DC083CD021C4213A032865715A8DBF8B8D3D120D"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "rollout_summaries\\2026-05-18T05-58-58-KXJ1-angel_interior_docs_db_cleanup_login_ignore_and_dev_run.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\rollout_summaries\\2026-05-18T05-58-58-KXJ1-angel_interior_docs_db_cleanup_login_ignore_and_dev_run.md",
+                        "size":  13390,
+                        "last_write_utc":  "2026-05-21T06:21:38.8574760Z",
+                        "sha256":  "8E88A742CFD281E45C4DF6BD0350F3A880CAE935BEBAB9275E25D5981F6DE4DB"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "rollout_summaries\\2026-05-20T09-58-29-xDsO-angel_admin_web_antd_dev_local_startup.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\rollout_summaries\\2026-05-20T09-58-29-xDsO-angel_admin_web_antd_dev_local_startup.md",
+                        "size":  3119,
+                        "last_write_utc":  "2026-05-21T06:21:38.8574760Z",
+                        "sha256":  "D653BD8C2B07B6777042612975A73177AE41EE7E2CC003BA56EA140AB86C5802"
                     },
                     {
                         "kind":  "knowledge",
@@ -2061,11 +961,41 @@
                         "kind":  "knowledge",
                         "root":  "C:\\Users\\user\\.codex\\memories",
                         "root_relative":  "memories",
+                        "relative_path":  "skills\\vben-local-supabase-cloudflare-publish\\SKILL.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\skills\\vben-local-supabase-cloudflare-publish\\SKILL.md",
+                        "size":  5519,
+                        "last_write_utc":  "2026-05-21T01:22:08.0750250Z",
+                        "sha256":  "AC7575318156E58A8B39CEA50A68160537CA789B2F64068F42A124AD9E56AAB8"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "skills\\vben-local-supabase-preflight\\SKILL.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\skills\\vben-local-supabase-preflight\\SKILL.md",
+                        "size":  5014,
+                        "last_write_utc":  "2026-05-20T08:42:07.1655628Z",
+                        "sha256":  "30755BABF76DE419D5BF606F4E2114533200CB39F979ABCB6E2EFEBEEA7A025D"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
                         "relative_path":  "tech_stack_mastery\\artifacts\\must_do_master_rules.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\tech_stack_mastery\\artifacts\\must_do_master_rules.md",
-                        "size":  1672,
-                        "last_write_utc":  "2026-05-06T01:58:37.2737215Z",
-                        "sha256":  "F2E45F1882E6F446E409CDB6A7288499B90096EE03A118B461DF7EF560540F07"
+                        "size":  2606,
+                        "last_write_utc":  "2026-05-20T06:00:52.0763162Z",
+                        "sha256":  "6BF5F026984517132F45743423057F0A5089A3DDA8ABB2E3D769DE1C11BF60BA"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  "SHARED_DB_CONTRACT.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\SHARED_DB_CONTRACT.md",
+                        "size":  5196,
+                        "last_write_utc":  "2026-05-21T07:40:07.3233976Z",
+                        "sha256":  "696320141D57DAC0B73CA9C249D38F986E7F2E2BC714362FD623D64640724C05"
                     },
                     {
                         "kind":  "skill-reference",
@@ -2433,9 +1363,9 @@
                         "root_relative":  "skills",
                         "relative_path":  "claude\\README.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\claude\\README.md",
-                        "size":  3610,
-                        "last_write_utc":  "2026-05-14T01:12:40.9494488Z",
-                        "sha256":  "C59EE6000653DE09C17E5814A929025522F62F53F79CEA435EC7FFDA5F7E42EB"
+                        "size":  5384,
+                        "last_write_utc":  "2026-05-21T07:44:33.0518170Z",
+                        "sha256":  "9BFEC36EEC4D834D10F1935F454770B8E0374E0B59718E638BD446874ECA7059"
                     },
                     {
                         "kind":  "skill-reference",
@@ -2486,6 +1416,26 @@
                         "size":  2215,
                         "last_write_utc":  "2026-05-15T02:08:04.4537246Z",
                         "sha256":  "B7A2B794E6A83977D09DD9E075EB9D559F6DA18D0251D69CF2AE985037B07D56"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  "claude\\VBEN_SUPABASE_LOCAL_LESSONS.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude\\VBEN_SUPABASE_LOCAL_LESSONS.md",
+                        "size":  9817,
+                        "last_write_utc":  "2026-05-20T05:58:39.1591060Z",
+                        "sha256":  "FC3DACA514EA90270F695DC6C206AA949029338B181CF5A23E0DA2B4C5217EEC"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  "claude\\WORKING_PROGRESS.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude\\WORKING_PROGRESS.md",
+                        "size":  12791,
+                        "last_write_utc":  "2026-05-21T07:41:21.0188316Z",
+                        "sha256":  "D126FDA073677D95BAA77E870F0F0A1F4935CAF074050137A1BFCED612A2CCA3"
                     },
                     {
                         "kind":  "skill-reference",
@@ -2573,9 +1523,9 @@
                         "root_relative":  "skills",
                         "relative_path":  "claude\\generate-supabase-schema\\skill.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\claude\\generate-supabase-schema\\skill.md",
-                        "size":  19226,
-                        "last_write_utc":  "2026-05-15T02:31:49.5844103Z",
-                        "sha256":  "FBC8C3CB5C3DB531FE20131F8740D841A6545B6D061F1673993FD1F201A01F12"
+                        "size":  20334,
+                        "last_write_utc":  "2026-05-20T05:58:59.7336829Z",
+                        "sha256":  "C7AE0CD62EB085A634FC97B03CA9FD286EEF935492C8A14466BB9A616729438C"
                     },
                     {
                         "kind":  "skill-reference",
@@ -2661,38 +1611,48 @@
                         "kind":  "skill-reference",
                         "root":  "C:\\Users\\user\\.codex\\skills",
                         "root_relative":  "skills",
-                        "relative_path":  "claude-frontend\\README.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-frontend\\README.md",
-                        "size":  623,
-                        "last_write_utc":  "2026-04-23T08:38:57.6830251Z",
-                        "sha256":  "1D5FF555407CF7F6E29C71B075C960968CCCD275229A51032D6774CFA0B5A726"
+                        "relative_path":  "claude-app\\README.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\README.md",
+                        "size":  823,
+                        "last_write_utc":  "2026-05-21T07:38:08.9907922Z",
+                        "sha256":  "DAB511BF13E547B9509E56DE382C22F7E9D0046B717745C7B589D1C0AEDD109A"
                     },
                     {
                         "kind":  "skill-reference",
                         "root":  "C:\\Users\\user\\.codex\\skills",
                         "root_relative":  "skills",
-                        "relative_path":  "claude-frontend\\SKILL.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-frontend\\SKILL.md",
-                        "size":  5621,
-                        "last_write_utc":  "2026-05-15T01:54:24.3526220Z",
-                        "sha256":  "E9D99C99B10FC4EF216695C539B936693BC957A477F5EE0492CD65B46CB63348"
+                        "relative_path":  "claude-app\\SKILL.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\SKILL.md",
+                        "size":  6972,
+                        "last_write_utc":  "2026-05-21T07:38:04.3357391Z",
+                        "sha256":  "0254159E6BE07379AC2B041544C8DF78B68184DE92BEC5D692C8D79D303DD5B8"
                     },
                     {
                         "kind":  "skill-reference",
                         "root":  "C:\\Users\\user\\.codex\\skills",
                         "root_relative":  "skills",
-                        "relative_path":  "claude-frontend\\_cookbook.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-frontend\\_cookbook.md",
-                        "size":  8752,
-                        "last_write_utc":  "2026-05-15T01:51:22.7439198Z",
-                        "sha256":  "62397831E890DF8F3D1F89E4FB54BBD84B69AF8BBB6CC74B02FF120D2487D7E3"
+                        "relative_path":  "claude-app\\WORKING_PROGRESS.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\WORKING_PROGRESS.md",
+                        "size":  10295,
+                        "last_write_utc":  "2026-05-21T07:43:39.7099384Z",
+                        "sha256":  "550150BBB23836362A1E16CF509CCFFC0A1AC585CDC8A985ED7F5E64B2DC98CA"
                     },
                     {
                         "kind":  "skill-reference",
                         "root":  "C:\\Users\\user\\.codex\\skills",
                         "root_relative":  "skills",
-                        "relative_path":  "claude-frontend\\01-handshake-genesis\\skill.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-frontend\\01-handshake-genesis\\skill.md",
+                        "relative_path":  "claude-app\\_cookbook.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\_cookbook.md",
+                        "size":  8737,
+                        "last_write_utc":  "2026-05-21T07:38:11.9866258Z",
+                        "sha256":  "21E9B8BDD8BB71EA824EB5C49C276BDC30545D3384573B9123E56F166AC5C468"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  "claude-app\\01-handshake-genesis\\skill.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\01-handshake-genesis\\skill.md",
                         "size":  7749,
                         "last_write_utc":  "2026-05-15T01:52:08.5120358Z",
                         "sha256":  "91894693A9484560D1A12166D9F49D39DC7CA9FA382FA80B2B018B0164AD4A5C"
@@ -2701,8 +1661,8 @@
                         "kind":  "skill-reference",
                         "root":  "C:\\Users\\user\\.codex\\skills",
                         "root_relative":  "skills",
-                        "relative_path":  "claude-frontend\\02-config-hardening\\skill.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-frontend\\02-config-hardening\\skill.md",
+                        "relative_path":  "claude-app\\02-config-hardening\\skill.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\02-config-hardening\\skill.md",
                         "size":  6358,
                         "last_write_utc":  "2026-04-20T07:04:50.1914233Z",
                         "sha256":  "FC0D3447D555C8B108F73F0148AACC7133BC67714F3E604EA12CA8BEDA462A5C"
@@ -2711,8 +1671,8 @@
                         "kind":  "skill-reference",
                         "root":  "C:\\Users\\user\\.codex\\skills",
                         "root_relative":  "skills",
-                        "relative_path":  "claude-frontend\\03-api-connectivity\\skill.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-frontend\\03-api-connectivity\\skill.md",
+                        "relative_path":  "claude-app\\03-api-connectivity\\skill.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\03-api-connectivity\\skill.md",
                         "size":  8936,
                         "last_write_utc":  "2026-04-20T07:12:10.9009032Z",
                         "sha256":  "9E8C01A4E0BC08314FE1278368DE454FE430B2E4B8787571758093B05750D2AD"
@@ -2721,8 +1681,8 @@
                         "kind":  "skill-reference",
                         "root":  "C:\\Users\\user\\.codex\\skills",
                         "root_relative":  "skills",
-                        "relative_path":  "claude-frontend\\04-auth-architecture\\skill.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-frontend\\04-auth-architecture\\skill.md",
+                        "relative_path":  "claude-app\\04-auth-architecture\\skill.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\04-auth-architecture\\skill.md",
                         "size":  12014,
                         "last_write_utc":  "2026-04-20T07:07:36.7442366Z",
                         "sha256":  "B2C6E4A22FA8FD1A86CA0D4466839ABDC35B926FBD0609EDC3DCE9E971E083BB"
@@ -2731,8 +1691,8 @@
                         "kind":  "skill-reference",
                         "root":  "C:\\Users\\user\\.codex\\skills",
                         "root_relative":  "skills",
-                        "relative_path":  "claude-frontend\\05-types-foundry\\skill.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-frontend\\05-types-foundry\\skill.md",
+                        "relative_path":  "claude-app\\05-types-foundry\\skill.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\05-types-foundry\\skill.md",
                         "size":  9270,
                         "last_write_utc":  "2026-04-20T07:08:19.5059547Z",
                         "sha256":  "4016D1299934BD748BCBDC145910E2532CD18E86C1F6D62C96690780300B8E1C"
@@ -2741,8 +1701,8 @@
                         "kind":  "skill-reference",
                         "root":  "C:\\Users\\user\\.codex\\skills",
                         "root_relative":  "skills",
-                        "relative_path":  "claude-frontend\\06-industrial-stores\\skill.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-frontend\\06-industrial-stores\\skill.md",
+                        "relative_path":  "claude-app\\06-industrial-stores\\skill.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\06-industrial-stores\\skill.md",
                         "size":  14799,
                         "last_write_utc":  "2026-04-20T07:09:51.5471569Z",
                         "sha256":  "A6B43F11CE9D120396C8FF2016C4A45434FC30EDF875656633FC60794105AB3F"
@@ -2751,8 +1711,8 @@
                         "kind":  "skill-reference",
                         "root":  "C:\\Users\\user\\.codex\\skills",
                         "root_relative":  "skills",
-                        "relative_path":  "claude-frontend\\07-image-spec\\skill.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-frontend\\07-image-spec\\skill.md",
+                        "relative_path":  "claude-app\\07-image-spec\\skill.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\07-image-spec\\skill.md",
                         "size":  7954,
                         "last_write_utc":  "2026-05-13T08:49:10.1470255Z",
                         "sha256":  "50FE89F038BB889DD9336C4E78F6F5FF3A309748FD57A3ED6A76384344A2C166"
@@ -2761,8 +1721,8 @@
                         "kind":  "skill-reference",
                         "root":  "C:\\Users\\user\\.codex\\skills",
                         "root_relative":  "skills",
-                        "relative_path":  "claude-frontend\\08-ui-standardization\\skill.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-frontend\\08-ui-standardization\\skill.md",
+                        "relative_path":  "claude-app\\08-ui-standardization\\skill.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\08-ui-standardization\\skill.md",
                         "size":  11161,
                         "last_write_utc":  "2026-05-15T01:51:22.7489197Z",
                         "sha256":  "ADE0BD77FB349B6564002679069DE76DD84EEAABA12F7C25E294026B776AC708"
@@ -2771,8 +1731,8 @@
                         "kind":  "skill-reference",
                         "root":  "C:\\Users\\user\\.codex\\skills",
                         "root_relative":  "skills",
-                        "relative_path":  "claude-frontend\\09-view-scaffolding\\skill.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-frontend\\09-view-scaffolding\\skill.md",
+                        "relative_path":  "claude-app\\09-view-scaffolding\\skill.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\09-view-scaffolding\\skill.md",
                         "size":  13170,
                         "last_write_utc":  "2026-04-20T07:16:41.8768131Z",
                         "sha256":  "01EF21E08D6BFCE6D65DD1A2D050BF8ED88162DBCE51D9C0D57C13419EA17786"
@@ -2781,8 +1741,8 @@
                         "kind":  "skill-reference",
                         "root":  "C:\\Users\\user\\.codex\\skills",
                         "root_relative":  "skills",
-                        "relative_path":  "claude-frontend\\10-routing-logic\\skill.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-frontend\\10-routing-logic\\skill.md",
+                        "relative_path":  "claude-app\\10-routing-logic\\skill.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\10-routing-logic\\skill.md",
                         "size":  9096,
                         "last_write_utc":  "2026-04-20T07:12:53.2856526Z",
                         "sha256":  "5A6176D857C562D736D0EC71544AB346C76435BEC8BCA1CC1CD0B72CBAFB03A0"
@@ -2791,8 +1751,8 @@
                         "kind":  "skill-reference",
                         "root":  "C:\\Users\\user\\.codex\\skills",
                         "root_relative":  "skills",
-                        "relative_path":  "claude-frontend\\11-relational-sync\\skill.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-frontend\\11-relational-sync\\skill.md",
+                        "relative_path":  "claude-app\\11-relational-sync\\skill.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\11-relational-sync\\skill.md",
                         "size":  7330,
                         "last_write_utc":  "2026-04-20T07:13:32.8855847Z",
                         "sha256":  "CCFE8ADEF6426AE49F5C977EDF177C41AEC2A007A005B9ACF731E47C608DF7C0"
@@ -2801,8 +1761,8 @@
                         "kind":  "skill-reference",
                         "root":  "C:\\Users\\user\\.codex\\skills",
                         "root_relative":  "skills",
-                        "relative_path":  "claude-frontend\\12-i18n-composables\\skill.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-frontend\\12-i18n-composables\\skill.md",
+                        "relative_path":  "claude-app\\12-i18n-composables\\skill.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\12-i18n-composables\\skill.md",
                         "size":  8618,
                         "last_write_utc":  "2026-04-20T07:17:42.5074044Z",
                         "sha256":  "BD76BF5DFEE84CD59FE3FEF4A8DD979E6216F4E39F1A514006FEB3BBAE95C144"
@@ -2811,8 +1771,8 @@
                         "kind":  "skill-reference",
                         "root":  "C:\\Users\\user\\.codex\\skills",
                         "root_relative":  "skills",
-                        "relative_path":  "claude-frontend\\13-native-pwa-deploy\\skill.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-frontend\\13-native-pwa-deploy\\skill.md",
+                        "relative_path":  "claude-app\\13-native-pwa-deploy\\skill.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\13-native-pwa-deploy\\skill.md",
                         "size":  9938,
                         "last_write_utc":  "2026-05-15T01:54:24.3859816Z",
                         "sha256":  "441699A1876AA7AB2233BA42E855AEBBAC38DD55B1C672FD1650E6EF919EE1F4"
@@ -2843,9 +1803,9 @@
                         "root_relative":  "skills",
                         "relative_path":  "claude-meta\\plan-first\\skill.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-meta\\plan-first\\skill.md",
-                        "size":  5070,
-                        "last_write_utc":  "2026-05-14T01:12:40.9444469Z",
-                        "sha256":  "65C2FE44D4045A7FD7502BF9680ED5DC48AFBEE39A2B47355359942451071074"
+                        "size":  5058,
+                        "last_write_utc":  "2026-05-21T07:39:02.8395963Z",
+                        "sha256":  "2920E48227DCB0154ADE343D6D733336C19C405CE8BA0F87B5F50F698F8D69BF"
                     },
                     {
                         "kind":  "skill-reference",
@@ -2863,9 +1823,19 @@
                         "root_relative":  "skills",
                         "relative_path":  "claude-website\\SKILL.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-website\\SKILL.md",
-                        "size":  5890,
-                        "last_write_utc":  "2026-05-15T01:54:24.3565832Z",
-                        "sha256":  "9410906030739152B5335D2F71A5B8E15F5966FF47F818D12CEFF0FA9EC1F7B5"
+                        "size":  6350,
+                        "last_write_utc":  "2026-05-21T07:44:22.3746394Z",
+                        "sha256":  "A8A00CF39EBCCB097C02D5C09ED1E22B25AA2B06B4077B99049213BA3DDBF211"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  "claude-website\\WORKING_PROGRESS.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-website\\WORKING_PROGRESS.md",
+                        "size":  12113,
+                        "last_write_utc":  "2026-05-21T07:42:35.6238329Z",
+                        "sha256":  "F858987C06837CE1AD16A223C787138BD4C50E186A31DDEB4F18BABAF0493062"
                     },
                     {
                         "kind":  "skill-reference",
@@ -3016,6 +1986,16 @@
                         "size":  2361,
                         "last_write_utc":  "2026-04-20T07:48:42.9293726Z",
                         "sha256":  "C582D6672BC5C9E14BE7B00EE62953D1512893923D6D480D912DD9A7ABA12FD9"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  "design\\SKILL.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\design\\SKILL.md",
+                        "size":  1105,
+                        "last_write_utc":  "2026-05-21T06:33:27.1966743Z",
+                        "sha256":  "F008902942A4879FA30C9E20C887F94F0FFE1740C903B436892D6B66FD245DE5"
                     },
                     {
                         "kind":  "skill-reference",
@@ -3643,9 +2623,9 @@
                         "root_relative":  "skills",
                         "relative_path":  "karpathy-guidelines\\SKILL.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\karpathy-guidelines\\SKILL.md",
-                        "size":  2049,
-                        "last_write_utc":  "2026-05-18T04:28:20.8460774Z",
-                        "sha256":  "F8EFA7A24D8EA89F5264455121D57C8F2E965ED6DCDC996D14EA1D165098ECE7"
+                        "size":  2216,
+                        "last_write_utc":  "2026-05-21T01:25:39.3551951Z",
+                        "sha256":  "04ADA9F0122B3A92945C4C26B45FD4180BC4E31802296FAE3DD801D6AF4725EB"
                     },
                     {
                         "kind":  "skill-reference",
@@ -4223,9 +3203,9 @@
                         "root_relative":  "skills",
                         "relative_path":  "normal\\mobile-template-from-samples\\skill.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\normal\\mobile-template-from-samples\\skill.md",
-                        "size":  15171,
-                        "last_write_utc":  "2026-05-15T01:52:23.4820021Z",
-                        "sha256":  "3CE0F402EA73FCB2C084633561346A2C0DAF26CB9EAD1A612EF883A48A264867"
+                        "size":  15166,
+                        "last_write_utc":  "2026-05-21T07:39:10.6390435Z",
+                        "sha256":  "9BA0897649E21EB505D1D7FA499DC547E6CE19593AE296141582C3FD30A1A6E8"
                     },
                     {
                         "kind":  "skill-reference",

@@ -21,7 +21,7 @@ Each Claude "Mode" is a specialized persona within the **Skills** Layer, tailore
 
 | Mode | Technology Stack | Primary Goal | Authoritative Skill |
 |---|---|---|---|
-| **Claude-Frontend** | Vue 3 + Supabase + Vben | Building the Client/Admin Admin Panel | `claude-frontend` |
+| **Claude-App** | Vue 3 + Supabase + Capacitor | Building the mobile / PWA app | `claude-app` |
 | **Claude-Website** | PHP + Supabase | Building the Rest API & Public Web | `claude-website` |
 | **Claude-Meta** | Planning + Logic | High-level orchestration & Plan-Stop-Approve | `claude-meta` |
 
@@ -43,7 +43,7 @@ The `memories/` directory acts as the "Memory" that survives between sessions. I
 ## 🔄 The Execution Loop
 
 When you ask me to add a module (e.g., "Add Review List"):
-1. **The Skill** (`claude-frontend`) tells me the 13 steps I must take.
+1. **The Skill** (`claude-app`) tells me the 13 steps I must take.
 2. **The Knowledge** (`INDUSTRIAL_PATTERNS`) tells me how they should look.
 3. **The Audit** (`MODULE_AUDIT_PROTOCOL`) forces me to verify everything is 100% perfect.
 4. **The Remediation** (`REMEDIATION_LOG`) reminds me not to make past mistakes (like empty forms).

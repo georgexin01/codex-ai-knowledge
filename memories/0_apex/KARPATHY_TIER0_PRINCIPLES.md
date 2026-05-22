@@ -1,4 +1,4 @@
-# Karpathy Tier-0 Principles (Codex Constitutional Layer)
+﻿# Karpathy Tier-0 Principles (Codex Constitutional Layer)
 
 Status: Authoritative Tier-0  
 Scope: Applies to coding, planning, review, debugging, and refactoring tasks.
@@ -50,7 +50,7 @@ If this file conflicts with lower-tier rules, this Tier-0 file wins.
 
 ## Enforcement Output Contract
 
-Every final response must include a Karpathy compliance block with exactly these four checks:
+Every final response must pass an internal Karpathy compliance review with exactly these four checks:
 
 - `Assumptions surfaced`
 - `Simplicity preserved`
@@ -59,10 +59,13 @@ Every final response must include a Karpathy compliance block with exactly these
 
 Per-check requirements:
 
-- mark status as `pass | fail | n/a`
-- include one short evidence line
+- use `pass | fail | n/a` internally
+- keep the review hidden by default unless the user explicitly asks to see it
+- if a failed check cannot be self-corrected, surface the unresolved blocker in the visible reply
 
 Failure handling:
 
 - if any check is `fail`, self-correct before finalizing
 - if self-correction is not possible, explicitly declare unresolved blocker
+
+

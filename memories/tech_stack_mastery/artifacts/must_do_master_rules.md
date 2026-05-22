@@ -57,3 +57,21 @@ When `npm run build` or `npm run dev` is detected:
 1. **Verify** `.htaccess` exists in `public/`. If missing, AUTO-GENERATE it.
 2. **Verify** `index.html` has correct meta tags (Title, Description, Viewport).
 3. **Verify** Favicon assets exist.
+
+---
+
+## 4 · Vben Admin + Local Docker Supabase
+
+Before any module/SQL work on a Vben Admin project backed by a **local Docker
+Supabase** stack, run the pre-flight in
+[`skills/claude/VBEN_SUPABASE_LOCAL_LESSONS.md`](../../../skills/claude/VBEN_SUPABASE_LOCAL_LESSONS.md).
+
+Non-negotiables (each one cost real debugging time on angel-interior):
+1. **Apply SQL via file** — `docker cp` + `psql -f`, NEVER `psql -c` (inline quoting
+   mangles camelCase identifiers on PowerShell).
+2. **`formApi` in `defineExpose`** of every form `.vue` — drawers read it directly.
+3. **RLS + permissions = dual grant** — a `FOR INSERT` policy needs a matching
+   `permissions` row per role, or INSERT 403s.
+4. **Storage paths have no leading `/`** — else `getStorageUrl()` builds `//` → 404.
+5. **Live-data tables get corrective ALTER migrations** — never DROP+CREATE; verify
+   the next migration number against the highest existing file.

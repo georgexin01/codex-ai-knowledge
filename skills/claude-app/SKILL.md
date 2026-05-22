@@ -1,18 +1,21 @@
 ---
-name: claude-frontend
-description: "V8.0 Sovereign Web Framework (SWF) — 13-step orchestrator for Vue 3 + Supabase + Capacitor webApp. Each step is a self-sufficient code vault (copy-paste ready). No external template folders required."
-triggers: ["sovereign framework", "swf", "frontend orchestrator", "vben supabase webapp", "vue webapp", "claude-frontend", "build webapp", "new webapp module"]
+name: claude-app
+description: "V8.0 mobile app Vue builder — 13-step orchestrator for Vue 3 + Supabase + Capacitor mobile/PWA apps. Build-only: consumes the visual design from skills/design/app (DESIGN.md). Each step is a self-sufficient code vault (copy-paste ready)."
+triggers: ["claude app", "claude-app", "mobile app build", "vue mobile app", "build mobile app", "new app module", "capacitor app", "pwa app build"]
 phase: 0-orchestrator
 version: 8.0
 status: authoritative
-last_updated: "2026-04-20"
+last_updated: "2026-05-21"
 ---
 
-# `claude-frontend` — The Sovereign Protocol V8.0
+# `claude-app` — Mobile App Vue Builder V8.0
+
+> **Linear executor**: for step-by-step task execution use [`WORKING_PROGRESS.md`](WORKING_PROGRESS.md). This SKILL.md is the code-vault reference the linear file points into.
+> **Design input**: visual design, tokens, and `DESIGN.md` come from [`../design/app/SKILL.md`](../design/app/SKILL.md). This skill builds the Vue code; it does not invent the design.
 
 ## 🎯 When to Use
 
-Building or refactoring any Vue 3 + Supabase + Capacitor webApp module in the quizLaa project family. Use this as the clinical orchestrator for the **13-Step Industrial Frontend Lifecycle**.
+Building or refactoring a Vue 3 + Supabase + Capacitor mobile/PWA app. Use this as the clinical orchestrator for the **13-Step Industrial App Lifecycle**.
 
 This skill is **self-sufficient** — every step contains its own copy-paste Code Vault. The reference template `webApp-bakery-v2/` is no longer required.
 
@@ -69,10 +72,28 @@ The webApp's `src/` layer has six load-bearing folders. Every step below anchors
 
 ## ✅ Verify the Orchestrator
 
-- `claude-frontend/` contains exactly 13 numbered sub-directories (01 → 13) + `SKILL.md` + `_cookbook.md` + `README.md`.
+- `claude-app/` contains exactly 13 numbered sub-directories (01 → 13) + `SKILL.md` + `WORKING_PROGRESS.md` + `_cookbook.md` + `README.md`.
 - Every sub-directory contains a `skill.md` with version ≥ 2.0 frontmatter and a 📦 Code Vault section.
 - `SKILL.md` links every sub-directory exactly once.
 - Zero references to `C:\Users\user\.claude\skills\*` (deprecated mirror path).
 
 ---
-**Protocol Status**: V8.0 Active | **Architect**: Claude-Frontend | **Self-Sufficient**: Yes (bakery-v2 not required)
+**Protocol Status**: V8.0 Active | **Architect**: Claude-App | **Self-Sufficient**: Yes (consumes design/app DESIGN.md)
+
+## Sort Drag Pattern
+
+For Vben admin list pages that expose a sortable `sort` column, use the proven gap-based drag strategy from QuizLAA instead of reassigning 1, 2, 3 on every drag.
+
+Rules:
+- Enable row dragging with `rowConfig.drag = true`, `gridEvents.rowDragend`, and `dragSort: true` on the `No.` column.
+- Store `sort` values with gaps using `SORT_GAP = 1000`.
+- On create, assign `nextSort = max(sort) + SORT_GAP`.
+- On drag:
+  - first position => `Math.floor((nextRow.sort ?? SORT_GAP) / 2)`
+  - last position => `(prevRow.sort ?? 0) + SORT_GAP`
+  - between rows => `Math.floor((prevRow.sort + nextRow.sort) / 2)`
+- If the midpoint collides with a neighbor, call `renormalizeSort()` to rewrite rows as `1000, 2000, 3000...`.
+- Prefer lightweight `updateSort(id, sort)` for normal drags and reserve full renormalization for exhausted gaps.
+- Keep the visible label as simple `Sort`.
+
+This pattern keeps drag reorder stable, cheap, and close to the QuizLAA lesson-list reference.

@@ -100,8 +100,8 @@ date_updated: "2026-04-24"
 
 ## 五、 参考资料 (REFERENCES)
 
-- [claude-frontend/12-i18n-composables/skill.md](../../skills/claude-frontend/12-i18n-composables/skill.md) — 逐步实现指南
-- [claude-frontend/13-native-pwa-deploy/skill.md](../../skills/claude-frontend/13-native-pwa-deploy/skill.md) — 部署流水线
+- [claude-app/12-i18n-composables/skill.md](../../skills/claude-app/12-i18n-composables/skill.md) — 逐步实现指南
+- [claude-app/13-native-pwa-deploy/skill.md](../../skills/claude-app/13-native-pwa-deploy/skill.md) — 部署流水线
 - [lib/htmlHead.php](../../../../alexis/lib/htmlHead.php) — 视口 412 参考实现
 
 ---

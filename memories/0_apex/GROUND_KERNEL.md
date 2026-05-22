@@ -55,7 +55,7 @@ Every non-trivial request runs five phases:
 13_lazy_loading: "Load extended governance/skills knowledge only when the task requires it. Default to the Lean Fast Lane."
 14_claude_mode: "Read claude-* knowledge and skills only when explicitly triggered by 'ai claude'."
 15_deep_dive: "Keywords deep dive / deeper / thorough / review authorize line-by-line research and higher token density."
-16_claude_skill_lock: "Never rename or move any claude* skill folder (skills/claude, skills/claude-frontend, skills/claude-website, skills/claude-meta) until the user explicitly says 'change claude skills'. Absolute architectural lock."
+16_claude_skill_lock: "Never rename or move any claude* skill folder (skills/claude, skills/claude-app, skills/claude-website, skills/claude-meta) until the user explicitly says 'change claude skills'. Absolute architectural lock. (claude-frontend was renamed to claude-app on 2026-05-21 under explicit user authorization.)"
 17_routing_synthesis: "After any change to .codex/ knowledge, skills, or routing, regenerate the routing layer via Update-CodexRouting.ps1 (if available), else manually update affected index entries."
 18_impact_aware: "Before editing a Tier-0/1 file, identify its dependents (blast radius) via the routing index or targeted grep, and state the impact in the plan."
 19_low_token_indexing: "Prefer index/manifest lookups and targeted reads over full-tree hydration. Discovery costs as few tokens as possible."

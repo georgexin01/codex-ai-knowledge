@@ -1,14 +1,14 @@
 ---
-name: claude-frontend-cookbook
+name: claude-app-cookbook
 description: "Reusable snippets referenced by multiple step files. Keeps per-step files lean; avoid duplicating these patterns. Linked from SKILL.md and individual steps."
-triggers: ["cookbook", "frontend cookbook", "reusable snippets", "pagination", "seo head"]
+triggers: ["cookbook", "app cookbook", "reusable snippets", "pagination", "seo head"]
 phase: reference
-version: 2.0
+version: 2.1
 status: authoritative
-last_updated: "2026-04-20"
+last_updated: "2026-05-21"
 ---
 
-# claude-frontend — Cookbook
+# claude-app — Cookbook
 
 Reusable snippets that span multiple step files. Each recipe lives here once; step files reference by anchor (e.g., Step 01 points at [§SEO-Head](#seo-head)).
 
@@ -274,3 +274,105 @@ See Step 08 Code Vault §1. Condensed:
   <nav    class="fixed bottom-0 w-full max-w-[480px] ..."></nav>
 </div>
 ```
+
+---
+
+## Multi-Schema Supabase Auth (trash / multi-project pattern)
+<a name="multi-schema-auth"></a>
+
+Used when the Supabase instance hosts multiple projects on separate schemas (e.g. `trash`, `wms`, `quizLaa`) with a shared `public` auth bridge.
+
+**Three clients needed:**
+- `supabase` — business schema (e.g. `trash`)
+- `publicClient` — `public` schema for project/role binding
+- `demoClient` (optional) — session-free for demo/mock reads
+
+```ts
+// src/config/supabase.ts
+export const supabase = createClient(url, key, { db: { schema: env.SUPABASE_SCHEMA } });
+export const publicClient = createClient(url, key, { db: { schema: 'public' } });
+```
+
+**4-step auth flow (driver app example):**
+```ts
+// 1. Supabase sign-in
+const { data: authData } = await supabase.auth.signInWithPassword({ email, password });
+const authId = authData.user.id;
+
+// 2. Project binding check (public.user)
+const { data: publicUser } = await publicClient
+  .from('user')
+  .select('project_id')
+  .eq('auth_id', authId)
+  .eq('is_delete', false)
+  .single();
+if (publicUser.project_id !== env.PROJECT_ID) throw new Error('项目访问权限不足');
+
+// 3. Business profile (trash.users) — camelCase columns
+const { data: trashUser } = await supabase
+  .from('users')
+  .select('id, email, name, role, phone, avatar')
+  .eq('email', email)
+  .eq('isDelete', false)
+  .single();
+if (trashUser.role !== 'driver') throw new Error('此帐号无司机权限');
+
+// 4. Driver profile (trash.drivers) — only for driver role
+const { data: driverProfile } = await supabase
+  .from('drivers')
+  .select('id, name, phone, vehicleNo')
+  .eq('userId', trashUser.id)
+  .eq('isDelete', false)
+  .single();
+```
+
+**env.ts pattern (throw on missing required vars):**
+```ts
+function readEnv(key: string, required = true): string {
+  const val = import.meta.env[`VITE_${key}`] as string | undefined;
+  if (required && (!val || val.trim() === '')) throw new Error(`[env] Missing VITE_${key}`);
+  return val ?? '';
+}
+function readBoolEnv(key: string, fallback = false): boolean {
+  const val = readEnv(key, false).trim().toLowerCase();
+  if (!val) return fallback;
+  return val === '1' || val === 'true' || val === 'yes' || val === 'on';
+}
+```
+
+**Common mistakes to avoid:**
+1. `IS_MOCK: true` hardcoded — always read from `VITE_IS_MOCK` env var
+2. Using `public` schema for business tables — look in DATABASE.md first
+3. Forgetting `publicClient` for project binding — `public.user` table is the bridge
+4. Skipping schema name in `.env` — the trash project uses `trash`, not `sblf` or `public`
+5. camelCase vs snake_case — `trash` schema uses `isDelete`, `createdAt`; `public` uses `is_delete`
+
+**Getting the project ID:**
+```sql
+SELECT id FROM public.project WHERE schema_name = 'trash';
+```
+
+**For driver app, primary task feed is `trash.driver_tasks`, not `trash.orders`.**  
+Driver reads tasks by `driverId`; admin reads orders with order joins.
+
+---
+
+## trash Schema — Key Column Name Reference
+<a name="trash-schema-columns"></a>
+
+The `trash` schema uses **camelCase** column names throughout (TypeScript-friendly):
+
+| Table | Key columns |
+|---|---|
+| `trash.users` | `id, email, name, role, phone, avatar, isDelete, createdAt, updatedAt` |
+| `trash.drivers` | `id, userId, name, phone, vehicleNo, isDelete` |
+| `trash.customers` | `id, name, phone, email, address, balance, notes, isDelete` |
+| `trash.orders` | `id, orderNo, customerId, driverId, binSizeId, binId, deliveryAddress, deliveryDate, status, totalAmount, isDelete` |
+| `trash.driver_tasks` | `id, taskNo, orderId, driverId, type, scheduledDate, status, startPhotos, completePhotos, startedAt, completedAt, isDelete` |
+| `trash.bin_sizes` | `id, name, description, defaultPrice, status` |
+| `trash.bins` | `id, binCode, binSizeId, status, currentOrderId, notes, isDelete` |
+
+**Order statuses**: `pending → assigned → delivering → delivered → pickingUp → completed | cancelled`  
+**Task statuses**: `pending → inProgress → completed | cancelled`  
+**Task types**: `delivery | pickup`  
+**User roles**: `super_admin | driver` (NOT `admin` — it's `super_admin`)

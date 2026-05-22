@@ -22,7 +22,16 @@
   "exclude": [
     "skills/faucet",
     "**/.git",
-    "**/.git/**"
+    "**/.git/**",
+    "**\\.git",
+    "**\\.git\\**",
+    ".git",
+    ".git/**",
+    ".git\\**",
+    "memories/.git",
+    "memories/.git/**",
+    "memories\\.git",
+    "memories\\.git\\**"
   ],
   "roots": [
     { "kind": "knowledge", "path": "memories" },

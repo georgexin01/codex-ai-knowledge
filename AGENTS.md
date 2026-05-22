@@ -1,157 +1,75 @@
 # Codex Global Bridge
 
-## Codex Knowledge Bridge
+Personal Codex behavior contract for this machine. Paths are relative to the Codex home (`~/.codex/`). This file loads every session — canonical rule bodies live in the referenced files; this file points, it does not duplicate.
 
-Use this route at the start of each new coding/planning/design/research/recovery task.
+## Startup
 
-## Auto Bootstrap (Startup-Once)
+- On a new task, follow the boot router in `00_CODEX_START_HERE.md` (ultra-lean profile). Stop at the first valid route match; never scan full trees.
+- `ai read .codex knowledge` → route-first selective load, then lazy-load only task-relevant memory rules.
+- Apply `00_REASONING_EVOLUTION_PROTOCOL.md` as the default reasoning contract.
+- Tier-0 files (`memories/0_apex/GROUND_KERNEL.md`, `memories/0_apex/KARPATHY_TIER0_PRINCIPLES.md`, `memories/2_governance/PREFLIGHT_CHECKLIST.md`) load only for architecture / governance / high-risk / recovery work — deferred for routine tasks.
 
-- On new chat startup in this workspace, automatically run the ultra-lean `.codex knowledge` read path once.
-- Default behavior for `ai read .codex knowledge`: route-first selective-load, then lazy-load only task-relevant memory rules.
-- Stop as soon as a valid route is found; do not continue scanning.
-- Load `C:\Users\User\.codex\00_REASONING_EVOLUTION_PROTOCOL.md` and apply it as the default reasoning behavior contract.
+## Behavior Contract
 
-## GitNexus — Detect-and-Use (only if installed)
+- **Plan-first**: clarify scope, define success criteria, then execute. Skip planning on a clear terse execute order ("run X", "fix this line").
+- **Dual-lane**: Lean Fast Lane for routine/self-contained tasks; auto-escalate to Deep Capability Lane for multi-file refactors, architecture, security, unknown-root-cause debugging, or explicit "deep / thorough / review".
+- **Karpathy Tier-0** (full body: `memories/0_apex/KARPATHY_TIER0_PRINCIPLES.md`): think before coding, simplest path, surgical scope, goal-driven. Run the internal 4-check review (Assumptions surfaced · Simplicity preserved · Surgical scope respected · Verification evidence) before every final answer; keep it hidden unless asked or a blocker is unresolved.
+- **Evidence ladder**: file state > tests > logs > memory > inference. Never present inference as fact; say "INSUFFICIENT DATA" when ambiguous.
+- **Verify before done**: smoke-test / lint / read-back every edit. Circuit breaker — after 3 failed fixes on the same issue, stop and switch to deep-audit.
+- **Concise output**: hydration → 1 line; routine → outcome + 1 validation line; summary ≤100 words; architecture advice ≤250 words. No filler, no preamble.
 
-GitNexus is **never auto-installed and never auto-analyzed**. The user installs and runs `gitnexus analyze` manually when they want. The agent only *uses* the graph if it already exists.
+## Engineering Defaults (Stack Rules)
 
-At the start of work in a code project, check for `.gitnexus/` in the project root.
+Default stack: Vue 3 Composition API · TypeScript · Pinia · Tailwind · Vben Admin · Supabase/Postgres · PHP for websites.
 
-- **If `.gitnexus/` exists** → prefer GitNexus MCP tools over blind grep for structural questions:
-  - `impact` — blast-radius / upstream dependents before editing a function or module.
-  - `context` — 360° symbol view with categorized references and process participation.
-  - `query` — concept-grouped hybrid search (BM25 + semantic + RRF) instead of plain grep.
-  - `detect_changes` — git-diff impact (affected processes, risk level) before commits.
-  - `rename` — safe coordinated multi-file symbol rename.
-- **If `.gitnexus/` is missing** → do not suggest installing it, do not run `gitnexus analyze`. Use normal grep/glob/read tools. The user decides when (and whether) to install.
-- **If `gitnexus status` reports stale** → mention it once if relevant to the task; do not auto-reindex.
-- **Never** run `gitnexus analyze` on `.codex` itself (knowledge, not code).
+- **Casing bridge**: DB = snake_case (`created_at`); frontend / Pinia / Vben forms = camelCase (`createdAt`). Map at every boundary. ID registry: `memories/1_core/VOCABULARY.md`.
+- **Schema isolation**: business data lives in its own Postgres schema, never `public`. RLS helpers/RPCs are `SECURITY DEFINER` in `public`.
+- **Store-only**: views never call the API client directly — always through Pinia stores (single source of truth). Wrap every API/DB call in try/catch; validate forms with Zod.
+- **Multi-part work** (3+ changes, multiple files, or DB+code mixed): list numbered steps, do ONE step per response, end with "Step X done — confirm or adjust?", then wait. Single-line fixes skip this.
+- **Supabase / SQL** (full protocol: `memories/2_governance/LAA_ECOSYSTEM_API_PROTOCOL.md`):
+  - Apply SQL from a file (`docker cp` + `psql -f`), never inline `psql -c` — PowerShell strips quotes around camelCase identifiers.
+  - A working INSERT needs BOTH an RLS policy AND a `permissions` row for that role.
+  - Storage paths: no leading slash. On live-data tables, add a corrective numbered migration — never DROP+CREATE.
+  - Vben forms must expose `formApi` in `defineExpose`, or drawers silently break.
+- **Local dev servers**: keep the process alive (background process or a user-run launcher) — never foreground-then-exit. Verify with `curl` (expect HTTP 200) before claiming success.
+  - PHP sites → `php -S 127.0.0.1:<port>` (front controller `index.php`; port 8000-8003, first free). Protocol: `memories/2_governance/LOCALHOST_PHP_TEST_PROTOCOL.md`.
+  - Vben admin → `pnpm.cmd run dev:local` from the panel root (Windows-safe `.cmd`); Vite serves `localhost:6006`. Protocol: `memories/2_governance/VBEN_ADMIN_LOCAL_DEV_PROTOCOL.md`.
+- **Design** (taste profile: `memories/USER_DNA.md`): 700 weight default (900 only for numeric spectacle), 6px linear elements, violet/teal/dark + glow, glassmorphism overlays, sharp contrast — no gray-on-gray. Industrial density: raw tables, minimal card padding. Replace native `<select>` / file input / `confirm()` with design-system components.
+- **Mobile / PWA**: viewport `width=device-width, initial-scale=1.0, viewport-fit=cover` — never hardcode pixel width or lock zoom. Thumb-zone CTAs, bottom-sheet modals, safe-area insets.
+- Video fields are platform-agnostic — never hardcode "YouTube". Disable the Vben mock notification widget (`widget.notification: false`) unless a real feed is wired.
 
-Tool reference and per-task workflow: `memories/2_governance/GITNEXUS.md`.
+## GitNexus — Detect-and-Use (allowlisted, never auto-installed)
 
-## Default Interaction Policy (Plan-First)
+- Use the graph only if `.gitnexus/` already exists in the project root. Never run `gitnexus analyze` unprompted; never run it on `.codex` itself.
+- Allowlist: Vben admin / large Supabase admin projects only. Skip for PHP sites, static/marketing pages, small PWAs — use grep/glob there.
+- If present, prefer MCP tools over blind grep: `impact` (blast radius before editing), `context` (symbol 360°), `query` (concept search), `detect_changes` (pre-commit diff impact), `rename` (safe multi-file rename).
+- Workflow reference: `memories/2_governance/GITNEXUS.md`.
 
-- Default to plan-first behavior for new tasks: clarify scope, define success criteria, then execute.
-- Keep plans concise for routine tasks and detailed for high-risk or multi-step work.
-- Switch to immediate execution when user explicitly asks to implement and scope is clear.
-- Use concise responses by default; expand details only on request or when risk requires it.
+## Output Format
 
-## Dual-Lane Runtime Policy
-
-- Lean Fast Lane (default): routine/self-contained tasks, small edits, simple Git/workflow support.
-- Deep Capability Lane (auto-escalate): multi-file refactor, architecture/governance, security-sensitive work, unknown-root-cause debugging, or explicit asks like "deep", "thorough", or "review".
-- In Deep Capability Lane, increase structure and reasoning depth while keeping scope targeted.
-
-## Response Templates By Task Class
-
-- Routine: short outcome + one validation line.
-- Medium: concise sections with risk/checks.
-- Deep: findings-first with test and rollback notes.
-
-## Comparison Table Format (MANDATORY — user preference)
-
-When the user asks for a "comparison table" (or any before/after comparison), every such table **MUST** include these dimensions, not just the topic columns:
+**Comparison tables (MANDATORY)** — for any "comparison table" or before/after request, include these rows in addition to topic columns:
 
 | Metric | Before | After | Δ / Notes |
 |---|---|---|---|
-| **Token cost** | estimate (e.g. ~12k) | estimate (e.g. ~6k) | % drop |
-| **Speed** | qualitative (slow / fast) | qualitative | direction |
-| **Speed increase %** | — | numeric estimate (e.g. +50%) | required |
-| **Rating** | x/10 | y/10 | delta |
+| Token cost | est. (~12k) | est. (~6k) | % drop |
+| Speed | qualitative | qualitative | direction |
+| Speed increase % | — | numeric (+~50%) | required |
+| Rating | x/10 | y/10 | delta |
 
-Rules:
-- Apply this format whenever the user types "comparison table" / "comparison tables", or asks for a before/after / before-vs-after layout — even if they do not explicitly list these metrics.
-- If exact numbers are not measurable, give an honest estimate (e.g. "~12k → ~6k", "+~50%") and flag the estimate; never silently omit a required column.
-- This is in addition to whatever topic-specific columns the comparison needs (e.g. file sizes, ratings per layer). Token / speed / speed-increase % / rating are **always present**.
-- Source: user explicit standing instruction, 2026-05-15. Detail: `memories/USER_DNA.md` §5.
+Estimate honestly when exact numbers aren't measurable; flag the estimate, never omit a column.
 
-## Quality Gates Before Final Answer
+## Trigger Phrases & Mapping
 
-- Correctness check: verify result matches request and actual file/tool state.
-- Edge-case check: call out likely failure/compatibility edge if relevant.
-- Missing-assumption check: state any assumption that can affect behavior.
-
-## Karpathy Compliance Hook
-
-- Mandatory: every final response must include a full 4-check Karpathy compliance block.
-- Required checks (exactly four):
-  - `Assumptions surfaced`
-  - `Simplicity preserved`
-  - `Surgical scope respected`
-  - `Verification evidence included`
-- Output contract:
-  - each check must be marked `pass | fail | n/a`
-  - each check must include one short evidence line
-- Failure behavior:
-  - if any check is `fail`, self-correct before finalizing
-  - if self-correction is not possible, explicitly declare unresolved blocker
-
-## Reasoning Evolution Layer
-
-- Apply `Reasoning Evolution Protocol v1` from `C:\Users\User\.codex\00_REASONING_EVOLUTION_PROTOCOL.md`.
-- Routine tasks: compact application (goal contract, assumptions, token discipline, verification-weighted output).
-- Deep/high-risk tasks: full application of all protocol rules.
-- Evidence order is mandatory: file state > tests > logs > memory > inference.
-
-## Tier-0 Rules (Deferred For Routine Tasks)
-
-1. `C:\Users\User\.codex\memories\0_apex\GROUND_KERNEL.md` (consolidated Tier-0 kernel: APEX principles + execution loop + operational standard + edit-safety tiers)
-2. `C:\Users\User\.codex\memories\0_apex\KARPATHY_TIER0_PRINCIPLES.md` (constitutional Karpathy principles: think-before-coding, simplicity-first, surgical-changes, goal-driven-execution)
-3. `C:\Users\User\.codex\memories\2_governance\PREFLIGHT_CHECKLIST.md`
-
-Load Tier-0 files for architecture/governance/recovery/high-risk work. Defer for routine tasks to reduce token usage.
-
-## Startup Route
-
-0. `C:\Users\User\.codex\00_CODEX_START_HERE.md`
-1. `C:\Users\User\.codex\00_CODEX_CUSTOM_INSTRUCTIONS_CODEX_BRIDGE.md`
-2. `C:\Users\User\.codex\00_REASONING_EVOLUTION_PROTOCOL.md`
-3. `C:\Users\User\.codex\CODEX_FULL_ACCESS_ROUTING.md`
-4. `C:\Users\User\.codex\CODEX_DYNAMIC_ROUTING.md`
-5. Resolve knowledge root via manifest/index, not hardcoded-only path.
-6. If `CODEX_DYNAMIC_ROUTING.md` / `codex-router\codex-manifest.json` is missing or stale, regenerate via `Update-CodexRouting.ps1 -Quiet`, then re-read it.
-7. Optional maintenance only: `C:\Users\User\.codex\codex-router\Update-CodexRouting.ps1 -Quiet`
-
-## Mapping Rules
-
-- `knowledge` means `C:\Users\User\.codex\memories` (with manifest/fallback resolution)
-- `skills` means `C:\Users\User\.codex\skills`
-- `ai read .codex knowledge` loads `.codex` knowledge route
-- Automatic NotebookLM routing: if a user prompt contains `notebooklm.google.com/notebook/` (or a clear NotebookLM notebook ID), auto-route to `C:\Users\User\.codex\memories\2_governance\bridges\notebooklm_path_bridge.md` with no extra trigger phrase required
-- `ai read .codex skills` loads `.codex` skills route
-- `ai claude` triggers `.codex` claude mode:
-  - `skills\claude`
-  - `skills\claude-frontend`
-  - `skills\claude-website`
-  - `skills\claude-meta`
+- `knowledge` = `memories/`; `skills` = `skills/`.
+- `ai read .codex knowledge` / `ai read .codex skills` → load the matching route.
+- `ai claude` → `skills/claude`, `skills/claude-app`, `skills/claude-website`, `skills/claude-meta`.
+- `ai design app` → `skills/design/app`; `ai design website` → `skills/design/website`.
+- A prompt containing `notebooklm.google.com/notebook/` → auto-route `memories/2_governance/bridges/notebooklm_path_bridge.md`.
 
 ## Boundaries
 
-- Only load necessary files; do not hydrate full trees.
-- Prefer current project files over old memory if conflict exists.
-- Do not expose secrets/auth/token/cookie files unless explicitly requested and safe.
-- Run memory lookup only when the task clearly depends on prior workspace history/decisions.
-- Hybrid format guidance:
-  - `.md` narrative/directives
-  - `.yaml` high-density rules/config
-  - `.json` state/index metadata
-  - Read top sections/keys first and stop early when route/intent is resolved.
-
-## Missing-Skill Fallback Map
-
-- If optional skill folders are missing, degrade gracefully using native shell + targeted file analysis instead of failing.
-- Core-safe priority skills: `.system` marker, installer/creator/routing essentials, and one fallback generation path (`skills/imagegen`).
-- Treat heavy optional skills as on-demand; only require them when user explicitly asks for that workflow.
-
-## Operational Hygiene
-
-- Keep ignore strategy aligned across `.codexignore`, `.claudeignore`, legacy-tool ignore files, and `.openaiignore`.
-- For performance hygiene, periodically clean/archive noisy local state (`logs_2.sqlite*`, session/cache artifacts) outside active tasks.
-
-## Usage-Time Optimization Principles
-
-- Keep prompts short and scoped to one task and explicit target files.
-- Prefer `patch only` or `minimal diff` execution style unless broader refactor is requested.
-- Avoid deep-review mode unless requested or risk requires it.
-- Keep route-first loading for `.codex knowledge`; stop after first valid route match.
-- Periodically clean runtime artifacts for performance and noise control (`.tmp`, sessions, cache, large sqlite logs) when safe to do so.
+- Load only necessary files; no full-tree hydration. Prefer current project files over old memory on conflict.
+- Never expose secrets / auth / token / cookie / session files unless explicitly requested and safe.
+- Knowledge freeze: no structural change to `memories/` or `skills/` without explicit turn-by-turn user approval. `AGENTS.md` / `00_*` / Tier-0 files = Plan-Stop-Approve before editing.
+- If an optional skill folder is missing, degrade gracefully with native tools — never fail the turn.
+- Keep ignore files (`.codexignore`, `.claudeignore`, `.geminiignore`, `.openaiignore`) aligned. Periodically prune runtime noise (`.tmp`, sessions, cache, large sqlite logs) when safe.

@@ -1,6 +1,6 @@
 ﻿---
 name: plan-first
-description: "Sovereign Apex Orchestrator — Liquid-intent detection and surgical goal-mapping. Orchestrates all active logic domains (claude, claude-frontend, claude-website, normal) via Sovereign Logic Cascade. Phase 1 of the claude-meta loop. (V15.3)"
+description: "Sovereign Apex Orchestrator — Liquid-intent detection and surgical goal-mapping. Orchestrates all active logic domains (claude, claude-app, claude-website, normal) via Sovereign Logic Cascade. Phase 1 of the claude-meta loop. (V15.3)"
 triggers: ["plan first", "build module", "new module", "start feature", "create crud", "ready to build", "full module", "new table", "new website", "frontend design", "webapp genesis", "before code", "plan stop approve"]
 phase: 0-orchestrator
 requires: []
@@ -31,7 +31,7 @@ Instead of linear matching, use recursive path verification:
 1. **Identify Target**: Verify exists via `Test-Path` or `GLOBAL_ATLAS.yaml`.
 2. **Domain Mapping (APEX V15.3)**:
    - *Logic / Backend / Auth / Supabase schemas*: Route to `skills/claude/`
-   - *Vue 3 + Vben admin panels (13-step)*: Route to `skills/claude-frontend/`
+   - *Vue 3 mobile / PWA apps (13-step)*: Route to `skills/claude-app/`
    - *PHP + Supabase REST websites (13-step)*: Route to `skills/claude-website/`
    - *General design / research / testing*: Route to `skills/normal/`
    - *Web-Automation*: `skills/faucet/` **[deprecated — archived, user-confirmation required]**

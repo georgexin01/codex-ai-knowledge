@@ -10,6 +10,9 @@ last_updated: "2026-04-20"
 
 # `claude-website` — Sovereign PHP + Supabase REST Protocol V7.0
 
+> **To BUILD, use the linear executor: [`WORKING_PROGRESS.md`](WORKING_PROGRESS.md)** — 45 numbered micro-tasks (handshake → foundation → engine → endpoints → publish). This SKILL.md + the 13 step folders are the code-vault reference it points into.
+> **DB handshake** shared with `claude` + `claude-app`: [`../SHARED_DB_CONTRACT.md`](../SHARED_DB_CONTRACT.md). If a sibling admin panel owns the schema, this skill CONSUMES it — see contract §2.
+
 ## 🎯 When to Use
 
 Initializing or refactoring a Sovereign PHP backend (public landing pages, agent profiles, reviews, lead capture). Use this as the authoritative orchestrator for the **13-Step PHP API Lifecycle**.
