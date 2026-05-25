@@ -15,8 +15,8 @@ Preference signals:
 - When the user asked to “write inside my codex or gemini knowledge if need for images generating,” and “update to claude code skills,” they want this behavior to be remembered in skills/knowledge, not just described in chat.
 
 Reusable knowledge:
-- The free-visual fallback was encoded into a shared workflow file: `C:\Users\user\.gemini\antigravity\skills\normal\design\FREE_VISUAL_ASSET_SOURCING.md`.
-- Gemini design/website and design/app skills were updated to reference that workflow, along with Claude-facing image skills (`claude-frontend/07-image-spec`, `claude/image-upload-spec`, `claude-website/12-ui-refactor`).
+- The free-visual fallback was encoded into a shared workflow file: `C:\Users\user\.codex\skills\normal\design\FREE_VISUAL_ASSET_SOURCING.md`.
+- design/website and design/app skills were updated to reference that workflow, along with Claude-facing image skills (`claude-app/07-image-spec`, `claude/image-upload-spec`, `claude-website/12-ui-refactor`).
 - A native Codex skill was added at `C:\Users\user\.codex\skills\free-visual-assets\SKILL.md` so future Codex sessions can automatically trigger the fallback.
 - The workflow standardizes on: project-owned assets first, then free stock sources (Unsplash, Pexels, Pixabay), Material Symbols/icons, SVG, CSS art, local caching in `uploads/generated/` or `public/images/`, and source/license notes in `IMAGE_SOURCES.md` or `BLUEPRINT.md`.
 
@@ -29,14 +29,14 @@ Reusable knowledge:
 - The project blueprint was updated to say future image-generation requests should first try the available tool, then fall back to free stock sourcing + local asset caching + icon/SVG/CSS fallbacks.
 
 References:
-- `C:\Users\user\.gemini\antigravity\skills\normal\design\FREE_VISUAL_ASSET_SOURCING.md`
-- `C:\Users\user\.gemini\antigravity\skills\design\website\SKILL.md`
-- `C:\Users\user\.gemini\antigravity\skills\design\website\02-asset-orchestration\skill.md`
-- `C:\Users\user\.gemini\antigravity\skills\design\app\SKILL.md`
-- `C:\Users\user\.gemini\antigravity\skills\design\app\02-asset-orchestration\skill.md`
-- `C:\Users\user\.gemini\antigravity\skills\claude-frontend\07-image-spec\skill.md`
-- `C:\Users\user\.gemini\antigravity\skills\claude\image-upload-spec\skill.md`
-- `C:\Users\user\.gemini\antigravity\skills\claude-website\12-ui-refactor\skill.md`
+- `C:\Users\user\.codex\skills\normal\design\FREE_VISUAL_ASSET_SOURCING.md`
+- `C:\Users\user\.codex\skills\design\website\SKILL.md`
+- `C:\Users\user\.codex\skills\free-visual-assets\SKILL.md` (was .gemini design/website/02-asset-orchestration — content migrated)
+- `C:\Users\user\.codex\skills\design\app\SKILL.md`
+- `C:\Users\user\.codex\skills\free-visual-assets\SKILL.md` (was .gemini design/app/02-asset-orchestration — content migrated)
+- `C:\Users\user\.codex\skills\claude-app\07-image-spec\skill.md`
+- `C:\Users\user\.codex\skills\claude\image-upload-spec\skill.md`
+- `C:\Users\user\.codex\skills\claude-website\12-ui-refactor\skill.md`
 - `C:\Users\user\.codex\skills\free-visual-assets\SKILL.md`
 - `c:\Users\user\Desktop\ecoworld\BLUEPRINT.md`
 

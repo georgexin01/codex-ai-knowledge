@@ -29,6 +29,37 @@ The user uses Codex as a local Windows coding partner and prefers durable outcom
 - Treat before/after token or speed comparison as part of the task, not a vague claim.
 - GitNexus: use first for vben admin / large Supabase projects; skip for websites and small apps.
 
+# Task Group: Zenius template UI redesign and Windows-safe frontend verification
+scope: Reuse when the task touches `C:\Users\user\Desktop\zenius\template`, especially presentation-only refreshes in the editable template app, shared selector/chip styling across screens, or Windows PowerShell frontend build verification; not for logic changes or the read-only source app.
+applies_to: cwd=\\?\C:\Users\user\Desktop\zenius; reuse_rule=safe for this Zenius workspace if you re-check whether the editable target is still `template/` and whether the same selector appears in multiple views that must stay visually aligned
+
+## Task 1: Update Zone selector tag design in `template/`, success
+
+### rollout_summary_files
+
+- rollout_summaries/2026-05-22T01-31-46-A3xU-zone_tag_design_update_template_app.md (cwd=\\?\C:\Users\user\Desktop\zenius, rollout_path=C:\Users\user\.codex\sessions\2026\05\22\rollout-2026-05-22T09-31-46-019e4d4f-5a09-77d3-87dc-f7e7ef313912.jsonl, updated_at=2026-05-22T05:22:58+00:00, thread_id=019e4d4f-5a09-77d3-87dc-f7e7ef313912, unified Home and Standings zone tags into one shared premium segmented style and verified with `npm.cmd run build`)
+
+### keywords
+
+- zenius, template, template-ui-redesign, zone tag, zone selector, HomeView.vue, StandingsView.vue, style.css, zone-tag-rail, zone-tag, npm.cmd, npm.ps1 cannot be loaded because running scripts is disabled on this system, vite build
+
+## User preferences
+
+- when the user asked to update the "Zone 1,Zone 2,Zone 3 tag design", treat it as a visual refresh request, not a logic change [Task 1]
+- when the user's wording is broad and design-focused ("tag design"), default to improving presentation, shape, active state, and cross-screen consistency before changing routing or data behavior [Task 1]
+
+## Reusable knowledge
+
+- In this workspace, the editable redesign target is `template/`; `zenius-tech-2026/` is the read-only source app [Task 1]
+- The zone selector lived in two visual treatments: `template/src/views/HomeView.vue` used the hero action row, while `template/src/views/StandingsView.vue` used a separate inline button row. Updating only one leaves the UI inconsistent [Task 1]
+- A shared `zone-tag-rail` / `zone-tag` pattern can be reused across both screens, with hero-specific overrides kept in `template/src/style.css` instead of duplicating per-view styling [Task 1]
+- Verification on this machine should use `npm.cmd run build` when PowerShell blocks `npm run build` via `npm.ps1 cannot be loaded because running scripts is disabled on this system.` [Task 1]
+
+## Failures and how to do differently
+
+- Patch fails on CSS edits due to context mismatch -> re-read the exact file boundaries and patch against the real line ranges before retrying [Task 1]
+- `npm run build` fails under PowerShell with execution-policy errors -> rerun the same command through `npm.cmd` and use that result as the real verification signal [Task 1]
+
 # Task Group: Codex Tier-0 Karpathy governance and routing enforcement
 scope: Reuse when the task changes Codex behavioral governance, startup/routing contracts, or final-response discipline; especially relevant when the user wants Karpathy rules treated as enforceable Tier-0 policy without duplicated rule bodies.
 applies_to: cwd=\\?\C:\Users\user\.codex; reuse_rule=safe for this user's Codex-home governance workspace if you re-check the live Tier-0 files, generated routing output, and ignore/router exclusions before editing

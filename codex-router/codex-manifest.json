@@ -1,5 +1,5 @@
 ﻿{
-    "generated_utc":  "2026-05-21T07:44:44.3335948Z",
+    "generated_utc":  "2026-05-25T03:08:39.8619384Z",
     "codex_root":  "C:\\Users\\user\\.codex",
     "config_path":  "C:\\Users\\user\\.codex\\codex-router\\router-config.json",
     "boot_profile":  "ultra-lean",
@@ -15,7 +15,7 @@
                       "rel":  "skills"
                   }
               ],
-    "indexed_files":  344,
+    "indexed_files":  356,
     "entries":  [
                     {
                         "kind":  "knowledge",
@@ -83,9 +83,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "MEMORY.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\MEMORY.md",
-                        "size":  17185,
-                        "last_write_utc":  "2026-05-21T03:40:49.2932814Z",
-                        "sha256":  "AB64D940601BAFC47F6E2A542DFB73888C0BE75F820D11BBE0C98EF8E72F2AB8"
+                        "size":  21198,
+                        "last_write_utc":  "2026-05-25T03:01:40.7950560Z",
+                        "sha256":  "82916CF8734F7771C53463004A8146F3C3651200378BC41C6B8A4DB2C5BA57CA"
                     },
                     {
                         "kind":  "knowledge",
@@ -93,9 +93,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "memory_summary.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\memory_summary.md",
-                        "size":  15216,
-                        "last_write_utc":  "2026-05-21T03:42:02.0476089Z",
-                        "sha256":  "3A7BAD32560F5DC14B033B614C107CAAB6581384F800BEE8613975951D401049"
+                        "size":  16839,
+                        "last_write_utc":  "2026-05-25T03:02:04.3832426Z",
+                        "sha256":  "1410FF7F873491C45AFA818B0A38F8DE90983A9B683B3513188C0493D4EAD6FC"
                     },
                     {
                         "kind":  "knowledge",
@@ -116,16 +116,6 @@
                         "size":  12173,
                         "last_write_utc":  "2026-05-05T08:58:33.1920797Z",
                         "sha256":  "BF4610DB22EEFBAC1E9A2D05EDFC6230B75D87BD0752657569B486689283B9D6"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "raw_memories.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\raw_memories.md",
-                        "size":  41919,
-                        "last_write_utc":  "2026-05-21T06:21:38.8584739Z",
-                        "sha256":  "A0A7A4976961DC8487C0F48FB53163797C818F04526803A9997A0BE932264246"
                     },
                     {
                         "kind":  "knowledge",
@@ -864,7 +854,7 @@
                         "relative_path":  "rollout_summaries\\2026-05-04T06-04-27-CfIq-codex_gemini_full_access_routing.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\rollout_summaries\\2026-05-04T06-04-27-CfIq-codex_gemini_full_access_routing.md",
                         "size":  7624,
-                        "last_write_utc":  "2026-05-21T06:21:38.8544783Z",
+                        "last_write_utc":  "2026-05-25T02:57:49.0594076Z",
                         "sha256":  "0B3B98D93233F1CF093E0B666C492805308D9EF00E1823B97D41BFEDB820F5FA"
                     },
                     {
@@ -873,9 +863,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "rollout_summaries\\2026-05-11T04-11-42-EmJp-ecoworld_free_visual_assets_and_modern_filter_ui.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\rollout_summaries\\2026-05-11T04-11-42-EmJp-ecoworld_free_visual_assets_and_modern_filter_ui.md",
-                        "size":  6579,
-                        "last_write_utc":  "2026-05-21T06:21:38.8544783Z",
-                        "sha256":  "A37AF142F7366E92C042FB3202B4117122172C50EDB39F5A329C4946B91F8253"
+                        "size":  6553,
+                        "last_write_utc":  "2026-05-25T03:02:09.2453005Z",
+                        "sha256":  "FBCAA3803A865E614D5ADAD45375119F55B4DB536AD3FC6DFA40C7C7AEDE13B7"
                     },
                     {
                         "kind":  "knowledge",
@@ -884,7 +874,7 @@
                         "relative_path":  "rollout_summaries\\2026-05-12T05-53-52-ykaJ-ecoworld_cleanup_and_php_asset_cache_busting.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\rollout_summaries\\2026-05-12T05-53-52-ykaJ-ecoworld_cleanup_and_php_asset_cache_busting.md",
                         "size":  4624,
-                        "last_write_utc":  "2026-05-21T06:21:38.8554758Z",
+                        "last_write_utc":  "2026-05-25T02:57:49.0604073Z",
                         "sha256":  "BE4A7BA44E3E30F1BD2DF4156248F23D03D1CB54DEA78194540E94BB367A4A50"
                     },
                     {
@@ -894,7 +884,7 @@
                         "relative_path":  "rollout_summaries\\2026-05-12T07-38-02-n2DH-read_gemini_knowledge_ecoworld_routing_hydration.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\rollout_summaries\\2026-05-12T07-38-02-n2DH-read_gemini_knowledge_ecoworld_routing_hydration.md",
                         "size":  3521,
-                        "last_write_utc":  "2026-05-21T06:21:38.8554758Z",
+                        "last_write_utc":  "2026-05-25T02:57:49.0604073Z",
                         "sha256":  "77C17A9FD95488ED4448FDB8B6B934DC1C67B65DD95B921ACA945DDF379CEE12"
                     },
                     {
@@ -904,7 +894,7 @@
                         "relative_path":  "rollout_summaries\\2026-05-13T06-35-46-ELIk-codex_migration_optimization_and_cross_tool_ignore.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\rollout_summaries\\2026-05-13T06-35-46-ELIk-codex_migration_optimization_and_cross_tool_ignore.md",
                         "size":  11651,
-                        "last_write_utc":  "2026-05-21T06:21:38.8564745Z",
+                        "last_write_utc":  "2026-05-25T02:57:49.0614070Z",
                         "sha256":  "422E2166CDA75A7FC0BC137CEFB39A2CC0BAFA3063C45CB9EC8A504B23935B59"
                     },
                     {
@@ -914,7 +904,7 @@
                         "relative_path":  "rollout_summaries\\2026-05-18T03-53-04-26nW-karpathy_tier0_strict_enforcement_layer.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\rollout_summaries\\2026-05-18T03-53-04-26nW-karpathy_tier0_strict_enforcement_layer.md",
                         "size":  6788,
-                        "last_write_utc":  "2026-05-21T06:21:38.8564745Z",
+                        "last_write_utc":  "2026-05-25T02:57:49.0614070Z",
                         "sha256":  "AEA5E90F6E22B131D3AA88D8DC083CD021C4213A032865715A8DBF8B8D3D120D"
                     },
                     {
@@ -924,7 +914,7 @@
                         "relative_path":  "rollout_summaries\\2026-05-18T05-58-58-KXJ1-angel_interior_docs_db_cleanup_login_ignore_and_dev_run.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\rollout_summaries\\2026-05-18T05-58-58-KXJ1-angel_interior_docs_db_cleanup_login_ignore_and_dev_run.md",
                         "size":  13390,
-                        "last_write_utc":  "2026-05-21T06:21:38.8574760Z",
+                        "last_write_utc":  "2026-05-25T02:57:49.0614070Z",
                         "sha256":  "8E88A742CFD281E45C4DF6BD0350F3A880CAE935BEBAB9275E25D5981F6DE4DB"
                     },
                     {
@@ -934,8 +924,18 @@
                         "relative_path":  "rollout_summaries\\2026-05-20T09-58-29-xDsO-angel_admin_web_antd_dev_local_startup.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\rollout_summaries\\2026-05-20T09-58-29-xDsO-angel_admin_web_antd_dev_local_startup.md",
                         "size":  3119,
-                        "last_write_utc":  "2026-05-21T06:21:38.8574760Z",
+                        "last_write_utc":  "2026-05-25T02:57:49.0624071Z",
                         "sha256":  "D653BD8C2B07B6777042612975A73177AE41EE7E2CC003BA56EA140AB86C5802"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "rollout_summaries\\2026-05-22T01-31-46-A3xU-zone_tag_design_update_template_app.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\rollout_summaries\\2026-05-22T01-31-46-A3xU-zone_tag_design_update_template_app.md",
+                        "size":  3167,
+                        "last_write_utc":  "2026-05-25T02:57:49.0624071Z",
+                        "sha256":  "5CA9AFB8B70E16FEA4F4735E9F852B6F7C124F93E657D988E51AABEF243BA08B"
                     },
                     {
                         "kind":  "knowledge",
@@ -1003,9 +1003,129 @@
                         "root_relative":  "skills",
                         "relative_path":  ".system\\.codex-system-skills.marker",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\.codex-system-skills.marker",
-                        "size":  18,
-                        "last_write_utc":  "2026-05-13T08:20:35.9555890Z",
-                        "sha256":  "E0976A2188665E012685A3F0CCFCC83E35633DB337E1478DF332B8444B9BCAFB"
+                        "size":  17,
+                        "last_write_utc":  "2026-05-25T02:56:49.1856137Z",
+                        "sha256":  "64BA96B76A54AD6A1860F36FEF9EDCEE1A5C3CA1976D0976603D1001EDFA1BE7"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  ".system\\imagegen\\LICENSE.txt",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\imagegen\\LICENSE.txt",
+                        "size":  10977,
+                        "last_write_utc":  "2026-05-25T02:56:49.1336134Z",
+                        "sha256":  "44E03F7E263EB3AD256440C1EEAB5E49168BAFF5A78ECEF9A5447261CF3A91BC"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  ".system\\imagegen\\SKILL.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\imagegen\\SKILL.md",
+                        "size":  24359,
+                        "last_write_utc":  "2026-05-25T02:56:49.1336134Z",
+                        "sha256":  "613F892BA9259CBFCB44EE74E81587CC7CE288DE86AE2F1EAB5EACB190E34F58"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  ".system\\imagegen\\agents\\openai.yaml",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\imagegen\\agents\\openai.yaml",
+                        "size":  281,
+                        "last_write_utc":  "2026-05-25T02:56:49.1356139Z",
+                        "sha256":  "1797BE4076717806DF54AA9331C07AC8EEBE32C69F32132D5858712B05406146"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  ".system\\imagegen\\assets\\imagegen-small.svg",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\imagegen\\assets\\imagegen-small.svg",
+                        "size":  2894,
+                        "last_write_utc":  "2026-05-25T02:56:49.1376164Z",
+                        "sha256":  "087C1632A3B8A2ED4D6218952E7BA7AE2221A979F84233667ED2C587998784DA"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  ".system\\imagegen\\assets\\imagegen.png",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\imagegen\\assets\\imagegen.png",
+                        "size":  1711,
+                        "last_write_utc":  "2026-05-25T02:56:49.1386152Z",
+                        "sha256":  "95952F644064EB9E890F98D8DB07216347186526E4C41AD66D3420629EB86E20"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  ".system\\imagegen\\references\\cli.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\imagegen\\references\\cli.md",
+                        "size":  10430,
+                        "last_write_utc":  "2026-05-25T02:56:49.1406139Z",
+                        "sha256":  "200709F50FD772D9A54424274290253EF9D4C1E2834EBB0455E607A93C1293F3"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  ".system\\imagegen\\references\\codex-network.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\imagegen\\references\\codex-network.md",
+                        "size":  1812,
+                        "last_write_utc":  "2026-05-25T02:56:49.1406139Z",
+                        "sha256":  "CBA3B4D24D30F38ADF8021B6E9B49EC5261A9E45E7DF31047EC451C916C99B0A"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  ".system\\imagegen\\references\\image-api.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\imagegen\\references\\image-api.md",
+                        "size":  6169,
+                        "last_write_utc":  "2026-05-25T02:56:49.1416147Z",
+                        "sha256":  "6E682E499F48E4249B2DDFFA91F2F76A82CBB1BA9D913EC9F63F82756E4EEB26"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  ".system\\imagegen\\references\\prompting.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\imagegen\\references\\prompting.md",
+                        "size":  10014,
+                        "last_write_utc":  "2026-05-25T02:56:49.1426137Z",
+                        "sha256":  "60BA06B558547479325AD51EF2FCFCD573B926CA6AB8B664C5D372EA199F2A8F"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  ".system\\imagegen\\references\\sample-prompts.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\imagegen\\references\\sample-prompts.md",
+                        "size":  19672,
+                        "last_write_utc":  "2026-05-25T02:56:49.1436144Z",
+                        "sha256":  "6C873500A381F85703745DF0A4D7074772A626F96C2E73CB984A47AB18CAEC0A"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  ".system\\imagegen\\scripts\\image_gen.py",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\imagegen\\scripts\\image_gen.py",
+                        "size":  35266,
+                        "last_write_utc":  "2026-05-25T02:56:49.1446137Z",
+                        "sha256":  "C2CDB05244AD9A3DCB8731988790EA6A06A59AB3C062C0F872B35F4AD7D20B05"
+                    },
+                    {
+                        "kind":  "skill-reference",
+                        "root":  "C:\\Users\\user\\.codex\\skills",
+                        "root_relative":  "skills",
+                        "relative_path":  ".system\\imagegen\\scripts\\remove_chroma_key.py",
+                        "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\imagegen\\scripts\\remove_chroma_key.py",
+                        "size":  14276,
+                        "last_write_utc":  "2026-05-25T02:56:49.1456134Z",
+                        "sha256":  "7E51236919203B61D07DDFFDC6E0B5F501A28661003F5851F26FFBB64BDEC1EA"
                     },
                     {
                         "kind":  "skill-reference",
@@ -1014,7 +1134,7 @@
                         "relative_path":  ".system\\openai-docs\\LICENSE.txt",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\openai-docs\\LICENSE.txt",
                         "size":  10977,
-                        "last_write_utc":  "2026-05-13T08:20:35.9575883Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1526128Z",
                         "sha256":  "44E03F7E263EB3AD256440C1EEAB5E49168BAFF5A78ECEF9A5447261CF3A91BC"
                     },
                     {
@@ -1024,7 +1144,7 @@
                         "relative_path":  ".system\\openai-docs\\SKILL.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\openai-docs\\SKILL.md",
                         "size":  7403,
-                        "last_write_utc":  "2026-05-13T08:20:35.9595883Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1526128Z",
                         "sha256":  "EC6F61468051C927456E28C6EBAB6CE222B7DB02B1DA98E1E3EAC7F57C8BCC8F"
                     },
                     {
@@ -1034,7 +1154,7 @@
                         "relative_path":  ".system\\openai-docs\\agents\\openai.yaml",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\openai-docs\\agents\\openai.yaml",
                         "size":  557,
-                        "last_write_utc":  "2026-05-13T08:20:35.9605889Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1536145Z",
                         "sha256":  "515F3BC286F4B9521E4691223CB95019120964308B547C5761E6E031E976BA4E"
                     },
                     {
@@ -1044,7 +1164,7 @@
                         "relative_path":  ".system\\openai-docs\\assets\\openai-small.svg",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\openai-docs\\assets\\openai-small.svg",
                         "size":  1094,
-                        "last_write_utc":  "2026-05-13T08:20:35.9625895Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1556138Z",
                         "sha256":  "85EF0A2CDE497872EDEC1525F1D538CCC42B33FF47ACDBB88499A1631A4BDB21"
                     },
                     {
@@ -1054,7 +1174,7 @@
                         "relative_path":  ".system\\openai-docs\\assets\\openai.png",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\openai-docs\\assets\\openai.png",
                         "size":  1429,
-                        "last_write_utc":  "2026-05-13T08:20:35.9635872Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1566145Z",
                         "sha256":  "156CC84D7332BFE95B310350BD470B690D22AA33D65340CC6C2E06022946194C"
                     },
                     {
@@ -1064,7 +1184,7 @@
                         "relative_path":  ".system\\openai-docs\\references\\latest-model.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\openai-docs\\references\\latest-model.md",
                         "size":  2065,
-                        "last_write_utc":  "2026-05-13T08:20:35.9655879Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1586143Z",
                         "sha256":  "88A003C1BFC8F369C8A6F74997F1BBED8EB780411A7279B73C1A1E606320C884"
                     },
                     {
@@ -1074,7 +1194,7 @@
                         "relative_path":  ".system\\openai-docs\\references\\prompting-guide.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\openai-docs\\references\\prompting-guide.md",
                         "size":  14582,
-                        "last_write_utc":  "2026-05-13T08:20:35.9665875Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1596139Z",
                         "sha256":  "2AF97956C3EDD3E285C68483733A45C7F83C85C495537F5AA0A7D66D957E7C73"
                     },
                     {
@@ -1084,7 +1204,7 @@
                         "relative_path":  ".system\\openai-docs\\references\\upgrade-guide.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\openai-docs\\references\\upgrade-guide.md",
                         "size":  11489,
-                        "last_write_utc":  "2026-05-13T08:20:35.9685888Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1596139Z",
                         "sha256":  "906DDABBC0E49CB41F1A718D144BDF0F49D9DFC855DE3FB4BC329FE47EFDF8E2"
                     },
                     {
@@ -1094,7 +1214,7 @@
                         "relative_path":  ".system\\openai-docs\\scripts\\resolve-latest-model-info.js",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\openai-docs\\scripts\\resolve-latest-model-info.js",
                         "size":  3610,
-                        "last_write_utc":  "2026-05-13T08:20:35.9715884Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1616144Z",
                         "sha256":  "2E1D084E3B4DCF9F11910B1F1CA36CFCB056D4D3069F7FEBE2CED72B90AEE26E"
                     },
                     {
@@ -1103,9 +1223,9 @@
                         "root_relative":  "skills",
                         "relative_path":  ".system\\plugin-creator\\SKILL.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\plugin-creator\\SKILL.md",
-                        "size":  6542,
-                        "last_write_utc":  "2026-05-13T08:20:35.9735883Z",
-                        "sha256":  "D7C5A754C137D2E5E6924F998E35C0C88C4A051A38024E92FAE90003CAF58E82"
+                        "size":  7774,
+                        "last_write_utc":  "2026-05-25T02:56:49.1626141Z",
+                        "sha256":  "E276928D7F12E293CD7B5A5A59A62B434B4940DCB9A61BA329089AA733A608E3"
                     },
                     {
                         "kind":  "skill-reference",
@@ -1114,7 +1234,7 @@
                         "relative_path":  ".system\\plugin-creator\\agents\\openai.yaml",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\plugin-creator\\agents\\openai.yaml",
                         "size":  349,
-                        "last_write_utc":  "2026-05-13T08:20:35.9755903Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1636136Z",
                         "sha256":  "8B734948E71277F03E157CF7A6E5B3DC7861A4F0D730F75FC5D5E9B906672B7D"
                     },
                     {
@@ -1124,7 +1244,7 @@
                         "relative_path":  ".system\\plugin-creator\\assets\\plugin-creator-small.svg",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\plugin-creator\\assets\\plugin-creator-small.svg",
                         "size":  1322,
-                        "last_write_utc":  "2026-05-13T08:20:35.9775886Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1646135Z",
                         "sha256":  "EDB19A0C59F9A1B5253B9AF6D2F9F03CAC27B2FE6A0275EBCCBBDBFF07891A1A"
                     },
                     {
@@ -1134,7 +1254,7 @@
                         "relative_path":  ".system\\plugin-creator\\assets\\plugin-creator.png",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\plugin-creator\\assets\\plugin-creator.png",
                         "size":  1563,
-                        "last_write_utc":  "2026-05-13T08:20:35.9785899Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1646135Z",
                         "sha256":  "A4024B0306DDB05847E1012879D37AAF1E658205199DA596F5145ED7A88D9162"
                     },
                     {
@@ -1143,9 +1263,9 @@
                         "root_relative":  "skills",
                         "relative_path":  ".system\\plugin-creator\\references\\plugin-json-spec.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\plugin-creator\\references\\plugin-json-spec.md",
-                        "size":  7322,
-                        "last_write_utc":  "2026-05-13T08:20:35.9795877Z",
-                        "sha256":  "CB0D34C9F5591A4E9862482AB62426E3D0AF88B9BACCC06FF2B4F77B0E71A63F"
+                        "size":  7583,
+                        "last_write_utc":  "2026-05-25T02:56:49.1666131Z",
+                        "sha256":  "B97E6ED590891ABD1BEFB6758FAC3CA3E20229C0DC36478CF832516547E0E9A1"
                     },
                     {
                         "kind":  "skill-reference",
@@ -1153,9 +1273,9 @@
                         "root_relative":  "skills",
                         "relative_path":  ".system\\plugin-creator\\scripts\\create_basic_plugin.py",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\plugin-creator\\scripts\\create_basic_plugin.py",
-                        "size":  10758,
-                        "last_write_utc":  "2026-05-13T08:20:35.9815895Z",
-                        "sha256":  "CF3CB61F3DC94D8E6DF3F3AFEA031FF285EAD8238143441659C0F95546370125"
+                        "size":  10761,
+                        "last_write_utc":  "2026-05-25T02:56:49.1676149Z",
+                        "sha256":  "E40926D1C4D0DA03513214435289F216884F5193E0BFC38308087F1A175E00CD"
                     },
                     {
                         "kind":  "skill-reference",
@@ -1164,7 +1284,7 @@
                         "relative_path":  ".system\\skill-creator\\license.txt",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\skill-creator\\license.txt",
                         "size":  11560,
-                        "last_write_utc":  "2026-05-13T08:20:35.9885893Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1736136Z",
                         "sha256":  "3DDF9BE5C28FE27DAD143A5DC76EEA25222AD1DD68934A047064E56ED2FA40C5"
                     },
                     {
@@ -1174,7 +1294,7 @@
                         "relative_path":  ".system\\skill-creator\\SKILL.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\skill-creator\\SKILL.md",
                         "size":  22463,
-                        "last_write_utc":  "2026-05-13T08:20:35.9835878Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1686143Z",
                         "sha256":  "2940E08D49E5197453E58A4387D14CB07101B97911C992EF75C8289E0A1734C0"
                     },
                     {
@@ -1184,7 +1304,7 @@
                         "relative_path":  ".system\\skill-creator\\agents\\openai.yaml",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\skill-creator\\agents\\openai.yaml",
                         "size":  188,
-                        "last_write_utc":  "2026-05-13T08:20:35.9855914Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1696139Z",
                         "sha256":  "B750627CDD588FDBB5B46E854D3384D1A504FAD3B8ED73CA5D7EAD3804DF78B6"
                     },
                     {
@@ -1194,7 +1314,7 @@
                         "relative_path":  ".system\\skill-creator\\assets\\skill-creator-small.svg",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\skill-creator\\assets\\skill-creator-small.svg",
                         "size":  1322,
-                        "last_write_utc":  "2026-05-13T08:20:35.9875888Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1706137Z",
                         "sha256":  "EDB19A0C59F9A1B5253B9AF6D2F9F03CAC27B2FE6A0275EBCCBBDBFF07891A1A"
                     },
                     {
@@ -1204,7 +1324,7 @@
                         "relative_path":  ".system\\skill-creator\\assets\\skill-creator.png",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\skill-creator\\assets\\skill-creator.png",
                         "size":  1563,
-                        "last_write_utc":  "2026-05-13T08:20:35.9875888Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1716133Z",
                         "sha256":  "A4024B0306DDB05847E1012879D37AAF1E658205199DA596F5145ED7A88D9162"
                     },
                     {
@@ -1214,7 +1334,7 @@
                         "relative_path":  ".system\\skill-creator\\references\\openai_yaml.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\skill-creator\\references\\openai_yaml.md",
                         "size":  2405,
-                        "last_write_utc":  "2026-05-13T08:20:35.9905883Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1746143Z",
                         "sha256":  "7039D465B05342CBACF861F08D20192AB1EEEE112BC5D8FF0FB66234756887A9"
                     },
                     {
@@ -1224,7 +1344,7 @@
                         "relative_path":  ".system\\skill-creator\\scripts\\generate_openai_yaml.py",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\skill-creator\\scripts\\generate_openai_yaml.py",
                         "size":  6845,
-                        "last_write_utc":  "2026-05-13T08:20:35.9925876Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1756130Z",
                         "sha256":  "9EA002C57657E169B1BDDCAE227E55A5D87C43735DA6D87CF682B3E216ABB84B"
                     },
                     {
@@ -1234,7 +1354,7 @@
                         "relative_path":  ".system\\skill-creator\\scripts\\init_skill.py",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\skill-creator\\scripts\\init_skill.py",
                         "size":  15002,
-                        "last_write_utc":  "2026-05-13T08:20:35.9935875Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1756130Z",
                         "sha256":  "50281D4B53C73F6FFA1E98ADF1EE9FCD55D4854970F24513E33DA65F073F74BE"
                     },
                     {
@@ -1244,7 +1364,7 @@
                         "relative_path":  ".system\\skill-creator\\scripts\\quick_validate.py",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py",
                         "size":  3394,
-                        "last_write_utc":  "2026-05-13T08:20:35.9945873Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1766131Z",
                         "sha256":  "5347A0A09CFB546BBA1C0D1A30DAE0A233D9A05F57BD4E7877155C588BCDABF7"
                     },
                     {
@@ -1254,7 +1374,7 @@
                         "relative_path":  ".system\\skill-installer\\LICENSE.txt",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\skill-installer\\LICENSE.txt",
                         "size":  11560,
-                        "last_write_utc":  "2026-05-13T08:20:35.9955875Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1786139Z",
                         "sha256":  "3DDF9BE5C28FE27DAD143A5DC76EEA25222AD1DD68934A047064E56ED2FA40C5"
                     },
                     {
@@ -1264,7 +1384,7 @@
                         "relative_path":  ".system\\skill-installer\\SKILL.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\skill-installer\\SKILL.md",
                         "size":  3424,
-                        "last_write_utc":  "2026-05-13T08:20:35.9965874Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1796149Z",
                         "sha256":  "2D3BE2289274CBFFB9EB632B25A1038AA7F369DF6AAA0964077C77648547E01D"
                     },
                     {
@@ -1274,7 +1394,7 @@
                         "relative_path":  ".system\\skill-installer\\agents\\openai.yaml",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\skill-installer\\agents\\openai.yaml",
                         "size":  226,
-                        "last_write_utc":  "2026-05-13T08:20:35.9985890Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1806138Z",
                         "sha256":  "BD64B4D6893138706B3E3540F266AB809CCDCD08375652AE9F9D1E029FE50D02"
                     },
                     {
@@ -1284,7 +1404,7 @@
                         "relative_path":  ".system\\skill-installer\\assets\\skill-installer-small.svg",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\skill-installer\\assets\\skill-installer-small.svg",
                         "size":  926,
-                        "last_write_utc":  "2026-05-13T08:20:35.9995889Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1816136Z",
                         "sha256":  "099E5A4B5E5F0F918A8DE0D2059F0A86211DA623DBB75F86F13DC9F7C08C778D"
                     },
                     {
@@ -1294,7 +1414,7 @@
                         "relative_path":  ".system\\skill-installer\\assets\\skill-installer.png",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\skill-installer\\assets\\skill-installer.png",
                         "size":  1086,
-                        "last_write_utc":  "2026-05-13T08:20:36.0005884Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1826142Z",
                         "sha256":  "D0A230B1A79B71B858B7C215A0FBB0768D6459C14EA4EF80C61592629BF0E605"
                     },
                     {
@@ -1304,7 +1424,7 @@
                         "relative_path":  ".system\\skill-installer\\scripts\\github_utils.py",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\skill-installer\\scripts\\github_utils.py",
                         "size":  680,
-                        "last_write_utc":  "2026-05-13T08:20:36.0025899Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1846146Z",
                         "sha256":  "2F9702AFB9F0DA740181FA4A3214F663E460F80CD5CEA2E7DCAAB00AD269082E"
                     },
                     {
@@ -1314,7 +1434,7 @@
                         "relative_path":  ".system\\skill-installer\\scripts\\install-skill-from-github.py",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\skill-installer\\scripts\\install-skill-from-github.py",
                         "size":  10404,
-                        "last_write_utc":  "2026-05-13T08:20:36.0035892Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1846146Z",
                         "sha256":  "80196D9F149A0191D338F37D56003F32FFC8590E833D658539903F5D794EF146"
                     },
                     {
@@ -1324,7 +1444,7 @@
                         "relative_path":  ".system\\skill-installer\\scripts\\list-skills.py",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\.system\\skill-installer\\scripts\\list-skills.py",
                         "size":  3074,
-                        "last_write_utc":  "2026-05-13T08:20:36.0045875Z",
+                        "last_write_utc":  "2026-05-25T02:56:49.1856137Z",
                         "sha256":  "4BAA87CAD465607D45C7A2859DF89FDB354334B35861F5F4D123A7E9D0F658AA"
                     },
                     {
@@ -1643,9 +1763,9 @@
                         "root_relative":  "skills",
                         "relative_path":  "claude-app\\_cookbook.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\claude-app\\_cookbook.md",
-                        "size":  8737,
-                        "last_write_utc":  "2026-05-21T07:38:11.9866258Z",
-                        "sha256":  "21E9B8BDD8BB71EA824EB5C49C276BDC30545D3384573B9123E56F166AC5C468"
+                        "size":  12862,
+                        "last_write_utc":  "2026-05-22T05:56:04.3080206Z",
+                        "sha256":  "3ADC82F31AD70F9095537A7442948BE2895D7C658E5760A582F92A4DBDA5E7E5"
                     },
                     {
                         "kind":  "skill-reference",

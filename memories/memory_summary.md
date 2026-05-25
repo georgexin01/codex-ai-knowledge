@@ -1,3 +1,5 @@
+v1
+
 ## User Profile
 
 The user uses Codex as a local Windows coding partner and wants durable outcomes that reduce future re-learning. They often ask for knowledge to be persisted into root docs, governance files, memory, or skills instead of being left in chat. They prefer agents to read the real source of truth first - live project files, active docs, routing files, database contracts, or the current site/theme - and then act.
@@ -32,6 +34,7 @@ They repeatedly push for low-churn, high-signal collaboration: one canonical sou
 - When the user wants a before/after token or speed comparison, treat measurement as part of the task rather than making vague improvement claims.
 - When Codex-home skills or routing are being updated after the 2026-05-21 rename, treat `claude-app` as the live skill name and do not copy forward stale `.codex` references to `claude-frontend`.
 - When deciding whether to use GitNexus, default to using it for `vben admin` / large Supabase admin projects and skipping it for websites, marketing pages, small apps, and `.codex` knowledge trees.
+- When a UI request is phrased broadly as "tag design" or similar, default to a presentation-only refresh and cross-screen visual consistency before changing logic or data behavior.
 
 ## General Tips
 
@@ -39,6 +42,7 @@ They repeatedly push for low-churn, high-signal collaboration: one canonical sou
 - `MEMORY.md` has a hard 300-line cap in current governance state; if a future consolidation pushes it over, trim the oldest task groups from the bottom while preserving the line-1 governance comment plus the top profile/preferences.
 - For local PHP sites on this machine, prefer `php -S 127.0.0.1:8000 index.php`, keep it alive as a background process or user launcher, and verify with HTTP before saying it works.
 - For local Vben Admin startup on Windows, prefer `pnpm.cmd run dev:local`, wait for the Vite `ready` line, and verify the actual listener / HTTP response before reporting the URL.
+- On this Windows PowerShell setup, if `npm run ...` fails with `npm.ps1 cannot be loaded because running scripts is disabled on this system`, retry with `npm.cmd`.
 - If Vite/esbuild fails with `Access is denied` or cannot resolve `vite.config.mts`, suspect sandbox/workspace access first rather than an app-code bug.
 - For Codex-home governance work, keep `memories/0_apex/KARPATHY_TIER0_PRINCIPLES.md` as the single canonical Karpathy rule body and mirror only short contracts elsewhere.
 - If routing regeneration suddenly exposes nested `.git` files, fix the ignore/router exclusions before trusting the regenerated output.
@@ -57,6 +61,14 @@ They repeatedly push for low-churn, high-signal collaboration: one canonical sou
 - Use `00_CODEX_PERF_BENCHMARK.md` when the user asks for token/speed/depth comparisons; policy changes alone are not enough evidence.
 
 ## What's in Memory
+
+### Zenius template workspace
+
+#### 2026-05-22
+
+- Zone 1/2/3 tag design refresh in the editable template app: zenius, template, zone tag, zone selector, HomeView.vue, StandingsView.vue, style.css, zone-tag-rail, npm.cmd
+  - desc: Covers `cwd=\\?\C:\Users\user\Desktop\zenius` work to redesign the shared zone selector in `template/` while keeping behavior unchanged. Search this first for `template/` UI polish, shared chip/tag styling, or "which Zenius app is editable vs read-only?" questions.
+  - learnings: The selector existed in two separate visual treatments, so both Home and Standings had to be updated together. On this machine, `npm.cmd run build` is the reliable verification path when PowerShell blocks `npm`.
 
 ### Angel Interior workspace
 

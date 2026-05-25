@@ -1,57 +1,15 @@
 ﻿{
-    "generated_utc":  "2026-05-21T07:44:44.3757219Z",
-    "added_count":  20,
-    "modified_count":  9,
-    "removed_count":  16,
+    "generated_utc":  "2026-05-25T03:08:39.8989692Z",
+    "added_count":  0,
+    "modified_count":  0,
+    "removed_count":  1,
     "added":  [
-                  "C:\\Users\\user\\.codex\\skills\\claude\\WORKING_PROGRESS.md",
-                  "C:\\Users\\user\\.codex\\skills\\SHARED_DB_CONTRACT.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-app\\02-config-hardening\\skill.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-app\\README.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-website\\WORKING_PROGRESS.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-app\\11-relational-sync\\skill.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-app\\01-handshake-genesis\\skill.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-app\\13-native-pwa-deploy\\skill.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-app\\07-image-spec\\skill.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-app\\_cookbook.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-app\\SKILL.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-app\\12-i18n-composables\\skill.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-app\\10-routing-logic\\skill.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-app\\06-industrial-stores\\skill.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-app\\WORKING_PROGRESS.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-app\\04-auth-architecture\\skill.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-app\\05-types-foundry\\skill.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-app\\08-ui-standardization\\skill.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-app\\09-view-scaffolding\\skill.md",
-                  "C:\\Users\\user\\.codex\\skills\\claude-app\\03-api-connectivity\\skill.md"
+
               ],
     "modified":  [
-                     "C:\\Users\\user\\.codex\\memories\\1_core\\DNA_SPECIALTY.md",
-                     "C:\\Users\\user\\.codex\\memories\\0_apex\\GROUND_KERNEL.md",
-                     "C:\\Users\\user\\.codex\\skills\\claude-website\\SKILL.md",
-                     "C:\\Users\\user\\.codex\\skills\\claude-meta\\plan-first\\skill.md",
-                     "C:\\Users\\user\\.codex\\memories\\0_apex\\templates\\MASTER_APP_BLUEPRINT.md",
-                     "C:\\Users\\user\\.codex\\memories\\2_governance\\ARCHITECTURE_COMPARISON.md",
-                     "C:\\Users\\user\\.codex\\skills\\claude\\README.md",
-                     "C:\\Users\\user\\.codex\\skills\\normal\\mobile-template-from-samples\\skill.md",
-                     "C:\\Users\\user\\.codex\\memories\\2_governance\\artifacts\\skill_path_router.md"
+
                  ],
     "removed":  [
-                    "C:\\Users\\user\\.codex\\skills\\claude-frontend\\README.md",
-                    "C:\\Users\\user\\.codex\\skills\\claude-frontend\\03-api-connectivity\\skill.md",
-                    "C:\\Users\\user\\.codex\\skills\\claude-frontend\\02-config-hardening\\skill.md",
-                    "C:\\Users\\user\\.codex\\skills\\claude-frontend\\13-native-pwa-deploy\\skill.md",
-                    "C:\\Users\\user\\.codex\\skills\\claude-frontend\\06-industrial-stores\\skill.md",
-                    "C:\\Users\\user\\.codex\\skills\\claude-frontend\\01-handshake-genesis\\skill.md",
-                    "C:\\Users\\user\\.codex\\skills\\claude-frontend\\12-i18n-composables\\skill.md",
-                    "C:\\Users\\user\\.codex\\skills\\claude-frontend\\10-routing-logic\\skill.md",
-                    "C:\\Users\\user\\.codex\\skills\\claude-frontend\\09-view-scaffolding\\skill.md",
-                    "C:\\Users\\user\\.codex\\skills\\claude-frontend\\07-image-spec\\skill.md",
-                    "C:\\Users\\user\\.codex\\skills\\claude-frontend\\05-types-foundry\\skill.md",
-                    "C:\\Users\\user\\.codex\\skills\\claude-frontend\\SKILL.md",
-                    "C:\\Users\\user\\.codex\\skills\\claude-frontend\\08-ui-standardization\\skill.md",
-                    "C:\\Users\\user\\.codex\\skills\\claude-frontend\\04-auth-architecture\\skill.md",
-                    "C:\\Users\\user\\.codex\\skills\\claude-frontend\\11-relational-sync\\skill.md",
-                    "C:\\Users\\user\\.codex\\skills\\claude-frontend\\_cookbook.md"
+                    "C:\\Users\\user\\.codex\\memories\\raw_memories.md"
                 ]
 }
