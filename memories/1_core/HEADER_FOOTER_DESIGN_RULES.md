@@ -9,8 +9,8 @@ model_hint: gemini-3-flash
 applies_to: ["claude", "claude-code", "gemini-3-flash", "antigravity"]
 authored_by: claude-opus-4-7
 authored_for: "shared cross-AI use"
-requires: ["MOBILE_APP_DESIGN_RECIPE.md", "USER_DNA.md", "DESIGN_SOP.md", "0_apex/SOVEREIGN_BLUEPRINT_PROTOCOL.md"]
-related: ["1_core/UI_DNA_MASTER.md", "1_core/INDUSTRIAL_INTERACTION_LIBRARY.md", "1_core/DESIGN_PSYCHOLOGY_2026.yaml", "wrider_design_senses.md"]
+requires: ["../MOBILE_APP_DESIGN_RECIPE.md", "../0_apex/USER_DNA.md", "DESIGN_SOP.md", "../0_apex/SOVEREIGN_BLUEPRINT_PROTOCOL.md"]
+related: ["UI_DNA_MASTER.md", "INDUSTRIAL_INTERACTION_LIBRARY.md", "DESIGN_PSYCHOLOGY_2026.yaml", "../archive/wrider_design_senses.md"]
 reference_implementation: "c:/Users/user/Desktop/insurance-CRM/template/src/components/BottomNav.vue"
 companion_files: ["BLUEPRINT.md", "DESIGN.md"]
 version: 1.0
@@ -31,7 +31,7 @@ triggers:
 
 # 📱 HEADER & FOOTER DESIGN RULES (v1.0)
 
-> Mobile-app top-bar and bottom-bar are the two most-touched elements. They make or break perceived quality. These are **MUST FOLLOW** rules for every Vue mobile app built in this design DNA — codified from the 2026-05-07 wallet-template build session and cross-referenced against [USER_DNA](USER_DNA.md), [DESIGN_SOP](DESIGN_SOP.md), [UI_DNA_MASTER](1_core/UI_DNA_MASTER.md), and [DESIGN_PSYCHOLOGY_2026](1_core/DESIGN_PSYCHOLOGY_2026.yaml).
+> Mobile-app top-bar and bottom-bar are the two most-touched elements. They make or break perceived quality. These are **MUST FOLLOW** rules for every Vue mobile app built in this design DNA — codified from the 2026-05-07 wallet-template build session and cross-referenced against [USER_DNA](../0_apex/USER_DNA.md), [DESIGN_SOP](DESIGN_SOP.md), [UI_DNA_MASTER](UI_DNA_MASTER.md), and [DESIGN_PSYCHOLOGY_2026](DESIGN_PSYCHOLOGY_2026.yaml).
 
 ---
 

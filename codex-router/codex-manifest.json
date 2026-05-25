@@ -1,5 +1,5 @@
 ﻿{
-    "generated_utc":  "2026-05-25T03:08:39.8619384Z",
+    "generated_utc":  "2026-05-25T03:39:17.3891786Z",
     "codex_root":  "C:\\Users\\user\\.codex",
     "config_path":  "C:\\Users\\user\\.codex\\codex-router\\router-config.json",
     "boot_profile":  "ultra-lean",
@@ -15,7 +15,7 @@
                       "rel":  "skills"
                   }
               ],
-    "indexed_files":  356,
+    "indexed_files":  348,
     "entries":  [
                     {
                         "kind":  "knowledge",
@@ -23,49 +23,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "CLAUDE_BLUEPRINT_RECIPE.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\CLAUDE_BLUEPRINT_RECIPE.md",
-                        "size":  18639,
-                        "last_write_utc":  "2026-05-14T10:16:55.9219337Z",
-                        "sha256":  "21F55D2A1D6245E570BC256E10F28C8A278B0B16D2E7763EBB57A10BAFFB682A"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "design_evolution_protocol.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\design_evolution_protocol.md",
-                        "size":  2397,
-                        "last_write_utc":  "2026-05-05T04:17:55.0060253Z",
-                        "sha256":  "6BED2CFCBCD6D177EB23E127233C46A18AAB80F5F343CCF40B64097446B734B1"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "DESIGN_SOP.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\DESIGN_SOP.md",
-                        "size":  3810,
-                        "last_write_utc":  "2026-05-08T09:24:15.4493358Z",
-                        "sha256":  "843728243193D4A7DF5034B205A5E932B07D2EEB9F043E608A74C848D8709D67"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "HEADER_FOOTER_DESIGN_RULES.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\HEADER_FOOTER_DESIGN_RULES.md",
-                        "size":  34574,
-                        "last_write_utc":  "2026-05-07T08:14:12.0264921Z",
-                        "sha256":  "1705F9E3BA1BB5E0915638E18B29128A92256BF43357F17F938F66CC30908F6A"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "IMAGE_SOURCING_FREE.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\IMAGE_SOURCING_FREE.md",
-                        "size":  13273,
-                        "last_write_utc":  "2026-05-11T10:45:25.6064283Z",
-                        "sha256":  "28D7F9FB3FFA218830018309E47CC385983FF1C451FED1D3326C6D4B2DDE70BF"
+                        "size":  18661,
+                        "last_write_utc":  "2026-05-25T03:38:18.3048197Z",
+                        "sha256":  "3118376D07EF164216C2F8C90257A7602016F354728A9AF2712412D53985F11B"
                     },
                     {
                         "kind":  "knowledge",
@@ -73,9 +33,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "IMAGE_TO_MOBILE_APP_PIPELINE.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\IMAGE_TO_MOBILE_APP_PIPELINE.md",
-                        "size":  37179,
-                        "last_write_utc":  "2026-05-14T10:17:12.9061308Z",
-                        "sha256":  "EC37D222DEC6518649E1BA00CF0D0AEB0F3BEA3F0D66611EF4E3DA3F4522935F"
+                        "size":  37193,
+                        "last_write_utc":  "2026-05-25T03:38:21.9818160Z",
+                        "sha256":  "141C7B5388DDADD7842F5842D3509472E1E65E75B1D66B09435D9C737EA6D8ED"
                     },
                     {
                         "kind":  "knowledge",
@@ -91,41 +51,11 @@
                         "kind":  "knowledge",
                         "root":  "C:\\Users\\user\\.codex\\memories",
                         "root_relative":  "memories",
-                        "relative_path":  "memory_summary.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\memory_summary.md",
-                        "size":  16839,
-                        "last_write_utc":  "2026-05-25T03:02:04.3832426Z",
-                        "sha256":  "1410FF7F873491C45AFA818B0A38F8DE90983A9B683B3513188C0493D4EAD6FC"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
                         "relative_path":  "MOBILE_APP_DESIGN_RECIPE.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\MOBILE_APP_DESIGN_RECIPE.md",
-                        "size":  44541,
-                        "last_write_utc":  "2026-05-21T03:39:21.8182693Z",
-                        "sha256":  "F8FE31E48523B2E4F6589E77FC489E8AF34520F7F298850B6B181DD10F965DB4"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "pwa_favicon_meta_setup.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\pwa_favicon_meta_setup.md",
-                        "size":  12173,
-                        "last_write_utc":  "2026-05-05T08:58:33.1920797Z",
-                        "sha256":  "BF4610DB22EEFBAC1E9A2D05EDFC6230B75D87BD0752657569B486689283B9D6"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "USER_DNA.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\USER_DNA.md",
-                        "size":  4208,
-                        "last_write_utc":  "2026-05-20T06:00:57.6736032Z",
-                        "sha256":  "63A88EA04B0920F72CD1A7ED582243C03DBB6FF106EB681D3AFCABC132B43324"
+                        "size":  44570,
+                        "last_write_utc":  "2026-05-25T03:37:27.3999707Z",
+                        "sha256":  "68E14A9F8CB7F7421A58E45A86324DD616DAD3F4A6488DDFE37ED40CF1CDD83B"
                     },
                     {
                         "kind":  "knowledge",
@@ -191,6 +121,16 @@
                         "kind":  "knowledge",
                         "root":  "C:\\Users\\user\\.codex\\memories",
                         "root_relative":  "memories",
+                        "relative_path":  "0_apex\\USER_DNA.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\0_apex\\USER_DNA.md",
+                        "size":  4208,
+                        "last_write_utc":  "2026-05-20T06:00:57.6736032Z",
+                        "sha256":  "63A88EA04B0920F72CD1A7ED582243C03DBB6FF106EB681D3AFCABC132B43324"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
                         "relative_path":  "0_apex\\templates\\BLUEPRINT_SAMPLES.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\0_apex\\templates\\BLUEPRINT_SAMPLES.md",
                         "size":  1865,
@@ -251,11 +191,31 @@
                         "kind":  "knowledge",
                         "root":  "C:\\Users\\user\\.codex\\memories",
                         "root_relative":  "memories",
+                        "relative_path":  "1_core\\DESIGN_EVOLUTION_PROTOCOL.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\1_core\\DESIGN_EVOLUTION_PROTOCOL.md",
+                        "size":  2397,
+                        "last_write_utc":  "2026-05-05T04:17:55.0060253Z",
+                        "sha256":  "6BED2CFCBCD6D177EB23E127233C46A18AAB80F5F343CCF40B64097446B734B1"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
                         "relative_path":  "1_core\\DESIGN_PSYCHOLOGY_2026.yaml",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\1_core\\DESIGN_PSYCHOLOGY_2026.yaml",
                         "size":  3804,
                         "last_write_utc":  "2026-05-14T10:14:25.3942866Z",
                         "sha256":  "DE7136975BF391BAAEEF44DACFF95FDDF23E36CB347DAF65AE87BB2E3F070B3B"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "1_core\\DESIGN_SOP.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\1_core\\DESIGN_SOP.md",
+                        "size":  3810,
+                        "last_write_utc":  "2026-05-08T09:24:15.4493358Z",
+                        "sha256":  "843728243193D4A7DF5034B205A5E932B07D2EEB9F043E608A74C848D8709D67"
                     },
                     {
                         "kind":  "knowledge",
@@ -301,11 +261,31 @@
                         "kind":  "knowledge",
                         "root":  "C:\\Users\\user\\.codex\\memories",
                         "root_relative":  "memories",
+                        "relative_path":  "1_core\\HEADER_FOOTER_DESIGN_RULES.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\1_core\\HEADER_FOOTER_DESIGN_RULES.md",
+                        "size":  34576,
+                        "last_write_utc":  "2026-05-25T03:38:31.3605532Z",
+                        "sha256":  "45C8BD0BEA1477BAD491351292F525F36D2C449C5031474BBC7C576B9B3FA6F6"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
                         "relative_path":  "1_core\\IDENTITY_REGISTRY.yaml",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\1_core\\IDENTITY_REGISTRY.yaml",
                         "size":  1919,
                         "last_write_utc":  "2026-05-14T10:14:28.5203292Z",
                         "sha256":  "B3B80FF4E6C957649A795013734F618FDAFA0B7D0DC9B3569E4720902303F1F3"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "1_core\\IMAGE_SOURCING_FREE.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\1_core\\IMAGE_SOURCING_FREE.md",
+                        "size":  13273,
+                        "last_write_utc":  "2026-05-11T10:45:25.6064283Z",
+                        "sha256":  "28D7F9FB3FFA218830018309E47CC385983FF1C451FED1D3326C6D4B2DDE70BF"
                     },
                     {
                         "kind":  "knowledge",
@@ -366,6 +346,16 @@
                         "size":  2960,
                         "last_write_utc":  "2026-05-04T07:13:14.3783761Z",
                         "sha256":  "384E8E3E3E99A6B1F237EEE079D69219A90C341E0ED5021FF3376A2AAA50321C"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "1_core\\PWA_FAVICON_META_SETUP.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\1_core\\PWA_FAVICON_META_SETUP.md",
+                        "size":  12173,
+                        "last_write_utc":  "2026-05-05T08:58:33.1920797Z",
+                        "sha256":  "BF4610DB22EEFBAC1E9A2D05EDFC6230B75D87BD0752657569B486689283B9D6"
                     },
                     {
                         "kind":  "knowledge",
@@ -623,9 +613,9 @@
                         "root_relative":  "memories",
                         "relative_path":  "2_governance\\artifacts\\skill_path_router.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\2_governance\\artifacts\\skill_path_router.md",
-                        "size":  4422,
-                        "last_write_utc":  "2026-05-21T07:44:07.5858328Z",
-                        "sha256":  "22435F58F683C9F3B0E80040DEC6F178CD84B29CED5463CE5C7067D7767084DE"
+                        "size":  6245,
+                        "last_write_utc":  "2026-05-25T03:39:08.0630938Z",
+                        "sha256":  "F37805B17B1B29F920D1F0A9E1BF404C0132273050BC37DA7376CFD5B7726F66"
                     },
                     {
                         "kind":  "knowledge",
@@ -656,6 +646,26 @@
                         "size":  1093,
                         "last_write_utc":  "2026-04-20T03:06:16.6359645Z",
                         "sha256":  "73DDD5E65EF761197629C1E9B19A0ED1E51B35E5A4BCFF035030DCA05B182ED2"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "archive\\evolving_knowledge.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\archive\\evolving_knowledge.md",
+                        "size":  951,
+                        "last_write_utc":  "2026-05-06T09:35:02.3885148Z",
+                        "sha256":  "AFBD94FD7A4097BA34760191211C23D143FA8879A7E6C2A9AF90FD911D27481A"
+                    },
+                    {
+                        "kind":  "knowledge",
+                        "root":  "C:\\Users\\user\\.codex\\memories",
+                        "root_relative":  "memories",
+                        "relative_path":  "archive\\user_preference_dna.md",
+                        "full_path":  "C:\\Users\\user\\.codex\\memories\\archive\\user_preference_dna.md",
+                        "size":  954,
+                        "last_write_utc":  "2026-05-06T09:34:50.7926211Z",
+                        "sha256":  "E1402BFCA10021C0A036747E03CD06DA41A93D64C7F35B33DE9F37CED7EDA8C1"
                     },
                     {
                         "kind":  "knowledge",
@@ -694,48 +704,8 @@
                         "relative_path":  "extensions\\ad_hoc\\instructions.md",
                         "full_path":  "C:\\Users\\user\\.codex\\memories\\extensions\\ad_hoc\\instructions.md",
                         "size":  746,
-                        "last_write_utc":  "2026-05-11T04:11:47.7064054Z",
+                        "last_write_utc":  "2026-05-25T03:36:16.3118733Z",
                         "sha256":  "8BA499CD0F6D0E65B1857F05A05CACE8C47B60C40C81B92440026EB63F0B1FD0"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "extensions\\ad_hoc\\notes\\2026-05-18T17-34-20-angel-interior-db-must-do-principles.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\extensions\\ad_hoc\\notes\\2026-05-18T17-34-20-angel-interior-db-must-do-principles.md",
-                        "size":  6625,
-                        "last_write_utc":  "2026-05-18T09:34:20.6618580Z",
-                        "sha256":  "79A38EA8497BD1441A0D86EC7410375B3561AF878825DE35E95507376381E1F1"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "extensions\\ad_hoc\\notes\\2026-05-18T17-36-06-vben-supabase-db-planning-reusable-principles.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\extensions\\ad_hoc\\notes\\2026-05-18T17-36-06-vben-supabase-db-planning-reusable-principles.md",
-                        "size":  4535,
-                        "last_write_utc":  "2026-05-18T09:36:07.0825347Z",
-                        "sha256":  "8BA8C986ECC5A0C04FEC0D875CDF4E6FC94C76A6D46FF9F4DDBB67AC158C3E1F"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "extensions\\ad_hoc\\notes\\2026-05-20T18-34-05-vben-local-supabase-cloudflare-publish-pattern.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\extensions\\ad_hoc\\notes\\2026-05-20T18-34-05-vben-local-supabase-cloudflare-publish-pattern.md",
-                        "size":  4839,
-                        "last_write_utc":  "2026-05-20T10:34:37.7594874Z",
-                        "sha256":  "A6897A5976C9E7D4F1B5A0B3B4C0607BCA749909C6B71EAA45EDE8670B97672A"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "extensions\\ad_hoc\\notes\\20260518-153714-project-handoff-database-markmap.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\extensions\\ad_hoc\\notes\\20260518-153714-project-handoff-database-markmap.md",
-                        "size":  1368,
-                        "last_write_utc":  "2026-05-18T07:37:15.0297261Z",
-                        "sha256":  "C95559E9D0156784C8FD7750916BCFC81E8E26805A15A7D4734BCE1E6213DF86"
                     },
                     {
                         "kind":  "knowledge",
@@ -936,56 +906,6 @@
                         "size":  3167,
                         "last_write_utc":  "2026-05-25T02:57:49.0624071Z",
                         "sha256":  "5CA9AFB8B70E16FEA4F4735E9F852B6F7C124F93E657D988E51AABEF243BA08B"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "self_evolving_intelligence\\artifacts\\evolving_knowledge.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\self_evolving_intelligence\\artifacts\\evolving_knowledge.md",
-                        "size":  951,
-                        "last_write_utc":  "2026-05-06T09:35:02.3885148Z",
-                        "sha256":  "AFBD94FD7A4097BA34760191211C23D143FA8879A7E6C2A9AF90FD911D27481A"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "self_evolving_intelligence\\artifacts\\user_preference_dna.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\self_evolving_intelligence\\artifacts\\user_preference_dna.md",
-                        "size":  954,
-                        "last_write_utc":  "2026-05-06T09:34:50.7926211Z",
-                        "sha256":  "E1402BFCA10021C0A036747E03CD06DA41A93D64C7F35B33DE9F37CED7EDA8C1"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "skills\\vben-local-supabase-cloudflare-publish\\SKILL.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\skills\\vben-local-supabase-cloudflare-publish\\SKILL.md",
-                        "size":  5519,
-                        "last_write_utc":  "2026-05-21T01:22:08.0750250Z",
-                        "sha256":  "AC7575318156E58A8B39CEA50A68160537CA789B2F64068F42A124AD9E56AAB8"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "skills\\vben-local-supabase-preflight\\SKILL.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\skills\\vben-local-supabase-preflight\\SKILL.md",
-                        "size":  5014,
-                        "last_write_utc":  "2026-05-20T08:42:07.1655628Z",
-                        "sha256":  "30755BABF76DE419D5BF606F4E2114533200CB39F979ABCB6E2EFEBEEA7A025D"
-                    },
-                    {
-                        "kind":  "knowledge",
-                        "root":  "C:\\Users\\user\\.codex\\memories",
-                        "root_relative":  "memories",
-                        "relative_path":  "tech_stack_mastery\\artifacts\\must_do_master_rules.md",
-                        "full_path":  "C:\\Users\\user\\.codex\\memories\\tech_stack_mastery\\artifacts\\must_do_master_rules.md",
-                        "size":  2606,
-                        "last_write_utc":  "2026-05-20T06:00:52.0763162Z",
-                        "sha256":  "6BF5F026984517132F45743423057F0A5089A3DDA8ABB2E3D769DE1C11BF60BA"
                     },
                     {
                         "kind":  "skill-reference",
@@ -2123,9 +2043,9 @@
                         "root_relative":  "skills",
                         "relative_path":  "design\\TIER_0_PROTOCOL.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\design\\TIER_0_PROTOCOL.md",
-                        "size":  2479,
-                        "last_write_utc":  "2026-05-07T06:09:26.7960683Z",
-                        "sha256":  "090CE8A8CC31FB7617CBC100261846A78BFECE90716131589B72C5F2BDB14FFC"
+                        "size":  2484,
+                        "last_write_utc":  "2026-05-25T03:38:33.4496532Z",
+                        "sha256":  "1B84257FBD74DD9305E000968F956ACA80F0B9CE639AB77CBE7E0CCB41164C62"
                     },
                     {
                         "kind":  "skill-reference",
@@ -2143,9 +2063,9 @@
                         "root_relative":  "skills",
                         "relative_path":  "design\\app\\IMAGE_GENERATION_FREE.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\design\\app\\IMAGE_GENERATION_FREE.md",
-                        "size":  8126,
-                        "last_write_utc":  "2026-05-14T01:12:40.9704480Z",
-                        "sha256":  "1F9865CA8AF97E15D1BF1EEB13B5DB29E16F67B8B61D577116F8FFBF2AFACC8C"
+                        "size":  8138,
+                        "last_write_utc":  "2026-05-25T03:37:41.9313340Z",
+                        "sha256":  "C2BBF457EDA6CC98EB0DBBF7AC5C1053B92C23BD501B5B530DD858C74653DD1D"
                     },
                     {
                         "kind":  "skill-reference",
@@ -2273,9 +2193,9 @@
                         "root_relative":  "skills",
                         "relative_path":  "design\\website\\ECOWORLD_COLOR_SYSTEM.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\design\\website\\ECOWORLD_COLOR_SYSTEM.md",
-                        "size":  16454,
-                        "last_write_utc":  "2026-05-12T04:20:19.3555244Z",
-                        "sha256":  "26F13D8BBD3F355724E7895351C5A82ABECD77E0A7C926FB457CFB42A9098A2F"
+                        "size":  16460,
+                        "last_write_utc":  "2026-05-25T03:38:38.7927663Z",
+                        "sha256":  "83867BC30469AD8C46150B2389BD4BFE62DB5BAE9C2B015B937386F35DC3350C"
                     },
                     {
                         "kind":  "skill-reference",
@@ -2293,9 +2213,9 @@
                         "root_relative":  "skills",
                         "relative_path":  "design\\website\\IMAGE_GENERATION_FREE.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\design\\website\\IMAGE_GENERATION_FREE.md",
-                        "size":  7668,
-                        "last_write_utc":  "2026-05-14T01:12:40.9744478Z",
-                        "sha256":  "723EB6F43EBE67E0CB0F586CC76EFBD237C63FCF1A07EDED5BA21C2BC64E585D"
+                        "size":  7674,
+                        "last_write_utc":  "2026-05-25T03:38:36.0571270Z",
+                        "sha256":  "F93FA203FB992CCAF1BC702461322EA897C38578B0B394D6507591D8D0E7F04E"
                     },
                     {
                         "kind":  "skill-reference",
@@ -3323,9 +3243,9 @@
                         "root_relative":  "skills",
                         "relative_path":  "normal\\mobile-template-from-samples\\skill.md",
                         "full_path":  "C:\\Users\\user\\.codex\\skills\\normal\\mobile-template-from-samples\\skill.md",
-                        "size":  15166,
-                        "last_write_utc":  "2026-05-21T07:39:10.6390435Z",
-                        "sha256":  "9BA0897649E21EB505D1D7FA499DC547E6CE19593AE296141582C3FD30A1A6E8"
+                        "size":  15184,
+                        "last_write_utc":  "2026-05-25T03:37:52.8496436Z",
+                        "sha256":  "7AAD13635FC737C6C971860DEBCD48D355AB6A8F385CA3FCEADC359D80058EF2"
                     },
                     {
                         "kind":  "skill-reference",

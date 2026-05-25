@@ -9,7 +9,7 @@ applies_to: ["claude", "claude-code", "codex", "gpt-5.4-mini"]
 related:
   - "SKILL.md"
   - "02-asset-orchestration/skill.md"
-  - "../../../knowledge/IMAGE_SOURCING_FREE.md"
+  - "../../../memories/1_core/IMAGE_SOURCING_FREE.md"
   - "../website/IMAGE_GENERATION_FREE.md"
 version: 1.0
 date: 2026-05-11
@@ -26,7 +26,7 @@ triggers:
 # Skill — Free Image Generation for Mobile Apps (Vue 3 + Capacitor)
 
 > **Sister docs:**
-> - [knowledge/IMAGE_SOURCING_FREE.md](../../../knowledge/IMAGE_SOURCING_FREE.md) — master strategy
+> - [knowledge/IMAGE_SOURCING_FREE.md](../../../memories/1_core/IMAGE_SOURCING_FREE.md) — master strategy
 > - [design/website/IMAGE_GENERATION_FREE.md](../website/IMAGE_GENERATION_FREE.md) — PHP/website variant
 >
 > This file is the **mobile-app procedure**. The image-gen strategy is identical (Pollinations.ai default), but storage location, bundling, and runtime constraints differ.

@@ -31,6 +31,25 @@ status: authoritative
 | `ai markdown mindmap` | `skills/markdown-database-mindmap/SKILL.md` | Database schema → Markmap visualization |
 | `ai project handoff` | `skills/project-handoff-doc-stack/SKILL.md` | Root handoff docs (AI_COLLAB_PROJECT_OS, MASTER_PLAN, DATABASE, CROSSWALK) |
 
+## Recipe & Knowledge triggers (memories/)
+
+These point at executable recipes and foundational knowledge docs, not skills.
+
+| Trigger | Entry Point | What it covers |
+|---|---|---|
+| `ai recipe blueprint` | `memories/CLAUDE_BLUEPRINT_RECIPE.md` | Generate BLUEPRINT.md / DESIGN.md for a new project (Tier-2, required by other recipes) |
+| `ai recipe mobile app` | `memories/MOBILE_APP_DESIGN_RECIPE.md` | Canonical clone-template for the user's preferred mobile aesthetic |
+| `ai recipe image to app` | `memories/IMAGE_TO_MOBILE_APP_PIPELINE.md` | Convert design image folders → Vue mobile app (23+ canonical pages) |
+| `ai recipe header footer` | `memories/1_core/HEADER_FOOTER_DESIGN_RULES.md` | MUST-FOLLOW header + bottom-nav rules for mobile apps |
+| `ai recipe free images` | `memories/1_core/IMAGE_SOURCING_FREE.md` | Free image waterfall: Pollinations → Unsplash → Lorem Picsum → icons → SVG/CSS |
+| `ai recipe pwa` | `memories/1_core/PWA_FAVICON_META_SETUP.md` | PWA + favicon + OG/Twitter Card + Apple/Microsoft meta setup |
+| `ai design sop` | `memories/1_core/DESIGN_SOP.md` | Page-level structural manifest (Transactional / Operations / Glass blueprints) |
+| `ai design evolution` | `memories/1_core/DESIGN_EVOLUTION_PROTOCOL.md` | Framework for AI to evolve design senses from user feedback |
+| `ai user dna` | `memories/0_apex/USER_DNA.md` | Tier-0 user taste profile (Trusta Industrial) — required by all design recipes |
+| `ai gitnexus` | `memories/2_governance/GITNEXUS.md` | GitNexus MCP code-graph workflow + project allowlist |
+| `ai drift guard` | `memories/2_governance/DRIFT_GUARD_PROTOCOL.md` | Anti-drift re-grounding protocol for long tasks |
+| `ai knowledge rot` | `memories/2_governance/KNOWLEDGE_ROT_PROTOCOL.md` | Anti-entropy governance (MEMORY.md auto-trim + tombstone rule) |
+
 ## Sub-skill index (no top-level SKILL.md — load sub directly)
 
 ### skills/claude/ sub-skills

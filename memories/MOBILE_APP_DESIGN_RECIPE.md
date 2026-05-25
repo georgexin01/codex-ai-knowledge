@@ -9,7 +9,7 @@ model_hint: gemini-3-flash
 applies_to: ["claude", "claude-code", "gemini-3-flash", "antigravity"]
 authored_by: claude-opus-4-7
 authored_for: "shared cross-AI use"
-requires: ["CLAUDE_BLUEPRINT_RECIPE.md", "USER_DNA.md", "DESIGN_SOP.md", "0_apex/SOVEREIGN_BLUEPRINT_PROTOCOL.md"]
+requires: ["CLAUDE_BLUEPRINT_RECIPE.md", "0_apex/USER_DNA.md", "1_core/DESIGN_SOP.md", "0_apex/SOVEREIGN_BLUEPRINT_PROTOCOL.md"]
 unlocks: ["IMAGE_TO_MOBILE_APP_PIPELINE.md"]
 related: ["1_core/UI_DNA_MASTER.md", "1_core/DESIGN_PSYCHOLOGY_2026.yaml", "1_core/INDUSTRIAL_INTERACTION_LIBRARY.md", "wrider_design_senses.md"]
 reference_implementation: "c:/Users/user/Desktop/insurance-CRM/template/"
@@ -44,7 +44,7 @@ triggers:
 
 ## §0.5 TASTE COMPASS — read FIRST, commit BEFORE Phase A
 
-> Distilled from [USER_DNA.md](USER_DNA.md), [wrider_design_senses.md](wrider_design_senses.md), and 5 iterations of carMVP feedback. **The AI MUST output a "Taste Commit" block before writing any code, restating these in the project's own words.**
+> Distilled from [USER_DNA.md](0_apex/USER_DNA.md), [wrider_design_senses.md](archive/wrider_design_senses.md), and 5 iterations of carMVP feedback. **The AI MUST output a "Taste Commit" block before writing any code, restating these in the project's own words.**
 
 **Precedence rule when sources conflict**:
 

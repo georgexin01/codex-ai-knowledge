@@ -190,8 +190,8 @@ Common Phase F outputs:
 ## Resources
 
 - [`MOBILE_APP_DESIGN_RECIPE.md §N`](../../../knowledge/MOBILE_APP_DESIGN_RECIPE.md) — full carMVP feedback section
-- [`DESIGN_SOP.md §5`](../../../knowledge/DESIGN_SOP.md) — Form Components principle
+- [`DESIGN_SOP.md §5`](../../../memories/1_core/DESIGN_SOP.md) — Form Components principle
 - [`tailwind-design-system/skill.md`](../design/systems/tailwind-design-system/skill.md) — 9-component CVA recipes
 - [`CLAUDE_BLUEPRINT_RECIPE.md`](../../../knowledge/CLAUDE_BLUEPRINT_RECIPE.md) — blueprint.md authoring spec
-- [`USER_DNA.md`](../../../knowledge/USER_DNA.md) — Trusta Industrial taste fingerprint
-- [`HEADER_FOOTER_DESIGN_RULES.md`](../../../knowledge/HEADER_FOOTER_DESIGN_RULES.md) — header/footer hard rules
+- [`USER_DNA.md`](../../../memories/0_apex/USER_DNA.md) — Trusta Industrial taste fingerprint
+- [`HEADER_FOOTER_DESIGN_RULES.md`](../../../memories/1_core/HEADER_FOOTER_DESIGN_RULES.md) — header/footer hard rules

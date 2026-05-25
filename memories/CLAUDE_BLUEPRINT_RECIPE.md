@@ -9,7 +9,7 @@ model_hint: gemini-3-flash
 applies_to: ["claude", "claude-code", "gemini-3-flash", "antigravity"]
 requires: ["0_apex/SOVEREIGN_BLUEPRINT_PROTOCOL.md", "2_governance/SOVEREIGN_BLUEPRINT_PROCEDURE.md", "0_apex/templates/MASTER_BLUEPRINT.md", "0_apex/templates/MASTER_APP_BLUEPRINT.md", "0_apex/templates/MASTER_DESIGN.md", "0_apex/templates/MASTER_ROUTER_BLUEPRINT.md", "0_apex/templates/BLUEPRINT_SAMPLES.md"]
 unlocks: ["MOBILE_APP_DESIGN_RECIPE.md", "IMAGE_TO_MOBILE_APP_PIPELINE.md"]
-related: ["USER_DNA.md", "DESIGN_SOP.md", "1_core/UI_DNA_MASTER.md", "wrider_design_senses.md"]
+related: ["0_apex/USER_DNA.md", "1_core/DESIGN_SOP.md", "1_core/UI_DNA_MASTER.md", "archive/wrider_design_senses.md"]
 accepted_filenames: ["BLUEPRINT.md", "APP_BLUEPRINT.md"]
 companion_design_file: "DESIGN.md"
 version: 2.0

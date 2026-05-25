@@ -34,7 +34,7 @@ Default stack: Vue 3 Composition API · TypeScript · Pinia · Tailwind · Vben 
 - **Local dev servers**: keep the process alive (background process or a user-run launcher) — never foreground-then-exit. Verify with `curl` (expect HTTP 200) before claiming success.
   - PHP sites → `php -S 127.0.0.1:<port>` (front controller `index.php`; port 8000-8003, first free). Protocol: `memories/2_governance/LOCALHOST_PHP_TEST_PROTOCOL.md`.
   - Vben admin → `pnpm.cmd run dev:local` from the panel root (Windows-safe `.cmd`); Vite serves `localhost:6006`. Protocol: `memories/2_governance/VBEN_ADMIN_LOCAL_DEV_PROTOCOL.md`.
-- **Design** (taste profile: `memories/USER_DNA.md`): 700 weight default (900 only for numeric spectacle), 6px linear elements, violet/teal/dark + glow, glassmorphism overlays, sharp contrast — no gray-on-gray. Industrial density: raw tables, minimal card padding. Replace native `<select>` / file input / `confirm()` with design-system components.
+- **Design** (taste profile: `memories/0_apex/USER_DNA.md`): 700 weight default (900 only for numeric spectacle), 6px linear elements, violet/teal/dark + glow, glassmorphism overlays, sharp contrast — no gray-on-gray. Industrial density: raw tables, minimal card padding. Replace native `<select>` / file input / `confirm()` with design-system components.
 - **Mobile / PWA**: viewport `width=device-width, initial-scale=1.0, viewport-fit=cover` — never hardcode pixel width or lock zoom. Thumb-zone CTAs, bottom-sheet modals, safe-area insets.
 - Video fields are platform-agnostic — never hardcode "YouTube". Disable the Vben mock notification widget (`widget.notification: false`) unless a real feed is wired.
 

@@ -42,8 +42,8 @@ Identify the project type and immediately pivot to the specialized Sovereign Ski
 
 ## 🧬 4. Knowledge Inheritance
 This protocol inherits its aesthetic senses from:
-- `knowledge/1_core/UI_DNA_MASTER.md`
-- `knowledge/USER_DNA.md`
+- `memories/1_core/UI_DNA_MASTER.md`
+- `memories/0_apex/USER_DNA.md`
 
 ---
 *Created by Antigravity Core — TIER-0 Design Authority*

@@ -162,5 +162,5 @@ Per [SKILL.md addendum](SKILL.md#codex-php-website-structure-addendum):
 
 ---
 
-*Created 2026-05-11 by Claude (Opus 4.7) during EcoWorld redesign. Pairs with knowledge/IMAGE_SOURCING_FREE.md (master strategy) and design/app/IMAGE_GENERATION_FREE.md (mobile-app variant).*
+*Created 2026-05-11 by Claude (Opus 4.7) during EcoWorld redesign. Pairs with memories/1_core/IMAGE_SOURCING_FREE.md (master strategy) and design/app/IMAGE_GENERATION_FREE.md (mobile-app variant).*
 

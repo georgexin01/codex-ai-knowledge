@@ -25,7 +25,7 @@ triggers:
 
 - Original site studied: `book.ecoworld.my/home` — minimalist grey/white chrome, image-led cards. Good *structure*, but **too monochrome** when 400 units need fast visual scanning.
 - Live implementation: `c:\Users\user\Desktop\ecoworld\` (PHP/LAA-style structure).
-- User taste anchor: [USER_DNA.md](../../../knowledge/USER_DNA.md) — 700-weight headings, 6 px progress bars, glassmorphism, **zero gray-on-gray**, clickable cards over isolated buttons.
+- User taste anchor: [USER_DNA.md](../../../memories/0_apex/USER_DNA.md) — 700-weight headings, 6 px progress bars, glassmorphism, **zero gray-on-gray**, clickable cards over isolated buttons.
 
 ## 2. Anchor palette (preserved from original BLUEPRINT)
 

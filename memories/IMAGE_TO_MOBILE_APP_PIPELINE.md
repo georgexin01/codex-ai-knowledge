@@ -9,7 +9,7 @@ model_hint: gemini-3-flash
 applies_to: ["claude", "claude-code", "gemini-3-flash", "antigravity"]
 authored_by: claude-opus-4-7
 authored_for: "shared cross-AI use"
-requires: ["MOBILE_APP_DESIGN_RECIPE.md", "CLAUDE_BLUEPRINT_RECIPE.md", "USER_DNA.md", "DESIGN_SOP.md", "0_apex/SOVEREIGN_BLUEPRINT_PROTOCOL.md"]
+requires: ["MOBILE_APP_DESIGN_RECIPE.md", "CLAUDE_BLUEPRINT_RECIPE.md", "0_apex/USER_DNA.md", "1_core/DESIGN_SOP.md", "0_apex/SOVEREIGN_BLUEPRINT_PROTOCOL.md"]
 unlocks: []
 related: ["1_core/DESIGN_PSYCHOLOGY_2026.yaml", "1_core/INDUSTRIAL_INTERACTION_LIBRARY.md", "wrider_design_senses.md"]
 reference_implementation: "c:/Users/user/Desktop/insurance-CRM/template/"
