@@ -209,7 +209,7 @@ app.mount('#root')
 ## 🛡️ Guardrails
 
 - **Rule #1 (schema isolation)** — this step makes no DB calls yet; honored by omission.
-- **Viewport 412 (user global rule)** — never leave `width=device-width`. Phone browsers must match Chrome DevTools F12 simulation.
+- **Viewport device-width (user global rule)** — always use `width=device-width`. Never hardcode `width=412` — clips narrower phones.
 - **Mount target is `#root`** (not `#app`) — the LAA convention. Do not rename without updating `index.html` + `main.ts` together.
 - **Alias is `@/*` → `./src/*`** — keep consistent in both `vite.config.ts` AND `tsconfig.json`. Desyncing the two is the #1 import-resolution bug in this stack.
 

@@ -18,7 +18,7 @@ version: 12.0
 - **ROOT**: `.codex` (`C:\Users\user\.codex`)
 - **DNA**: `1_core/`
 - **UI**: Liquid Glass (blur 24px) | Onyx (#0a0b10) | Electric Red (#d52b1e)
-- **VIEWPORT**: Fixed width=412.
+- **VIEWPORT**: width=device-width, initial-scale=1.0, viewport-fit=cover (responsive). width=412 is FORBIDDEN.
 
 ---
 *V12 JIT Active — Just-In-Time Hydration Enabled.*

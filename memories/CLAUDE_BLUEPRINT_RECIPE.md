@@ -148,7 +148,7 @@ Every project root receives one `BLUEPRINT.md` with **this exact section order**
    - 5.5 Signature patterns (hero, KPI strip, carousel, segmented tabs, modal overlay, etc.)
 7. **§6 State / Data Layer** — stores table (name, table, responsibility), API surface, env vars.
 8. **§7 Domain Model** — entities table + ASCII relationship diagram.
-9. **§8 PWA / Mobile Baseline** — table: item / current / standard / status. **Always check viewport against `width=412`** per [CLAUDE.md](C:/Users/user/.claude/CLAUDE.md) and flag deviation.
+9. **§8 PWA / Mobile Baseline** — table: item / current / standard / status. **Always check viewport against `width=device-width`** per [CLAUDE.md](C:/Users/user/.claude/CLAUDE.md) and flag deviation.
 10. **§9 Engineering Protocols (compliance)** — table cross-checking USER_DNA / DESIGN_SOP / GROUND_KERNEL rules with ✅ / ⚠️ / ❌ per item.
 11. **§10 Open Items / Roadmap** — numbered list of concrete next steps with `file:line` links.
 12. **§11 SIMULATION_LOG** — output of the pre-flight simulation gate (logical conflicts / edge cases / perf).

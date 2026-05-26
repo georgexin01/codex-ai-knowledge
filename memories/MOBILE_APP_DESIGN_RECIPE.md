@@ -218,7 +218,7 @@ Add `pb-24` or `pb-32` on the parent so the last list item isn't covered.
 
 ## Style rules (reminders)
 
-- ❌ **Never** use `width=device-width` viewport. Always `width=412`.
+- ✅ **Always** use `width=device-width, initial-scale=1.0, viewport-fit=cover` viewport. Never hardcode `width=412`.
 - ❌ **Never** use `font-black` on text that flows in a list or paragraph (per [wrider_design_senses](wrider_design_senses.md)).
 - ❌ **Never** introduce a 3rd accent color beyond mint+gold. One warm + one cool + ink anchor only.
 - ❌ **Never** add Pinia, vue-router, or other state libs to a template — keep it pure for clone-ability.

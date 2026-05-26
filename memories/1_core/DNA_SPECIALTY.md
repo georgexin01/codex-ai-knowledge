@@ -31,8 +31,8 @@ date_updated: "2026-04-24"
 - **版本**: 每次部署都必须提升 Service Worker 版本。
 
 ### 1.3 视口强制标准 (Viewport Mandate)
-- **`width=412`** (Samsung S20 Ultra) — 而非 `width=device-width`。这与 Chrome DevTools F12 模拟保持一致，确保手机浏览器渲染完全一致。
-- `initial-scale=1.0`, `maximum-scale=1.0`, `user-scalable=no`, `viewport-fit=cover`。
+- **`width=device-width`** — 响应式标准，适配所有手机尺寸（320–430px CSS宽度）。`width=412` 已废弃，禁止使用（会在窄屏设备如 iPhone SE 上裁切右边缘）。
+- `initial-scale=1.0`, `viewport-fit=cover`。禁止使用 `maximum-scale=1.0` 或 `user-scalable=no`（影响无障碍访问）。
 
 ### 1.4 安装提示 UX
 - 延迟 `beforeinstallprompt` — 捕获事件，仅在用户交互后显示 CTA（例如：2 次页面浏览或在网站上停留 30 秒）。

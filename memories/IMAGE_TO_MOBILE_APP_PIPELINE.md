@@ -126,11 +126,11 @@ Use [MOBILE_APP_DESIGN_RECIPE.md §Phase 1](MOBILE_APP_DESIGN_RECIPE.md) verbati
 5. `src/env.d.ts` — Vue SFC + Vite types
 6. `src/main.ts` — single-line Vue mount
 7. `tailwind.config.js` — populate with extracted palette
-8. `index.html` — DM Sans + Material Symbols + viewport `width=412`
+8. `index.html` — DM Sans + Material Symbols + viewport `width=device-width, initial-scale=1.0, viewport-fit=cover`
 9. `src/style.css` — `@import "tailwindcss"` + `.tnum`, `.fill-1`, `.shadow-toast`, `.shadow-nav`, `.fab-float`, `.no-scrollbar`
 
 **MANDATORY — never skip:**
-- viewport meta `content="width=412, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"` (per [CLAUDE.md](C:/Users/user/.claude/CLAUDE.md))
+- viewport meta `content="width=device-width, initial-scale=1.0, viewport-fit=cover"` (per [CLAUDE.md](C:/Users/user/.claude/CLAUDE.md))
 - container `max-width: 412px` in inline `<style>`
 - DM Sans + Material Symbols `wght 300` default
 
@@ -656,7 +656,7 @@ toast.info("Title", "Optional message");
 ### ✅ Always
 
 1. Build the **toast system FIRST** before any view
-2. Use viewport `width=412` (CLAUDE.md mandate)
+2. Use viewport `width=device-width, initial-scale=1.0, viewport-fit=cover` (CLAUDE.md mandate)
 3. Use Material Symbols `wght 300` default + `.fill-1` for active states
 4. Add `.tnum` to every monetary amount
 5. Use one warm + one cool accent + ink + snow only

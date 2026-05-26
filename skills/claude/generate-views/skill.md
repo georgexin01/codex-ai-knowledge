@@ -616,6 +616,99 @@ const [Grid, gridApi] = useVbenVxeGrid({
 
 **Type changes:** Remove `sort` from `{{ENTITY_NAME}}FormValues` — keep it only in the `{{ENTITY_NAME}}` entity type.
 
+---
+
+### ⚠️ MANDATORY: Conditional Drag Handle (6-dot icon) Behavior
+
+> **This is a required principle for ALL tables with a `sort` column.**
+
+The 6-dot drag handle icon in the No./seq column **must be hidden by default** and **only shown when the Sort column is the active sort**. This prevents user confusion — drag reordering only makes sense when data is ordered by `sort`.
+
+**Rules:**
+1. **Sort column MUST be `sortable: true`** — the asc/desc arrows are the user's toggle trigger
+2. **Drag handle (6 dots) is HIDDEN by default** — visible only when Sort is the active sort column
+3. **When user clicks Sort column (asc/desc)** → drag handles appear, rows become draggable
+4. **When user clicks any other sortable column** → drag handles hide, drag is blocked
+5. **`rowDragend` must guard early-return** if not in drag sort mode (safety)
+
+**Implementation pattern:**
+
+```typescript
+import { ref } from 'vue';
+
+// Default: sort column is default sort → drag starts enabled
+const isDragSortMode = ref(true);
+
+const handleSortChange = ({ sortList }: any) => {
+  const active = sortList?.[0];
+  // Enable drag only when 'sort' column is active sort (any direction)
+  isDragSortMode.value = !active || active.field === 'sort';
+};
+
+const handleRowDragend = async (params: any) => {
+  if (!isDragSortMode.value) return; // Safety guard
+  // ... rest of drag logic
+};
+
+const [Grid, gridApi] = useVbenVxeGrid({
+  gridEvents: {
+    rowDragend: handleRowDragend,
+    sortChange: handleSortChange,  // ← REQUIRED
+  },
+  gridOptions: {
+    rowConfig: { ...defaultGridOptions.rowConfig, drag: true },
+    columns: [
+      {
+        type: 'seq', field: '_seq',
+        title: $t('page.table.common.seq'),
+        width: 'auto', align: 'center',
+        dragSort: true,  // Always true — CSS controls visibility
+      },
+      {
+        field: 'sort',
+        title: $t('page.{{ENTITIES}}.table.sort'),
+        width: 60, align: 'center',
+        sortable: true,  // ← MUST be sortable (enables the toggle)
+      },
+    ],
+    sortConfig: {
+      remote: true,
+      trigger: 'default',
+      defaultSort: { field: 'sort', order: 'asc' },
+    },
+  },
+});
+```
+
+**Template — wrapper class binding:**
+
+```vue
+<template>
+  <div :class="['flex h-full flex-col', isDragSortMode ? 'is-drag-sort-mode' : '']">
+    <Grid class="flex-1" />
+    <!-- drawers... -->
+  </div>
+</template>
+
+<style scoped>
+/* Drag handle (6-dot icon) hidden by default */
+:deep(.vxe-cell--drag-handle) {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Show drag handle only when Sort column is the active sort */
+.is-drag-sort-mode :deep(.vxe-cell--drag-handle) {
+  visibility: visible;
+  pointer-events: auto;
+}
+</style>
+```
+
+**Why `visibility: hidden` instead of `display: none`:** Keeps the cell width stable so the No. column doesn't resize when toggling. The drag handle space is reserved but invisible.
+
+---
+
 **Migration SQL (run once):**
 
 ```sql
