@@ -14,7 +14,7 @@ date_updated: "2026-05-03"
 In the Software 3.0 era, building is easy; securing is hard. The **Breaking Standard** mandates that high-quality software is only verified if an independent agentic auditor fails to break it.
 
 ### 🧬 1.1 ADVERSARIAL AGENT ROLES
-- **🎭 THE ATTACKER (Red Team)**: A specialized sub-agent (e.g., `Gemini-3-Pro`) tasked with finding zero-day vulnerabilities, logic flaws, or UX regressions in the "vibe-coded" output.
+- **🎭 THE ATTACKER (Red Team)**: A specialized sub-agent (e.g., `claude-code` in deep review mode) tasked with finding zero-day vulnerabilities, logic flaws, or UX regressions in the "vibe-coded" output.
 - **🛡️ THE DEFENDER (Blue Team)**: The implementing agent tasked with "Hardening" the code against the Attacker's findings.
 
 ---

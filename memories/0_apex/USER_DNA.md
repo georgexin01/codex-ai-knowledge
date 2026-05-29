@@ -26,7 +26,7 @@
 3. **Always center** landing UI (Login) unless full-bleed layout is required.
 4. **Proactively use glass** for all notification/modal overlays.
 5. **Always verify contrast**: Ensure absolute readability. Never pair low-contrast grays (e.g., light-gray text/buttons on gray backgrounds).
-6. **GitNexus is allowlisted, not default** (2026-05-18). Only run `gitnexus analyze` on `vben admin` / large Supabase admin projects — they get dramatic token savings. For websites and apps (PHP sites, static/marketing pages, small PWAs), skip GitNexus and use grep/glob. Full policy: `memories/2_governance/GITNEXUS.md` → "Project allowlist".
+6. **GitNexus is allowlisted with one controlled auto-index case** (2026-05-29). Auto-run `gitnexus analyze` once for new large `vben admin` / Supabase admin projects, and re-run after long/structural updates when impact analysis will save time. For websites and apps (PHP sites, static/marketing pages, small PWAs), skip GitNexus and use grep/glob. Never run GitNexus on `.codex`. Full policy: `memories/2_governance/GITNEXUS.md` → "Project allowlist".
 7. **Video URL fields are platform-agnostic** (2026-05-20). When building a content module with a video field, never hardcode "YouTube" in labels, placeholders, link text, or URL validation. Use generic `Video URL` / `Enter any video URL`. The user posts TikTok and other sources and wants no platform lock-in.
 8. **Disable the Vben notification widget by default** (2026-05-20). In Vben admin panels the top-bar notification bell shows only mock/demo data and has no real backend. Set `widget.notification: false` in `@core/preferences` config unless the project explicitly wires a real notification feed.
 

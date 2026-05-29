@@ -3,7 +3,7 @@ name: ai-studio-bridge
 description: "Google AI Studio Vision Bridge (Vision Pulse)"
 triggers: ["ai studio bridge", "ai_studio_bridge", "google studio vision"]
 phase: reference
-model_hint: gemini-3-flash
+model_hint: codex-gpt-5.3
 version: 1.0
 _ohdy_wrapper: |-
   # OHDY COMPRESSED NODE (V42.0)

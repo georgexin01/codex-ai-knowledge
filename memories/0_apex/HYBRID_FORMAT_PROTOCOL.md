@@ -1,13 +1,13 @@
 ---
 name: hybrid-format-protocol
-description: "Canonical rules for writing AI knowledge and skills in the 5-language hybrid system (YAML, MD, JSON, TOON, XML) optimized for Gemini 3 Flash routing and token efficiency."
-triggers: ["hybrid format", "format rules", "how to write skill", "how to write knowledge", "new skill", "new knowledge", "format protocol", "gemini flash format"]
+description: "Canonical rules for writing AI knowledge and skills in the 5-language hybrid system (YAML, MD, JSON, TOON, XML) optimized for route-first token efficiency."
+triggers: ["hybrid format", "format rules", "how to write skill", "how to write knowledge", "new skill", "new knowledge", "format protocol", "fast format routing"]
 phase: constitutional
 requires: [ALPHA_DIRECTIVE]
 v_score: 1.0
 k_decay: 0
 holo: "Canonical 5-language format system for AI knowledge/skills. Enforces YAML frontmatter + MD body rules for token efficiency."
-model_hint: gemini-3-flash
+model_hint: codex-gpt-5.3
 version: 1.1
 status: authoritative
 date_created: "2026-04-13"
@@ -21,7 +21,7 @@ applies_to: "all new and updated knowledge/skills files across all modes (claude
 
 ## 1. WHY THIS EXISTS
 
-Gemini 3 Flash is latency-optimized and excels at structured output + literal keyword matching. Writing skills in the wrong format costs tokens (up to 45% per call), breaks routing accuracy, and makes maintenance fragile. This protocol fixes that with one rule: **match the format to the content type.**
+Fast route-first agents benefit from structured output + literal keyword matching. Writing skills in the wrong format costs tokens (up to 45% per call), breaks routing accuracy, and makes maintenance fragile. This protocol fixes that with one rule: **match the format to the content type.**
 
 Goals:
 - **Token efficiency** — avoid wrapper overhead (e.g. OHDY `l: |-` YAML blocks wasted ~13% tokens)
@@ -79,7 +79,7 @@ Every `.md` skill or knowledge file MUST have this frontmatter block at the top.
 | `description` | string | One-line summary (max 500 chars) — used by router for fallback semantic match |
 | `triggers` | string[] | 2-5 literal keywords the router matches against user input |
 | `phase` | enum | `constitutional` \| `0-orchestrator` \| `1-analysis` \| `2-scaffold` \| `3-testing` \| `reference` |
-| `model_hint` | enum | `gemini-3-flash` (fast scaffold) \| `gemini-3-pro` (heavy reasoning) |
+| `model_hint` | enum | `codex-gpt-5.3` (fast scaffold) \| `claude-code` (heavy reasoning) |
 | `version` | string | Skill version for cache-busting |
 
 ### 3.2 Optional fields
@@ -107,7 +107,7 @@ requires: []
 unlocks: []
 inputs: [entity_name, field_list]
 output_format: typescript_files
-model_hint: gemini-3-flash
+model_hint: codex-gpt-5.3
 version: 1.0
 ---
 
@@ -234,7 +234,7 @@ Rules:
 1. **Thin frontmatter** — only fields the router needs. Don't dump content into YAML keys.
 2. **Body chunked by `##` headings** — Flash skims headings to decide what section to read.
 3. **Literal triggers** — 2-5 exact phrases the user might say. Not semantic paraphrases.
-4. **Model hint routing** — send heavy reasoning to `gemini-3-pro`, light scaffold to `gemini-3-flash`.
+4. **Model hint routing** — send heavy reasoning to `claude-code`, light scaffold to `codex-gpt-5.3`.
 5. **Output contracts** — declare `output_format` so Flash's structured-output mode locks onto it.
 6. **Cache-friendly** — keep total corpus under 1M tokens per mode so it stays in context cache.
 7. **No duplication** — don't repeat content across frontmatter + body. Frontmatter for routing, body for execution.

@@ -2,7 +2,7 @@ name: core-vitals
 description: "⚡ CORE VITALS (V3.0) — SLIM ACTIVATION ENGINE"
 triggers: ["vitals", "core vitals", "round 1 vitals", "activation"]
 phase: constitutional
-model_hint: gemini-3-flash
+model_hint: codex-gpt-5.3
 version: 3.0
 ---
 

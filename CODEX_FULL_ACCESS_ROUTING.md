@@ -1,12 +1,12 @@
 # Codex Full Access Routing
 
-→ **Canonical source**: `C:\Users\User\.codex\00_CODEX_START_HERE.md`
+→ **Primary boot read**: `C:\Users\User\.codex\00_PULSE.md` (superseded this stub in boot).
 
-All routing, boot sequence, runtime policy, trigger map, hybrid format rules, first-pass guardrails, practical loading, and safety rules now live in `00_CODEX_START_HERE.md`. Read that file — do not duplicate rules here.
+PULSE is the single boot read — hot rules + full trigger map + reasoning profile in one file. Read it, resolve the route, act. `00_CODEX_START_HERE.md` remains the full canonical reference (deferred).
 
 ## Quick Reference
 
+- Boot: `00_PULSE.md` (only). Deferred: `CODEX_DYNAMIC_ROUTING.md`, `00_CODEX_START_HERE.md`, `00_REASONING_EVOLUTION_PROTOCOL.md`.
 - Knowledge root: `C:\Users\User\.codex\memories`
 - Skills root: `C:\Users\User\.codex\skills`
-- Mandatory startup: `00_CODEX_START_HERE.md` → `Update-CodexRouting.ps1 -Quiet` → `CODEX_DYNAMIC_ROUTING.md` → `codex-manifest.json`
 - Fallback route: `memories/2_governance/artifacts/skill_path_router.md`

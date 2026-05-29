@@ -11,17 +11,16 @@ This is the fastest startup router for Codex on this machine.
 
 ## Ultra-Lean Knowledge Boot Sequence
 
-Default profile: `Ultra-Lean`.
+Default profile: `Ultra-Lean`. **Primary boot = `00_PULSE.md` only.**
 
-1. Read startup contracts only:
-   - `C:\Users\User\.codex\00_CODEX_START_HERE.md`
-   - `C:\Users\User\.codex\00_CODEX_CUSTOM_INSTRUCTIONS_CODEX_BRIDGE.md`
-   - `C:\Users\User\.codex\00_REASONING_EVOLUTION_PROTOCOL.md`
-   - `C:\Users\User\.codex\CODEX_FULL_ACCESS_ROUTING.md`
-2. Read `C:\Users\User\.codex\CODEX_DYNAMIC_ROUTING.md` to get the current index map.
-3. Resolve knowledge root from manifest/index data, not hardcoded path assumptions.
-4. If `CODEX_DYNAMIC_ROUTING.md` / `codex-router\codex-manifest.json` is missing or stale, regenerate via `Update-CodexRouting.ps1 -Quiet`, then re-read it.
-5. Stop after first valid route match. Do not continue scanning.
+1. Read **`C:\Users\User\.codex\00_PULSE.md`** — the single boot read. It embeds the hot rules, the full trigger map, and the compact reasoning profile, and marks everything else lazy/deferred.
+2. Resolve the trigger from PULSE and load only the matched file. Stop after first valid route match.
+3. Everything below is **deferred** — load only when PULSE is insufficient (deep/governance/recovery/high-risk turns):
+   - `C:\Users\User\.codex\CODEX_DYNAMIC_ROUTING.md` (current index map; regenerate via `Update-CodexRouting.ps1 -Quiet` if stale)
+   - `C:\Users\User\.codex\00_CODEX_START_HERE.md` (this file — full canonical boot reference)
+   - `C:\Users\User\.codex\00_REASONING_EVOLUTION_PROTOCOL.md` (full 11-rule reasoning protocol)
+4. Superseded in boot (do not read — PULSE replaces them): `00_CODEX_CUSTOM_INSTRUCTIONS_CODEX_BRIDGE.md`, `CODEX_FULL_ACCESS_ROUTING.md` (both are redirect stubs).
+5. `codex-router\codex-manifest.json` is a path/hash integrity index (no descriptions) — confirm existence / detect drift only; never full-read at boot.
 
 ## Tier-0 Deferred Deep Read
 
@@ -35,11 +34,11 @@ These are absolute principles/rules for behavior and execution style and are def
 
 ## Fast Read Order
 
-1. `C:\Users\User\.codex\00_CODEX_CUSTOM_INSTRUCTIONS_CODEX_BRIDGE.md`
-2. `C:\Users\User\.codex\CODEX_FULL_ACCESS_ROUTING.md`
-3. Run `C:\Users\User\.codex\codex-router\Update-CodexRouting.ps1 -Quiet` when shell/approvals allow.
-4. `C:\Users\User\.codex\CODEX_DYNAMIC_ROUTING.md`
-5. `C:\Users\User\.codex\codex-router\codex-manifest.json` (full file index: descriptions + paths)
+1. `C:\Users\User\.codex\00_PULSE.md`
+2. If PULSE is insufficient, run `C:\Users\User\.codex\codex-router\Update-CodexRouting.ps1 -Quiet` when shell/approvals allow.
+3. `C:\Users\User\.codex\CODEX_DYNAMIC_ROUTING.md`
+4. `C:\Users\User\.codex\00_CODEX_START_HERE.md`
+5. `C:\Users\User\.codex\00_REASONING_EVOLUTION_PROTOCOL.md`
 6. If route is unclear, fall back to:
    - `C:\Users\User\.codex\memories\2_governance\artifacts\skill_path_router.md`
 
@@ -53,7 +52,7 @@ These are absolute principles/rules for behavior and execution style and are def
 
 ## Reasoning Evolution Layer
 
-- Load and apply `C:\Users\User\.codex\00_REASONING_EVOLUTION_PROTOCOL.md` at startup.
+- PULSE carries the compact startup reasoning profile; load and apply `C:\Users\User\.codex\00_REASONING_EVOLUTION_PROTOCOL.md` only when the deferred full protocol is needed.
 - For routine tasks, apply compact reasoning rules with low overhead.
 - For deep/high-risk tasks, apply full protocol including counterexample check and rollback-aware output.
 
@@ -79,7 +78,7 @@ These are absolute principles/rules for behavior and execution style and are def
 
 ## Trigger Phrases
 
-- `ai read .codex knowledge` → route-first selective-load: minimal route context first, then lazy-load only task-relevant memory rules
+- `ai read .codex knowledge` → route-first selective-load once per chat, cache compact context, then reply only `[🟢] Agent is Ready..`
 - `ai read .codex skills` → `C:\Users\User\.codex\skills` (see `skill_path_router.md` for full index)
 - `ai claude` → `C:\Users\User\.codex\skills\claude\WORKING_PROGRESS.md` (Vben Admin module builder — linear executor)
 - `ai claude app` → `C:\Users\User\.codex\skills\claude-app\WORKING_PROGRESS.md` (mobile app Vue builder — linear executor)

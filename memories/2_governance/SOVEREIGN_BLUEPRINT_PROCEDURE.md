@@ -21,7 +21,7 @@ BEFORE generating the blueprint, AI MUST run a "Mental Sandbox" to predict:
 ## 🏗️ 2. BLUEPRINT EVOLUTION (V3.0)
 The blueprint is now a **Live DNA Document**.
 - **Handshake Mandate**: Any change to the project must be "Legislated" in the blueprint first before "Executed" in the code.
-- **Purity Audit**: Every blueprint section must be checked against **KARPATHY_OPERATIONAL_STANDARD.md**.
+- **Purity Audit**: Every blueprint section must be checked against **GROUND_KERNEL.md**.
 
 ## 🌊 3. THE DEEP DIVE STUDY FLOW (V3.1)
 For complex transitions or new projects referencing legacy code:

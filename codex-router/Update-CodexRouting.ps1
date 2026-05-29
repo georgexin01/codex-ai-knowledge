@@ -115,12 +115,17 @@ $changes | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath $changesPath -Enco
 
 $kindCounts = $newEntries | Group-Object kind | Sort-Object Name
 
+# Boot read order (lean): PULSE is the single primary boot read; it embeds the hot
+# rules + trigger map + reasoning profile and marks everything else lazy/deferred.
+# The two redirect stubs (BRIDGE, FULL_ACCESS_ROUTING) are superseded by PULSE in boot
+# and intentionally excluded here. START_HERE + REASONING remain canonical deferred refs.
 $startupReadRel = @(
-  "00_CODEX_START_HERE.md",
-  "00_CODEX_CUSTOM_INSTRUCTIONS_CODEX_BRIDGE.md",
-  "00_REASONING_EVOLUTION_PROTOCOL.md",
-  "CODEX_FULL_ACCESS_ROUTING.md",
+  "00_PULSE.md",
   "CODEX_DYNAMIC_ROUTING.md"
+)
+$deferredReadRel = @(
+  "00_CODEX_START_HERE.md",
+  "00_REASONING_EVOLUTION_PROTOCOL.md"
 )
 $mandatoryReadRel = @()
 $mandatoryReadRel += $startupReadRel
@@ -228,7 +233,13 @@ foreach ($line in $changedPaths) { $dynamic += "- $line" }
 $dynamic += ""
 $dynamic += "## Mandatory Read Order"
 $dynamic += ""
+$dynamic += "Primary boot = 00_PULSE.md only. It embeds hot rules + trigger map + reasoning profile; everything below it is deep/governance (load only when the turn needs it)."
+$dynamic += ""
 foreach ($m in $mandatoryReadRel) { $dynamic += "- $(Resolve-RepoPath $m)" }
+$dynamic += ""
+$dynamic += "## Deferred Read Order (load only when PULSE is insufficient)"
+$dynamic += ""
+foreach ($d in $deferredReadRel) { $dynamic += "- $(Resolve-RepoPath $d)" }
 $dynamic += ""
 $dynamic += "## Tier Map"
 $dynamic += ""
@@ -260,8 +271,10 @@ foreach ($g in $kindCounts) { $dynamic += "- $($g.Name): $($g.Count) files" }
 $dynamic += ""
 $dynamic += "## Routing Rules"
 $dynamic += ""
+$dynamic += "- PRIMARY: resolve every request from 00_PULSE.md trigger map first; stop at first match."
 $dynamic += "- For knowledge requests, map user term 'knowledge' to $((Resolve-RepoPath $config.knowledge_root))."
-$dynamic += "- Use CODEX_DYNAMIC_ROUTING.md for the current route map and codex-router/codex-manifest.json for the full file index."
+$dynamic += "- On route-miss: skills -> skill_path_router.md (semantic skill index); knowledge -> grep memories/ by filename + frontmatter."
+$dynamic += "- codex-manifest.json is a path/hash integrity index (no descriptions) — use to confirm existence/detect drift, never full-read at boot."
 $dynamic += "- Use skill_path_router.md to map intent to skill families."
 $dynamic += "- Read only required files; do not hydrate entire trees."
 $dynamic += "- Prefer current project files over archive context when conflicts exist."

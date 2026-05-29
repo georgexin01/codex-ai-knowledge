@@ -1,45 +1,19 @@
 ﻿{
-    "generated_utc":  "2026-05-25T03:39:17.4456422Z",
-    "added_count":  8,
-    "modified_count":  9,
-    "removed_count":  16,
+    "generated_utc":  "2026-05-29T10:08:09.6915219Z",
+    "added_count":  0,
+    "modified_count":  5,
+    "removed_count":  0,
     "added":  [
-                  "C:\\Users\\user\\.codex\\memories\\archive\\evolving_knowledge.md",
-                  "C:\\Users\\user\\.codex\\memories\\1_core\\DESIGN_SOP.md",
-                  "C:\\Users\\user\\.codex\\memories\\1_core\\PWA_FAVICON_META_SETUP.md",
-                  "C:\\Users\\user\\.codex\\memories\\1_core\\DESIGN_EVOLUTION_PROTOCOL.md",
-                  "C:\\Users\\user\\.codex\\memories\\1_core\\HEADER_FOOTER_DESIGN_RULES.md",
-                  "C:\\Users\\user\\.codex\\memories\\0_apex\\USER_DNA.md",
-                  "C:\\Users\\user\\.codex\\memories\\1_core\\IMAGE_SOURCING_FREE.md",
-                  "C:\\Users\\user\\.codex\\memories\\archive\\user_preference_dna.md"
+
               ],
     "modified":  [
-                     "C:\\Users\\user\\.codex\\memories\\CLAUDE_BLUEPRINT_RECIPE.md",
-                     "C:\\Users\\user\\.codex\\memories\\IMAGE_TO_MOBILE_APP_PIPELINE.md",
-                     "C:\\Users\\user\\.codex\\skills\\design\\TIER_0_PROTOCOL.md",
-                     "C:\\Users\\user\\.codex\\memories\\MOBILE_APP_DESIGN_RECIPE.md",
-                     "C:\\Users\\user\\.codex\\skills\\design\\website\\ECOWORLD_COLOR_SYSTEM.md",
-                     "C:\\Users\\user\\.codex\\skills\\design\\app\\IMAGE_GENERATION_FREE.md",
-                     "C:\\Users\\user\\.codex\\skills\\normal\\mobile-template-from-samples\\skill.md",
-                     "C:\\Users\\user\\.codex\\skills\\design\\website\\IMAGE_GENERATION_FREE.md",
-                     "C:\\Users\\user\\.codex\\memories\\2_governance\\artifacts\\skill_path_router.md"
+                     "C:\\Users\\user\\.codex\\memories\\0_apex\\templates\\MASTER_APP_BLUEPRINT.md",
+                     "C:\\Users\\user\\.codex\\memories\\2_governance\\experience_vault.md",
+                     "C:\\Users\\user\\.codex\\memories\\2_governance\\ADVERSARIAL_VERIFICATION_PROTOCOL.md",
+                     "C:\\Users\\user\\.codex\\memories\\0_apex\\HYBRID_FORMAT_PROTOCOL.md",
+                     "C:\\Users\\user\\.codex\\memories\\0_apex\\SOVEREIGN_BLUEPRINT_PROTOCOL.md"
                  ],
     "removed":  [
-                    "C:\\Users\\user\\.codex\\memories\\tech_stack_mastery\\artifacts\\must_do_master_rules.md",
-                    "C:\\Users\\user\\.codex\\memories\\self_evolving_intelligence\\artifacts\\user_preference_dna.md",
-                    "C:\\Users\\user\\.codex\\memories\\extensions\\ad_hoc\\notes\\2026-05-18T17-34-20-angel-interior-db-must-do-principles.md",
-                    "C:\\Users\\user\\.codex\\memories\\extensions\\ad_hoc\\notes\\2026-05-20T18-34-05-vben-local-supabase-cloudflare-publish-pattern.md",
-                    "C:\\Users\\user\\.codex\\memories\\memory_summary.md",
-                    "C:\\Users\\user\\.codex\\memories\\pwa_favicon_meta_setup.md",
-                    "C:\\Users\\user\\.codex\\memories\\USER_DNA.md",
-                    "C:\\Users\\user\\.codex\\memories\\design_evolution_protocol.md",
-                    "C:\\Users\\user\\.codex\\memories\\skills\\vben-local-supabase-cloudflare-publish\\SKILL.md",
-                    "C:\\Users\\user\\.codex\\memories\\extensions\\ad_hoc\\notes\\20260518-153714-project-handoff-database-markmap.md",
-                    "C:\\Users\\user\\.codex\\memories\\IMAGE_SOURCING_FREE.md",
-                    "C:\\Users\\user\\.codex\\memories\\extensions\\ad_hoc\\notes\\2026-05-18T17-36-06-vben-supabase-db-planning-reusable-principles.md",
-                    "C:\\Users\\user\\.codex\\memories\\DESIGN_SOP.md",
-                    "C:\\Users\\user\\.codex\\memories\\skills\\vben-local-supabase-preflight\\SKILL.md",
-                    "C:\\Users\\user\\.codex\\memories\\self_evolving_intelligence\\artifacts\\evolving_knowledge.md",
-                    "C:\\Users\\user\\.codex\\memories\\HEADER_FOOTER_DESIGN_RULES.md"
+
                 ]
 }

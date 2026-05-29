@@ -10,6 +10,24 @@ version: 2.0
 ## 🎯 Objective
 To "harden" the portal's visibility to search engines by saturating the code with semantic markers, structured data, and high-value keyword clusters without sacrificing the "Industrial" aesthetic.
 
+## ⚠️ DEFAULT ROBOTS RULE — PERMANENT MANDATORY RULE
+
+**ALL pages on ALL websites (dev, staging, AND production) MUST default to `noindex, nofollow`.**
+
+```html
+<meta name="robots" content="noindex, nofollow">
+```
+
+### Rules
+- This applies to **every environment** — development, staging, and production builds.
+- **NEVER change this default** unless the user explicitly instructs: *"set this site to index, follow"* or *"enable SEO indexing"*.
+- Only override per-page or globally when the user gives a direct instruction to do so.
+- In PHP shared head partial: `if (!isset($metaRobot)) { $metaRobot = 'noindex, nofollow'; }`
+- In Vue/React `index.html`: `<meta name="robots" content="noindex, nofollow">`
+- AI must NEVER auto-switch to `index, follow` as part of a "production build" or "SEO" task without explicit user approval.
+
+---
+
 ## 📖 The Protocol
 1.  **Metadata Saturation**:
     - Ensure every page has a unique `<title>` and `<meta description>`.

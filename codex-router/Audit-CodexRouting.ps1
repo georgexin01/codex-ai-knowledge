@@ -19,6 +19,16 @@ function Resolve-RepoPath([string]$relativePath) {
   Join-Path $codexRoot $relativePath
 }
 
+function Test-IsExcluded([string]$fullPath) {
+  $relative = ($fullPath.Replace($codexRoot, "").TrimStart('\','/')) -replace '\\','/'
+  foreach ($pat in @($config.exclude)) {
+    if (-not $pat) { continue }
+    $normalizedPattern = (([string]$pat) -replace '\\','/') -replace '\*\*','*'
+    if ($relative -like $normalizedPattern) { return $true }
+  }
+  return $false
+}
+
 $mandatory = @(
   "00_CODEX_START_HERE.md",
   "00_CODEX_CUSTOM_INSTRUCTIONS_CODEX_BRIDGE.md",
@@ -58,9 +68,9 @@ $scanFiles = @(
   (Join-Path $codexRoot "AGENTS.md")
 )
 $scanFiles += (Get-ChildItem -LiteralPath (Join-Path $codexRoot "memories") -Recurse -File -ErrorAction SilentlyContinue |
-  Where-Object { @(".md",".yaml",".yml",".json",".ps1",".txt",".idx",".toml") -contains $_.Extension.ToLowerInvariant() }).FullName
+  Where-Object { @(".md",".yaml",".yml",".json",".ps1",".txt",".idx",".toml") -contains $_.Extension.ToLowerInvariant() -and -not (Test-IsExcluded $_.FullName) }).FullName
 $scanFiles += (Get-ChildItem -LiteralPath (Join-Path $codexRoot "skills") -Recurse -File -ErrorAction SilentlyContinue |
-  Where-Object { @(".md",".yaml",".yml",".json",".ps1",".txt",".idx",".toml") -contains $_.Extension.ToLowerInvariant() -and $_.FullName -notmatch "\\faucet\\" }).FullName
+  Where-Object { @(".md",".yaml",".yml",".json",".ps1",".txt",".idx",".toml") -contains $_.Extension.ToLowerInvariant() -and $_.FullName -notmatch "\\faucet\\" -and -not (Test-IsExcluded $_.FullName) }).FullName
 $scanFiles = $scanFiles | Sort-Object -Unique
 
 $legacyPattern = "\\.gemini|gemini-3-flash|gemini-3-pro|Gemini-3-Flash|Gemini-3-Pro"

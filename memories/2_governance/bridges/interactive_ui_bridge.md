@@ -3,7 +3,7 @@ name: interactive-ui-bridge
 description: "Interactive UI Hyper-Protocol"
 triggers: ["interactive ui bridge", "interactive_ui_bridge", "interactive hyper"]
 phase: reference
-model_hint: gemini-3-flash
+model_hint: codex-gpt-5.3
 version: 1.0
 _ohdy_wrapper: |-
   # OHDY COMPRESSED NODE (V42.0)

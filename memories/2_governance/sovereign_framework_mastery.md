@@ -3,7 +3,7 @@ name: sovereign-framework-mastery
 description: "Sovereign Framework (SWF) Architecture & Governance (V15.1 Apex)"
 triggers: ["swf", "vben", "sovereign framework", "master architecture"]
 phase: constitutional
-model_hint: gemini-3-flash
+model_hint: codex-gpt-5.3
 version: 15.1
 status: authoritative
 ---

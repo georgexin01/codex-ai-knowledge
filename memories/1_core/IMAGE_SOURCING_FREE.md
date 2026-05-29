@@ -5,7 +5,7 @@ type: reference
 tier: 1
 phase: design
 priority: HIGH
-applies_to: ["claude", "claude-code", "codex", "gemini", "gemini-3-flash"]
+applies_to: ["claude", "claude-code", "codex", "codex-gpt-5.3"]
 related:
   - "2_governance/sovereign_framework_mastery.md"
   - "0_apex/GROUND_KERNEL.md"

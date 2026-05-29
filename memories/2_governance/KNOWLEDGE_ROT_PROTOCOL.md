@@ -1,24 +1,28 @@
-# KNOWLEDGE_ROT_PROTOCOL.md - V1.0
+# KNOWLEDGE_ROT_PROTOCOL.md - V1.1
 # "Anti-Entropy Governance"
 
 ## 1. THE PROBLEM: KNOWLEDGE ROT
 Knowledge rot occurs when documentation stays static while the codebase or environment evolves. This leads to "Hallucinations" where the AI relies on outdated ground truth.
 
 ## 2. AUTOMATED DETECTION (ROT-AUDIT)
-Every 10 sessions, or on user request, the AI MUST execute a **ROT-AUDIT**:
+Weekly, after a high-activity week, or on user request, the AI MUST execute a **ROT-AUDIT**:
 1. **Timestamp Audit**: Flag any file in `0_apex`, `1_core`, or `2_governance` that has not been updated in >30 days.
 2. **Path Audit**: Run `codex-router/Audit-CodexRouting.ps1` to detect missing entries and broken routing links.
 3. **Symbol Drift**: Compare the `Entity Definitions` in `DNA_LOGIC.md` against the actual `types.ts` in the project. If they differ, trigger a **RESURRECTION TURN**.
+4. **Runtime Noise Audit**: Prune safe transient folders/files (`.tmp`, cache, stale session indexes, large sqlite WAL/SHM noise) only when they are not active and the target path is verified.
+5. **Route Integrity Audit**: Before any merge/archive/rename/delete, find references to the old path, patch active routes to the merged target or leave a redirect stub, then regenerate and audit routing.
 
 ## 3. MAINTENANCE MANDATE
 - **YAML Frontmatter**: Every knowledge file MUST include a `last_audit` date.
 - **Pruning**: If a file is flagged as "Irrelevant" during an audit, it MUST be moved to `vault/archive` instead of being deleted.
 
 ## 4. EXECUTION
-AI can trigger a rot-check by saying: `ai run rot-audit`.
+AI can trigger a rot-check by saying: `ai run rot-audit` or `ai run weekly rot-audit`.
 This executes:
 - `codex-router/Update-CodexRouting.ps1 -Quiet` then `codex-router/Audit-CodexRouting.ps1`
 - `Get-ChildItem -Recurse | Where-Object { $_.LastWriteTime -lt (Get-Date).AddDays(-30) }`
+- A targeted old-boot-reference scan across active/deferred docs; patch only active/deferred contradictions and leave archive/rollout history untouched.
+- For every changed route path: `rg "<old path or filename>" .` before and after the move/merge, proving all active references now point to the replacement.
 
 ## 5. MEMORY.MD AUTO-TRIM RULE
 

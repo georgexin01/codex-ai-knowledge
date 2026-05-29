@@ -49,6 +49,7 @@ These point at executable recipes and foundational knowledge docs, not skills.
 | `ai gitnexus` | `memories/2_governance/GITNEXUS.md` | GitNexus MCP code-graph workflow + project allowlist |
 | `ai drift guard` | `memories/2_governance/DRIFT_GUARD_PROTOCOL.md` | Anti-drift re-grounding protocol for long tasks |
 | `ai knowledge rot` | `memories/2_governance/KNOWLEDGE_ROT_PROTOCOL.md` | Anti-entropy governance (MEMORY.md auto-trim + tombstone rule) |
+| `vben relation autoguard` / `typed delete relation` / `parent child visibility` / `relation navigation` | `memories/project_notes/VBEN_RELATION_AUTOGUARD_PLAYBOOK.md` | Merged Vben relation visibility, blue-link/layer navigation, typed delete, and QuizLAA coverage notes |
 
 ## Sub-skill index (no top-level SKILL.md — load sub directly)
 

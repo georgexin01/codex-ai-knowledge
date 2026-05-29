@@ -8,7 +8,7 @@ This protocol upgrades reasoning quality while preserving speed.
 - Keep Lean Fast Lane fast for routine tasks.
 - Auto-escalate reasoning depth only when risk or ambiguity is meaningful.
 
-## Core 10 Rules
+## Core 12 Rules
 
 1. Goal Contract First
 - Before execution, restate goal, constraints, and success criteria in 3 lines.
@@ -34,16 +34,22 @@ This protocol upgrades reasoning quality while preserving speed.
 8. Token Discipline
 - Read minimum required files first and stop once route/intent is resolved.
 
-9. Reversibility and Risk Gate
+9. 20/80 Context Compression
+- Before using large context, identify the top 20% that must remain exact: user request, acceptance criteria, paths, symbols, schema, errors, commands, and safety constraints.
+- Keep that critical 20% verbatim.
+- Compress the remaining 80% into dense notes only if the summary preserves ~99% of meaning, evidence, and intent.
+- Never compress away unresolved uncertainty, conflicting evidence, or exact values needed for correctness.
+
+10. Reversibility and Risk Gate
 - For non-trivial changes, classify risk (`low|medium|high`) and include rollback path.
 
-10. Verification-Weighted Final Output
+11. Verification-Weighted Final Output
 - Final output must include:
   - what changed
   - what was verified
   - what remains uncertain
 
-11. Drift Guard Checkpoint
+12. Drift Guard Checkpoint
 - On any task running past ~2-3 minutes, periodically (every 3-5 tool batches or at each phase boundary) re-read the user's original request — "the Anchor".
 - Compare current work to the Anchor: classify `on-track` / `minor-drift` / `major-drift`.
 - On `major-drift`: stop, revert to last on-track state, restate the Anchor, resume only what was asked.
@@ -51,9 +57,9 @@ This protocol upgrades reasoning quality while preserving speed.
 
 ## Runtime Profile
 
-- Routine tasks: apply rules 1, 2, 8, 10 in compact form (add 11 if the task runs long).
-- Medium tasks: apply rules 1-3, 5, 8-11.
-- Deep/high-risk tasks: apply all 11 rules.
+- Routine tasks: apply rules 1, 2, 8, 11 in compact form (add 12 if the task runs long).
+- Medium tasks: apply rules 1-3, 5, 8-12.
+- Deep/high-risk tasks: apply all 12 rules.
 
 ## Output Discipline
 

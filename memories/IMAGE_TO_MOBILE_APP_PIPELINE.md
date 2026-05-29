@@ -5,8 +5,8 @@ type: procedure
 tier: 2
 phase: 1-execution
 priority: HIGH
-model_hint: gemini-3-flash
-applies_to: ["claude", "claude-code", "gemini-3-flash", "antigravity"]
+model_hint: codex-gpt-5.3
+applies_to: ["claude", "claude-code", "codex-gpt-5.3", "antigravity"]
 authored_by: claude-opus-4-7
 authored_for: "shared cross-AI use"
 requires: ["MOBILE_APP_DESIGN_RECIPE.md", "CLAUDE_BLUEPRINT_RECIPE.md", "0_apex/USER_DNA.md", "1_core/DESIGN_SOP.md", "0_apex/SOVEREIGN_BLUEPRINT_PROTOCOL.md"]

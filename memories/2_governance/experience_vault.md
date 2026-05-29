@@ -3,7 +3,7 @@ name: experience-vault
 description: "Sovereign Mission Ledger & Logic Breakthroughs (V15.1 Apex)"
 triggers: ["experience vault", "mission log", "neural vectors", "breakthroughs"]
 phase: governance
-model_hint: gemini-3-flash
+model_hint: codex-gpt-5.3
 version: 15.1
 status: authoritative
 ---

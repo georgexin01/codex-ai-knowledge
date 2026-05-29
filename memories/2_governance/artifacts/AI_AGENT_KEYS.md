@@ -3,7 +3,7 @@ name: ai-agent-keys
 description: "🔑 AI AGENT KEYS (V1.0) — Multi-Model API Registry for Token Cost Reduction & Performance Routing"
 triggers: ["ai agent keys", "claude api", "openai api", "multi model", "token cost", "api keys"]
 phase: constitutional
-model_hint: gemini-3-flash
+model_hint: codex-gpt-5.3
 version: 1.0
 status: active
 date_added: "2026-04-15"

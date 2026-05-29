@@ -3,7 +3,7 @@ name: stitch-bridge
 description: "Google Stitch Logic Bridge"
 triggers: ["stitch bridge", "stitch_bridge", "google stitch logic"]
 phase: reference
-model_hint: gemini-3-flash
+model_hint: codex-gpt-5.3
 version: 1.0
 _ohdy_wrapper: |-
   # OHDY COMPRESSED NODE (V42.0)

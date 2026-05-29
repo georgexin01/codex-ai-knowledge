@@ -12,12 +12,22 @@ supersedes: ["execution-kernel", "karpathy-operational-standard"]
 
 # 🌌 GROUND KERNEL (V17.0) — CONSOLIDATED TIER-0
 
-Single deep-governance kernel for `.codex`. Merges the former `GROUND_KERNEL` + `EXECUTION_KERNEL` + `KARPATHY_OPERATIONAL_STANDARD` into one read. Model-neutral — identical for Claude Code and Codex GPT-5.3. Loaded only on deep / governance / recovery / high-risk turns; routine turns stay in the Lean Fast Lane (`00_*` bridge files). Any external tool named "if available" is optional — its absence degrades gracefully, never blocks a turn.
+Single deep-governance kernel for `.codex`. Merges the former `GROUND_KERNEL` + `EXECUTION_KERNEL` + `KARPATHY_OPERATIONAL_STANDARD` into one read. Model-neutral — identical for Claude Code and Codex GPT-5.3. Loaded only on deep / governance / recovery / high-risk turns; routine turns stay in the Lean Fast Lane (`00_PULSE.md` first, then deferred `00_*` canon only if needed). Any external tool named "if available" is optional — its absence degrades gracefully, never blocks a turn.
 
 ## 1. INITIALIZATION
-- Resolve route from `CODEX_DYNAMIC_ROUTING.md` + `codex-router/codex-manifest.json`. If missing or stale, regenerate via `Update-CodexRouting.ps1`, then use the fallback chain in `00_CODEX_START_HERE.md`.
+- Resolve route from `00_PULSE.md` first. If PULSE is insufficient or routing artifacts are stale, regenerate via `Update-CodexRouting.ps1`, then use `CODEX_DYNAMIC_ROUTING.md` plus the fallback chain in `00_CODEX_START_HERE.md`.
 - Apply `.codexignore` / `.geminiignore` / `.claudeignore` boundaries before any broad read.
 - `[SENTINEL_SYNC]`: on a hydration request, after a valid route resolves, respond ONLY `[🟢] Agent is Ready..` and skip summaries. `ai read .codex knowledge` triggers this regardless of turn count.
+
+## 1.1 OPERATING PRIORITY LADDER
+Use this order whenever instructions compete:
+1. **Safety and data sovereignty**: protect secrets, credentials, sessions, auth state, live data, and destructive DB/storage operations.
+2. **Evidence and truth**: current files, tests, logs, and live schema beat memory, old docs, and inference.
+3. **Route-first context**: load only the matched route; keep Tier-0, manifests, and history lazy unless risk requires them.
+4. **20/80 context compression**: keep the top mission-critical context exact; compact the rest only when meaning and evidence remain ~99% intact.
+5. **Surgical execution**: smallest successful change; no speculative refactors or unsolicited knowledge/skill restructuring.
+6. **Verification**: read-back and test/smoke/lint/build every edit, or clearly state the verification gap.
+7. **User and project taste**: current project docs, schema/config, and `USER_DNA.md` override generic defaults.
 
 ## 2. EXECUTION LOOP
 Every non-trivial request runs five phases:
@@ -59,6 +69,7 @@ Every non-trivial request runs five phases:
 17_routing_synthesis: "After any change to .codex/ knowledge, skills, or routing, regenerate the routing layer via Update-CodexRouting.ps1 (if available), else manually update affected index entries."
 18_impact_aware: "Before editing a Tier-0/1 file, identify its dependents (blast radius) via the routing index or targeted grep, and state the impact in the plan."
 19_low_token_indexing: "Prefer index/manifest lookups and targeted reads over full-tree hydration. Discovery costs as few tokens as possible."
+20_context_compression: "Before spending large context, preserve the top 20% mission-critical facts verbatim (request, paths, schema, errors, IDs, constraints, acceptance criteria). Summarize the other 80% into compact notes only if the summary keeps ~99% of original meaning, evidence, and intent. Never compress away uncertainty or exact values needed for correctness."
 ```
 
 ## 4. EDIT-SAFETY TIERS
@@ -73,6 +84,7 @@ handshake_expiry: "Any pending confirmation unanswered within 3 messages is void
 
 ## 5. CONTEXT & VERBOSITY DISCIPLINE
 - **Context**: keep working context to active facts only. Keep final logic, design tokens, architectural decisions, user preferences, unresolved conflicts. Prune tool-failure logs, raw directory listings, redundant dumps, superseded reasoning. Never prune an unresolved conflict.
+- **20/80 compression**: protect exact mission-critical facts first; compress support material second. Exact facts beat pretty summaries.
 - **Output length by task type**: hydration → one line; routine → short outcome + one validation line; standard summary → ≤100 words; architectural advice → ≤250 words; deep dive → extended density allowed but every sentence carries new information.
 - No filler, no generic preambles. Every sentence adds a fact or a reasoning step.
 - **Reasoning-gating**: planning / logic cascade → higher-reasoning mode (Claude extended thinking; Codex higher reasoning effort). Execution / scaffolding → faster mode once the plan is fixed.

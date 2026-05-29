@@ -18,6 +18,20 @@ companion: "./wrider_complete_recipe.md"
 
 ---
 
+## ⚠️ ROBOTS META — PERMANENT RULE: noindex, nofollow ON ALL ENVS
+
+Every website (dev, staging, production) must have `noindex, nofollow` as the global default. Set it in the shared head partial (e.g. `htmlHead.php`, `_head.html`, `layout.vue`):
+
+```html
+<meta name="robots" content="noindex, nofollow">
+```
+
+**This rule applies to production builds too.** Never auto-switch to `index, follow`.
+Only change when the user explicitly instructs: *"enable SEO indexing"* / *"set to index, follow"*.
+AI must treat this as a user-gated setting — not something changed automatically during any build or deploy task.
+
+---
+
 ## 0 · The 7-file favicon set (drop into `public/`)
 
 | File | Size | Purpose |

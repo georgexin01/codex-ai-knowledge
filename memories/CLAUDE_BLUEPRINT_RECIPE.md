@@ -5,8 +5,8 @@ type: procedure
 tier: 2
 phase: 1-execution
 priority: HIGH
-model_hint: gemini-3-flash
-applies_to: ["claude", "claude-code", "gemini-3-flash", "antigravity"]
+model_hint: codex-gpt-5.3
+applies_to: ["claude", "claude-code", "codex-gpt-5.3", "antigravity"]
 requires: ["0_apex/SOVEREIGN_BLUEPRINT_PROTOCOL.md", "2_governance/SOVEREIGN_BLUEPRINT_PROCEDURE.md", "0_apex/templates/MASTER_BLUEPRINT.md", "0_apex/templates/MASTER_APP_BLUEPRINT.md", "0_apex/templates/MASTER_DESIGN.md", "0_apex/templates/MASTER_ROUTER_BLUEPRINT.md", "0_apex/templates/BLUEPRINT_SAMPLES.md"]
 unlocks: ["MOBILE_APP_DESIGN_RECIPE.md", "IMAGE_TO_MOBILE_APP_PIPELINE.md"]
 related: ["0_apex/USER_DNA.md", "1_core/DESIGN_SOP.md", "1_core/UI_DNA_MASTER.md", "archive/wrider_design_senses.md"]
@@ -32,9 +32,9 @@ triggers:
 
 ---
 
-## 0. Gemini 3 Flash reading notes
+## 0. Fast-Agent reading notes
 
-**This file is structured for the gemini-3-flash agentic model:**
+**This file is structured for fast route-first agents:**
 
 - All rules use imperative voice (`MUST`, `MUST NOT`, `SHOULD`).
 - Tables are preferred over prose for tabular data.

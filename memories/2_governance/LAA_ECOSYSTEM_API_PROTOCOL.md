@@ -5,7 +5,7 @@ tier: 2_governance
 version: 1.0.0
 status: authoritative
 last_updated: "2026-04-30"
-applies_to: ["claude", "gemini-3-flash", "gemini"]
+applies_to: ["claude", "claude-code", "codex-gpt-5.3"]
 triggers:
   # Concept
   - "supabase"

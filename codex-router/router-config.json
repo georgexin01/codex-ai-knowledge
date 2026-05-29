@@ -31,7 +31,16 @@
     "memories/.git",
     "memories/.git/**",
     "memories\\.git",
-    "memories\\.git\\**"
+    "memories\\.git\\**",
+    "memories/archive",
+    "memories/archive/**",
+    "memories\\archive",
+    "memories\\archive\\**",
+    "memories/rollout_summaries",
+    "memories/rollout_summaries/**",
+    "memories\\rollout_summaries",
+    "memories\\rollout_summaries\\**",
+    "memories/raw_memories.md"
   ],
   "roots": [
     { "kind": "knowledge", "path": "memories" },

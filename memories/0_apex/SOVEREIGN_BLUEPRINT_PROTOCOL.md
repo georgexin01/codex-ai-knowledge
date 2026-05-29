@@ -5,7 +5,7 @@ priority: CRITICAL
 scope: ["website", "webapp", "monorepo", "any-project"]
 version: 2.0
 last_updated: "2026-04-29"
-applies_to: ["claude", "claude-code", "gemini-3-flash", "gemini", "antigravity"]
+applies_to: ["claude", "claude-code", "codex-gpt-5.3", "antigravity"]
 accepted_filenames: ["BLUEPRINT.md", "APP_BLUEPRINT.md"]
 ---
 
@@ -130,7 +130,7 @@ When user starts a new project:
 The BLUEPRINT system and Ignore system are coupled. When generating/updating a BLUEPRINT:
 
 - AI MUST verify ignore files exist (per **APEX 13** rules).
-- If missing, auto-generate suitable ignore files (`.geminiignore` mandatory; platform-specific ones only if tool is deployed).
+- If missing, auto-generate suitable ignore files (`.codexignore` mandatory; platform-specific ones only if the tool is deployed).
 - Record ignore file status in BLUEPRINT `## TOOLS USED` section.
 
 ---

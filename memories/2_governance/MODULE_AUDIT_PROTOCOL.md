@@ -21,7 +21,7 @@ Whenever a module is updated or created, the AI MUST proactively scan for existi
 
 ### 1.2 The Handshake Rule (MUST ASK)
 - **Automatic**: If the relation is a Clear-Cut 1:N (e.g. Agents -> Reviews), proceed with the standard injection.
-- **Handshake**: If the relation is ambiguous (e.g. Reports -> Agents), **Gemini MUST ask the user**: *"I detected an agentId in report_list. Should I add the LayerIcon and relationship modules?"*
+- **Handshake**: If the relation is ambiguous (e.g. Reports -> Agents), **the agent MUST ask the user**: *"I detected an agentId in report_list. Should I add the LayerIcon and relationship modules?"*
 - **No Unilateral Change**: Never add relationship drawers or icons for ambiguous cases without explicit "GO" from the user. Cleaning up redundant modules is difficult.
 
 ## 🧪 Phase 2: CRUD Integrity Audit (Referral: 6. create + 7. edit)
@@ -77,7 +77,7 @@ name: sovereign-comparison-protocol
 description: "SCP V1.0 — The authoritative standard for before/after system comparisons and audit tables."
 triggers: ["comparison tables", "before and after", "compare", "before", "after", "comparison"]
 phase: constitutional
-model_hint: gemini-3-flash
+model_hint: codex-gpt-5.3
 version: 1.0
 status: authoritative
 ---

@@ -15,7 +15,7 @@ last_updated: "2026-04-28"
 ```yaml
 triggers: ["keyword1", "keyword2"]
 phase: 0-orchestrator
-model_hint: gemini-3-flash
+model_hint: codex-gpt-5.3
 requires: [claude-app, sovereign-blueprint-protocol]
 unlocks: [generate-store, generate-views]
 mock_seed:

@@ -211,6 +211,31 @@ USING (
 )
 ```
 
+## Robots meta — noindex, nofollow ALWAYS (dev + staging + production)
+<a name="robots-meta"></a>
+
+**PERMANENT RULE: Every website on every environment defaults to `noindex, nofollow`.**
+This includes production builds. Never change unless the user explicitly instructs it.
+
+```php
+// lib/htmlHead.php (or equivalent shared head file)
+if (!isset($metaRobot)) {
+    $metaRobot = 'noindex, nofollow';   // permanent default — dev, staging, AND production
+}
+```
+
+```html
+<meta name="robots" content="<?= $metaRobot ?>">
+```
+
+**Rules:**
+- Do NOT auto-switch to `index, follow` during production builds or SEO tasks.
+- Only change when user explicitly says: *"enable indexing"* / *"set to index, follow"*.
+- For Vue/React: set in `index.html` → `<meta name="robots" content="noindex, nofollow">`
+- For PHP: set fallback in shared head partial as shown above.
+
+---
+
 ## HTML-escape every dynamic echo
 <a name="html-escape"></a>
 

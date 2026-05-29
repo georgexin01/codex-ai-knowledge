@@ -6,7 +6,7 @@ phase: governance
 model_hint: ["claude-code", "codex-gpt-5.3"]
 version: 1.0
 status: active
-date_updated: "2026-05-14"
+date_updated: "2026-05-29"
 supersedes: ["gitnexus-protocol", "gitnexus-deep-reasoning", "gitnexus-mcp-protocol", "gitnexus-design-protocol", "gitnexus-restrictions"]
 ---
 
@@ -37,26 +37,28 @@ Real, installed open-source tool (`abhigyanpatwari/GitNexus`, npm `gitnexus`). B
 ## When to use
 Use for **impact-aware planning** (APEX 18 in GROUND_KERNEL): before editing a function/module in a real codebase, query the graph for dependents instead of guessing. Best on medium-to-large projects; small/self-contained tasks do not need it.
 
-## Project allowlist (user policy, 2026-05-18)
+## Project allowlist (user policy, 2026-05-29)
 
-GitNexus is **not the default**. Apply this allowlist before suggesting or running `gitnexus analyze`:
+GitNexus is **not the default**. Apply this allowlist before running `gitnexus analyze`:
 
 | Project shape | Default |
 |---|---|
-| `vben admin` / `admin-panel-quizLaa` and similar large Vben + Supabase admins (thousands of files, many cross-module call chains) | **ALLOWED** — dramatic token savings vs. greping the tree |
+| `vben admin` / `admin-panel-quizLaa` and similar large Vben + Supabase admins (thousands of files, many cross-module call chains) | **AUTO-INDEX ONCE IF NEW** — dramatic token savings vs. greping the tree |
 | Other large real codebases (~1000+ code files with deep call chains) | Allowed after user confirms |
 | Websites (PHP / static / marketing sites — e.g. `angel-interior-website`, `EcoWorld`) | **NOT USED** — grep is faster, indexing wastes ~50s + ~100 MB |
 | Mobile apps / small PWAs / single-page apps | **NOT USED** — same reason |
 | `.codex` knowledge / markdown trees | **NEVER** — not code |
 
 Operational rules:
-- Do **not** auto-run `gitnexus analyze` on a website or app project even if the user is editing a lot of files. Confirm explicitly first.
+- Auto-run `gitnexus analyze` once for new large Vben/Supabase admin projects when `.gitnexus/` is missing.
+- Re-run `gitnexus analyze` after long, structural, or schema-wide updates when impact analysis is likely to save time.
+- Do **not** auto-run `gitnexus analyze` on PHP/static/marketing websites, small PWAs, mobile apps, or `.codex` itself. Confirm explicitly first for any non-allowlisted codebase.
 - If a non-allowlisted project already has a `.gitnexus/` folder, it's stale opt-in from earlier — surface that fact and ask whether to keep or `gitnexus clean` it.
 - `vben admin` projects are the canonical token-saving case (large schema + many BasicTable/Pinia/relation traversals); reach for the graph there before grep.
 
-## Detect-and-Use Workflow (when the project already has `.gitnexus/`)
+## Detect-and-Use Workflow
 
-The agent **never installs or analyzes** on its own. If a project has `.gitnexus/` in its root, the user has already opted in — use the MCP tools instead of grepping blind.
+If a project has `.gitnexus/` in its root, the user has already opted in — use the MCP tools instead of grepping blind. If a new project is clearly a large Vben/Supabase admin, auto-index once; otherwise, fall back to grep/glob/read unless the user confirms.
 
 | Task you would normally grep for | Use this MCP tool instead |
 |---|---|
@@ -68,19 +70,20 @@ The agent **never installs or analyzes** on its own. If a project has `.gitnexus
 | "Custom graph traversal" | `cypher` — raw Cypher queries (needs schema knowledge) |
 
 **Rules of use:**
-- Check `.gitnexus/` exists before relying on the graph; if missing, fall back silently to grep/glob/read.
+- Check `.gitnexus/` exists before relying on the graph; if missing, auto-index only for a new large Vben/Supabase admin, otherwise fall back silently to grep/glob/read.
 - On `gitnexus status` = stale (post-commit/merge): note it once if it's relevant to the task and proceed; the user reindexes when ready.
 - For non-git projects, staleness can't be detected — assume the graph is fresh unless the user says otherwise.
 - The graph indexes code, not markdown — for `.codex` knowledge routing, stay on `codex-manifest.json`.
 
-## When to index (manual decision guide)
+## When to index
 
-Not automatic — run `gitnexus analyze` yourself when a project warrants it:
+Run `gitnexus analyze` only when the project warrants it:
 
 | Project shape | Action |
 |---|---|
-| Real codebase: ~100+ code files, real cross-module call chains (e.g. quizLAA — 2156 files) | Index: `gitnexus analyze --skills` (`--skip-git` if not a git repo) |
-| Already indexed, `gitnexus status` says stale (git repos) | Re-run `gitnexus analyze` |
+| New large Vben/Supabase admin with missing `.gitnexus/` | Auto-index once: `gitnexus analyze` (`--skip-git` if not a git repo) |
+| Other real codebase: ~1000+ code files, real cross-module call chains | Ask, then index if confirmed |
+| Already indexed, `gitnexus status` says stale after long/structural updates | Re-run `gitnexus analyze` |
 | Thin site / static HTML-CSS / under ~50 code files (e.g. angel-interior-website) | Skip — grep is faster, indexing wastes ~50s + ~100 MB. Also covered by the project allowlist above. |
 | `.codex` itself | Never — it is markdown knowledge, not code |
 
